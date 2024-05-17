@@ -1,3 +1,4 @@
+/* Generel styling for alt indhold på siden */
 *{
     margin: 0;
     padding: 0;
@@ -5,11 +6,13 @@
     list-style-type: none;
 }
 
+/* Generel styling for body */
 body{
     background-color: #F5EDDA;
     font-family: Josefin Sans;
 }
 
+/* Generel styling for alle <a> elementerne på siden */
 a{
     text-decoration: none;
     color: inherit;
@@ -63,7 +66,21 @@ nav img{
     font-weight: bold;
 }
 
-/* Main */
+/* Generel styling for main */
+main{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+/* Velkomstbesked */
 #velkommen{
-    font-family: ;
+    font-family: Just Another Hand;
+    grid-column: 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 11rem;
+    color: #C25851;
+    transform: rotate(-8deg);
 }
