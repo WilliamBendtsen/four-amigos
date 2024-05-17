@@ -34,7 +34,7 @@ nav img{
     cursor: pointer;
 }
 
-#menu{
+#menu-nav{
     grid-column: 1;
     justify-self: center;
     align-self: center;
@@ -42,7 +42,7 @@ nav img{
     font-weight: bold;
 }
 
-#bestil{
+#bestil-nav{
     grid-column: 2;
     justify-self: center;
     align-self: center;
@@ -50,7 +50,7 @@ nav img{
     font-weight: bold;
 }
 
-#meet{
+#meet-nav{
     grid-column: 4;
     justify-self: center;
     align-self: center;
@@ -58,7 +58,7 @@ nav img{
     font-weight: bold;
 }
 
-#kontakt{
+#kontakt-nav{
     grid-column: 5;
     justify-self: center;
     align-self: center;
@@ -70,14 +70,14 @@ nav img{
 main{
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
 }
 
 /* Velkomstbesked */
 #velkommen{
     font-family: Just Another Hand;
-    grid-column: 3;
+    grid-column: 5 / span 3;
     justify-self: center;
     align-self: center;
     font-size: 11rem;
@@ -85,254 +85,110 @@ main{
     transform: rotate(-8deg);
 }
 
-/* Menu.html start */
-.menu{
-    font-family: Just Another Hand;
-    color: #C25851;
-    font-weight: 200;
-   font-size: 150px;
-   position: absolute;
-   left: 43%;
+<<<<<<< HEAD
+
+=======
+main h1{
+    grid-row: 2;
+    grid-column: 4 / span 5;
+    justify-self: center;
+    align-self: center;
     text-align: center;
+    font-size: 3rem;
+    font-weight: 350;
 }
 
-.taco{
-    width: 400px;
-    position: absolute;
-    left: 70%;
+/* Menu & Bestil knapper */
+#menu-knap{
+    grid-column: 4 / span 2;
+    justify-self: center;
+    grid-row: 3;
+    width: 15rem;
 }
 
-.taco-2{
-    width: 400px;
-    position: absolute;
-    left: 70%;
-    top: 65%;
+#bestil-knap{
+    grid-column: 7 / span 2;
+    justify-self: center;
+    grid-row: 3;
+    width: 15rem;
 }
 
-.rabatter-overskrift{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 50px;
-    position: absolute;
-    left: 5%;
-    top: 45%;
+/* Billede af de 3 drenge */
+#illustration-af-drenge{
+    grid-column: 5 / span 3;
+    justify-self: center;
+    grid-row: 3 / span 2;
+    align-self: center;
 }
 
-.studierabat{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 30px;
-    position: absolute;
-    color: #57843B;
-    left: 5%;
-    top: 55%;
-}
-
-.tacotuesday{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 30px;
-    position: absolute;
-    color: #57843B;
-    left: 5%;
-    top: 60%;
-}
-
-.tacotuesday-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 15px;
-    position: absolute;
-    color: #57843B;
-    left: 6%;
-    top: 65%;
-}
-
-.pil{
-    position: absolute;
-    width: 40px;
-    top: 50%;
-    left: 1%;
-}
-
-
-.pssst{
-    font-family: Just Another Hand;
-    font-size: 35px;
-    color: #C25851;
-    position: absolute;
-    top: 70%;
-    left: 5%;
-}
-
-.pil-knap{
-    width: 50px;
-    position: absolute;
-    left: 8%;
-    top: 80%;
-}
-
-.tacos{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 50px;
-    position: absolute;
-    left: 5%;
-    top: 90%;
-}
-
-.tacos-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: left;
-    position: absolute;
-    top: 100%;
-    left: 5%;
-
-}
-
-.nachos{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 50px;
-    position: absolute;
-    bottom: -50%;
-    left: 70%;
-}
-
-.nachos-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 400;
-    font-size: 20px;
-    position: absolute;
-    padding-right: 5px;
-    bottom: -83%;
-    text-align: left;
-    left: 70%;
-}
-
-.nachos-illustration{
-    width: 500px;
-    position: absolute;
-    bottom: -80%;
-    left: 30%;
-}
-
-.garnish{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 30px;
-    position: absolute;
-    bottom: -100%;
-    left: 5%;
-}
-
-.garnish-liste{
-    font-family: Josefin Sans;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: left;
-    position: absolute;
-    bottom: -127%;
-    left: 5%;
-}
-
-.drinkkort{
+/* Nyheder */
+#nyheder-titel-spansk{
+    grid-row: 6;
+    grid-column: 3 / span 2;
+    align-self: start;
     font-family: Just Another Hand;
     color: #C25851;
-    font-weight: 200;
-   font-size: 150px;
-   position: absolute;
-   left: 38%;
-   bottom: -170%;
+    font-size: 10rem;
+}
+
+#nyheder-titel-dansk{
+    grid-row: 6;
+    grid-column: 3 / span 2;
+    align-self: end;
+    justify-self: center;
+    font-weight: 350;
+    padding-top: 3rem;
+    font-size: 2.5rem;
+}
+
+#nyheder-broedtekst{
+    grid-row: 7 / span 2;
+    align-self: start;
+    grid-column: 2 / span 4;
+    justify-self: center;
     text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
 }
 
-.tequila{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 50px;
-    position: absolute;
-    bottom: -180%;
-    left: 10%;
+#nyheder-billede{
+    grid-row: 5 / span 6;
+    grid-column: 7 / span 4;
+    justify-content: end;
+    width: 45rem;
 }
 
-.tequila-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: left;
-    position: absolute;
-    bottom: -206%;
-    left: 5%;
-    padding-bottom: 5%;
-}
-
-.pil-2{
-    width: 70px;
-    position: absolute;
-    bottom: -175%;
-    left: 20%;
-}
-
-.pssst-2{
+/* Restauranten */
+#restauranten-titel-spansk{
+    grid-row: 11 / span 2;
+    align-self: center;
+    justify-self: center;
+    grid-column: 7 / span 3;
     font-family: Just Another Hand;
-    font-size: 35px;
     color: #C25851;
-    position: absolute;
-    bottom: -180%;
-    left: 26%;
+    font-size: 10rem;
 }
 
-.pil-knap-2{
-    width: 50px;
-    position: absolute;
-    bottom: -185%;
-    left: 28%;
+#restauranten-titel-dansk{
+    grid-row: 12;
+    align-self: center;
+    justify-self: center;
+    font-weight: 350;
+    font-size: 2.5rem;
+    grid-column: 7 / span 3;
 }
 
-.sodavand{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 50px;
-    position: absolute;
-    bottom: -210%;
-    left: 70%;
+#restauranten-broedtekst{
+    grid-row: 13;
+    grid-column: 7 / span 3;
+    justify-self: center;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
-.sodavand-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: left;
-    position: absolute;
-    bottom: -238%;
-    left: 70%;
+#restauranten-billede{
+    grid-row: 10 / span 6;
+    grid-column: 2 / span 3;
+    width: 23rem;
 }
-
-.daaser{
-    width: 500px;
-    position: absolute;
-    bottom: -250%;
-    left: 65.4%;
-}
-
-.oel{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 50px;
-    position: absolute;
-    bottom: -250%;
-    left: 14%;
-}
-
-.oel-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: left;
-    position: absolute;
-    bottom: -270%;
-    left: 10%;
-}
+>>>>>>> 29965082f120e455a152f2affff18cfcc6d77dfa
