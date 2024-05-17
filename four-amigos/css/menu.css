@@ -72,6 +72,7 @@ nav img{
    font-size: 150px;
    position: absolute;
    left: 43%;
+   top: 30%;
     text-align: center;
 }
 
@@ -315,3 +316,18 @@ nav img{
     bottom: -270%;
     left: 10%;
 }
+
+.corona{
+    width: 500px;
+    position: absolute;
+    bottom: -315%;
+    left: 10%;
+}
+
+.hancock{
+    width: 500px;
+    position: absolute;
+    bottom: -315%;
+    left: -5%;
+}
+
