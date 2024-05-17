@@ -85,9 +85,6 @@ main{
     transform: rotate(-8deg);
 }
 
-<<<<<<< HEAD
-
-=======
 main h1{
     grid-row: 2;
     grid-column: 4 / span 5;
@@ -191,4 +188,3 @@ main h1{
     grid-column: 2 / span 3;
     width: 23rem;
 }
->>>>>>> 29965082f120e455a152f2affff18cfcc6d77dfa
