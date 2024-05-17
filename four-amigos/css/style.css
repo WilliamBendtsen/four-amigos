@@ -34,7 +34,7 @@ nav img{
     cursor: pointer;
 }
 
-#menu{
+#menu-nav{
     grid-column: 1;
     justify-self: center;
     align-self: center;
@@ -42,7 +42,7 @@ nav img{
     font-weight: bold;
 }
 
-#bestil{
+#bestil-nav{
     grid-column: 2;
     justify-self: center;
     align-self: center;
@@ -50,7 +50,7 @@ nav img{
     font-weight: bold;
 }
 
-#meet{
+#meet-nav{
     grid-column: 4;
     justify-self: center;
     align-self: center;
@@ -58,7 +58,7 @@ nav img{
     font-weight: bold;
 }
 
-#kontakt{
+#kontakt-nav{
     grid-column: 5;
     justify-self: center;
     align-self: center;
@@ -83,4 +83,29 @@ main{
     font-size: 11rem;
     color: #C25851;
     transform: rotate(-8deg);
+}
+
+main h1{
+    grid-row: 2;
+    grid-column: 2 / span 3;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 350;
+}
+
+/* Menu & Bestil knapper */
+#menu-knap{
+    grid-column: 2 / span 2;
+    justify-self: center;
+    grid-row: 3;
+    width: 15rem;
+}
+
+#bestil-knap{
+    grid-column: 3 / span 2;
+    justify-self: center;
+    grid-row: 3;
+    width: 15rem;
 }
