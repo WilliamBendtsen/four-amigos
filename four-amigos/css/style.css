@@ -217,5 +217,6 @@ main h1{
 #restauranten-billede{
     grid-row: 10 / span 6;
     grid-column: 2 / span 3;
-    width: 23rem;
+    width: 45rem;
+    margin-top: 150px;
 }
