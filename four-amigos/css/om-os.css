@@ -132,6 +132,53 @@ main h1{
     top: 42.2%;
     left: 10%;
     
-    
 }
 
+.smalltext1{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: 20px;
+    color: #C25851;
+}
+
+.smalltext2{
+    position: absolute;
+    top: 75%;
+    left: 29%;
+    font-size: 20px;
+    color: #C25851;
+}
+
+.smalltext3{
+    position: absolute;
+    top: 75%;
+    left: 56%;
+    font-size: 20px;
+    color: #C25851;
+}
+
+
+.om-os_tekst{
+    width: 75%;
+    position: absolute;
+    left: 12%;
+    top: 130%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.om-os_tekst h1{
+    width: 75%;
+    position: absolute;
+    left: 12%;
+    top: -15%;
+    font-size: 100px;
+    font-family: Just Another Hand;
+    color: #C25851;
+
+}
+
+.om-os_tekst{
+    font-size: 25px;
+}
