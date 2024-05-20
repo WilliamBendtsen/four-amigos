@@ -94,3 +94,30 @@ nav img{
     justify-content: center;
     font-size: 1.5rem;
 }
+
+.find-os{
+    font-family: Just Another Hand;
+    color: #C25851;
+    font-weight: 200;
+    font-size: 150px;
+    position: absolute;
+    left: 42.5%;
+    top: 25%;
+    text-align: center;
+
+}
+
+.adresse{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.imgadresse{
+    width: 700px;
+    margin-left: 28%;
+}
+
+.adresse2{
+    text-align: center;
+    padding-top: 70px;
+}
