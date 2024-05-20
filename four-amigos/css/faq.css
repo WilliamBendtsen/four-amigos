@@ -94,3 +94,62 @@ nav img{
     justify-content: center;
     font-size: 1.5rem;
 }
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 80vh;
+}
+
+h1{
+    font-family: Just Another Hand;
+    font-size: 5rem;
+    color: #C25851;
+    font-weight: lighter;
+}
+
+#faq{
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+#faq-1{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    max-width: 40rem;
+    margin-right: 10rem;
+}
+
+#faq-2{
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    max-width: 40rem;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+}
+
+div img{
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+#faq-1 div{
+    display: flex;
+    margin: 3rem 0;
+}
+
+#faq-2 div{
+    display: flex;
+    margin: 3rem 0;
+}
