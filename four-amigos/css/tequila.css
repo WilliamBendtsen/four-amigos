@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* Generel styling for body */
+body{
+    background-color: #c25851;
+    font-family: Josefin Sans;
+}
+
+/* Generel styling for alle <a> elementerne på siden */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.tequila{
+    font-family: Just Another Hand;
+    color: #F5EDDA;
+    font-weight: 200;
+   font-size: 150px;
+   position: absolute;
+   text-align: center;
+   top: 5%;
+   left: 40%;
+}
+
+.kah{
+    color: #F5EDDA;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.kah-billede{
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.kah-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    left: 4%;
+}
+
+.cenote{
+    color: #F5EDDA;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.cenote-billede{
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    left: 41%;
+}
+
+.cenote-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    left: 39%;
+}
+
+.donjulio{
+    color: #F5EDDA;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+}
+
+.donjulio-billede{
+    width: 150px;
+    position: absolute;
+    top: 38%;
+    left: 79%;
+}
+
+.donjulio-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    left: 70%;
+}
+
+#tilbage-knap{
+    width: 200px;
+    position: absolute;
+    top: 90%;
+    left: 42%;
+}
