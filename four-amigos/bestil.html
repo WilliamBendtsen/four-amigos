@@ -15,17 +15,31 @@
     <link rel="stylesheet" href="/four-amigos/css/bestil.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav>
         <!-- Første 2 menupunkter -->
             <a href="menu.html" id="menu-nav">Menu</a>
             <a href="bestil.html" id="bestil-nav">Bestil</a>
 
             <!-- Logo -->
-            <img src="img/four-amigos-logo.png" alt="four amigos logo" onclick="redirectToIndex()">
+        <img src="img/four-amigos-logo.png" alt="four amigos logo" onclick="redirectToIndex()">
 
         <!-- Sidste 2 menupunkter -->
-            <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
-            <a href="kontakt.html" id="kontakt-nav">Kontakt</a>
+            <div class="dropdown">
+                <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
+                <div id="meet-dropdown">
+                    <a href="#">Om Os</a>
+                    <a href="#">Vores Værdier</a>
+                    <a href="#">Find Os</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="kontakt.html" id="kontakt-nav">Kontakt</a>
+                <div id="kontakt-dropdown">
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
     </nav>
 
     <h1 class="bestil">Bestil</h1>
@@ -35,5 +49,7 @@
     <img class="afhentning" src="/four-amigos/img/afhentning-knap.png">
     <img class="wolt-billede" src="/four-amigos/img/wolt-billede.png">
     <img class="afhentning-billede" src="/four-amigos/img/afhentning-billede.png">
+
+    <script src="js/script.js"></script>
 </body>
 </html>

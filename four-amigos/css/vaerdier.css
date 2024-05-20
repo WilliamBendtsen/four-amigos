@@ -1,10 +1,3 @@
-*{
-    background-color: #f5edda;
-    text-decoration: none;
-    color: black;
-}
-
-
 /* Generel styling for alt indhold på siden */
 *{
     margin: 0;
@@ -91,10 +84,15 @@ nav img{
 }
 
 /* Generel styling for body */
-
 body{
     background-color: #F5EDDA;
     font-family: Josefin Sans;
+}
+
+/* Generel styling for alle <a> elementerne på siden */
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Navbar */
@@ -145,50 +143,131 @@ nav img{
     font-weight: bold;
 }
 
-.bestil{
+/* Generel styling for main */
+main{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+/* Velkomstbesked */
+.vaerdier{
     font-family: Just Another Hand;
     color: #C25851;
     font-weight: 200;
-   font-size: 200px;
-   position: absolute;
-   top: 25%;
-   text-align: center;
-   left: 41%;
-}
-
-.bestil-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 30px;
+    font-size: 150px;
     position: absolute;
-    top: 50%;
-    left: 25%;
-}
-
-.wolt{
-    width: 200px;
-    position: absolute;
-    top: 70%;
-    left: 30%;
-}
-
-.afhentning{
-    width: 250px;
-    position: absolute;
-    top: 70%;
-    left: 55%;
-}
-
-.wolt-billede{
-    width: 300px;
-    position: absolute;
+    left: 35%;
     top: 30%;
-    right: 80%;
+    text-align: center;
 }
 
-.afhentning-billede{
-    width: 250px;
+main h1{
+    grid-row: 2;
+    grid-column: 4 / span 5;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 350;
+}
+
+/* Styling af img */
+.teamwork{
+    width: 150px;
     position: absolute;
-    left: 80%;
-    top: 20%;
+    left: 45%;
+    top: 55%;
+    
+}
+
+.kvalitet{
+    width: 160px;
+    position: absolute;
+    left: 27%;
+    top: 49.5%;
+}
+
+.gæstfrihed{
+    width: 230px;
+    position: absolute;
+    left: 59%;
+    top: 48%;
+}
+
+
+/* Kvalitet sektion */
+.kvalitet_tekst{
+    position: absolute;
+    left: 15%;
+    top: 90%;
+    width: 550px;
+}
+
+.kvalitet_tekst h1{
+    font-weight: 100;
+    font-size: 100px;
+    text-align: left;
+}
+
+.kvalitet_tekst p{
+    font-size: 22px;
+}
+
+.kvalitet_tekst img{
+    width: 350px;
+    position: absolute;
+    left: 670px;
+    top: -70px;
+}
+
+/* Teamwork sektion */
+.teamwork_tekst{
+    position: absolute;
+    right: 15%;
+    top: 155%;
+    width: 550px;
+}
+
+.teamwork_tekst h1{
+    font-weight: 100;
+    font-size: 100px;
+    text-align: left;
+}
+
+.teamwork_tekst p{
+    font-size: 22px;
+}
+
+.teamwork_tekst img{
+    width: 350px;
+    position: absolute;
+    right: 670px;
+    top: -25px;
+}
+
+/* Gæstfrihed sektion*/
+.gæstfrihed_tekst{
+    position: absolute;
+    left: 15%;
+    top: 215%;
+    width: 550px;
+}
+
+.gæstfrihed_tekst h1{
+    font-weight: 100;
+    font-size: 100px;
+    text-align: left;
+}
+
+.gæstfrihed_tekst p{
+    font-size: 22px;
+}
+
+.gæstfrihed_tekst img{
+    width: 500px;
+    position: absolute;
+    left: 600px;
+    top: -80px;
 }

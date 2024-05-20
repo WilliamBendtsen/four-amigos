@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Titel på side -->
-    <title>404</title>
+    <title>Forside</title>
     <!-- Josefin sans font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="css/404.css">
+    <link rel="stylesheet" href="/four-amigos/css/om-os.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -24,37 +26,19 @@
             <a href="bestil.html" id="bestil-nav">Bestil</a>
 
             <!-- Logo -->
-        <img src="img/four-amigos-logo.png" alt="four amigos logo" onclick="redirectToIndex()">
+        <img src="/four-amigos/img/four-amigos-logo.png" alt="four amigos logo" onclick="redirectToIndex()">
 
         <!-- Sidste 2 menupunkter -->
-            <div class="dropdown">
-                <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
-                <div id="meet-dropdown">
-                    <a href="#">Om Os</a>
-                    <a href="#">Vores Værdier</a>
-                    <a href="#">Find Os</a>
-                </div>
-            </div>
-
-            <div class="dropdown">
-                <a href="kontakt.html" id="kontakt-nav">Kontakt</a>
-                <div id="kontakt-dropdown">
-                    <a href="#">FAQ</a>
-                </div>
-            </div>
+            <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
+            <a href="kontakt.html" id="kontakt-nav">Kontakt</a>
     </nav>
-
-    <!-- Main sektion -->
+    
     <main>
-        <!-- 404 -->
-        <p id="fire-forrest">4</p>
-        <img id="skelet" src="img/404-skelet.png" alt="404 skelet">
-        <p id="fire-bagerst">4</p>
+        <!-- Overskrift og billede -->
+        <p class="om-os">Om os</p>
+        <img class="gutterne" src="/four-amigos/img/Gutterne.png" alt="">
 
-    <!-- Tilhørende tekst -->
-        <p id="tekst-spansk">Lo siento Amigos...</p>
-        <p id="tekst-dansk">Det ser ud til denne side ikke findes... <br> klik her for at vende tilbage</p>
-        <img id="tilbage-knap" src="img/tilbage.png" alt="tilbage knap">
+
     </main>
 
 
