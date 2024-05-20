@@ -132,6 +132,104 @@ main h1{
     top: 42.2%;
     left: 10%;
     
-    
 }
 
+.smalltext1{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: 20px;
+    color: #C25851;
+}
+
+.smalltext2{
+    position: absolute;
+    top: 75%;
+    left: 29%;
+    font-size: 20px;
+    color: #C25851;
+}
+
+.smalltext3{
+    position: absolute;
+    top: 75%;
+    left: 56%;
+    font-size: 20px;
+    color: #C25851;
+}
+
+
+.om-os_tekst{
+    width: 75%;
+    position: absolute;
+    left: 12%;
+    top: 130%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.om-os_tekst h1{
+    width: 75%;
+    position: absolute;
+    left: 12%;
+    top: -15%;
+    font-size: 100px;
+    font-family: Just Another Hand;
+    color: #C25851;
+
+}
+
+.om-os_tekst{
+    font-size: 25px;
+}
+
+.læs-mere_tekst{
+    position: absolute;
+    top: 220%;
+    left: 16%;
+
+}
+
+.læs-mere_tekst h1{
+    position: absolute;
+    left: 26%;
+    top: 20%;
+    font-size: 100px;
+    font-family: Just Another Hand;
+    color: #C25851;
+    width: 400px;
+}
+
+.læsmere{
+    border: 3px solid #57843B;
+    border-radius: 15px;
+    background-color: #F5EDDA;
+    color: #57843B;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Josefin Sans;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+}
+
+
+.tilbage{
+    border: 3px solid #57843B;
+    border-radius: 15px;
+    background-color: #F5EDDA;
+    color: #57843B;
+    padding: 14px 40px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Josefin Sans;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.læs-mere_tekst img{
+    width: 1000px;
+
+}
