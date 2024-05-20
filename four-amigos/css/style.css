@@ -142,11 +142,11 @@ main h1{
 }
 
 /* Billede af de 3 drenge */
-#illustration-af-drenge{
-    grid-column: 5 / span 3;
-    justify-self: center;
-    grid-row: 3 / span 2;
-    align-self: center;
+.nikolai{
+ width: 300px;
+ position: absolute;
+ top: 89%;
+ left: 32%;
 }
 
 /* Nyheder */
