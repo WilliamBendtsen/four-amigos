@@ -143,12 +143,28 @@ main h1{
 
 /* Billede af de 3 drenge */
 .nikolai{
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 3;
  width: 300px;
  position: absolute;
- top: 89%;
- left: 32%;
+ top: 20%;
+ right: 85%;
+ transform: rotate(50deg);
 }
 
+.benjamin{
+    grid-column: 9;
+    width: 300px;
+    top: 30%;
+    left: 85%;
+    transform: rotate(-50deg);
+   }
+
+   .william{
+    grid-column: 2 ;    
+    width: 300px;
+ transform: rotate(50deg)
+   }
 /* Nyheder */
 #nyheder-titel-spansk{
     grid-row: 6;
