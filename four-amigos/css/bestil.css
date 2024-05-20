@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 *{
     background-color: #f5edda;
     text-decoration: none;
     color: black;
 }
 
-=======
+
 /* Generel styling for alt indhold på siden */
 *{
     margin: 0;
@@ -15,22 +14,13 @@
 }
 
 /* Generel styling for body */
->>>>>>> 0bc326e143b0e6bb811ef030b9d666ce13ef0728
+
 body{
     background-color: #F5EDDA;
     font-family: Josefin Sans;
 }
 
-<<<<<<< HEAD
-=======
-/* Generel styling for alle <a> elementerne på siden */
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
 /* Navbar */
->>>>>>> 0bc326e143b0e6bb811ef030b9d666ce13ef0728
 nav{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -84,7 +74,7 @@ nav img{
     font-weight: 200;
    font-size: 200px;
    position: absolute;
-   top: 10%;
+   top: 25%;
    text-align: center;
    left: 41%;
 }
