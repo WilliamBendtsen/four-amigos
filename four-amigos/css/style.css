@@ -75,13 +75,13 @@ nav img{
 #meet-dropdown{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
     position: absolute;
     text-align: center;
     width: 13rem;
     height: 8rem;
     font-size: 1.5rem;
-    margin-top: .5rem;
 }
 
 #kontakt-dropdown{
@@ -100,7 +100,8 @@ main{
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(20, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    overflow: hidden;
 }
 
 /* Velkomstbesked */
@@ -141,7 +142,7 @@ main h1{
     cursor: pointer;
 }
 
-/* Billede af de 3 drenge */
+/* Billeder af de 3 drenge */
 .nikolai{
     grid-column: 1 / span 4;
     grid-row: 1 / span 3;
@@ -158,10 +159,8 @@ main h1{
 .benjamin{
     grid-column: 9 / span 2;
     grid-row: 1 / span 3;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 7rem;
-    overflow: hidden;
+    justify-self: end;
+    padding-left: 7rem;
     width: 300px;
     height: 300px;
    }
@@ -183,6 +182,14 @@ main h1{
     width: 300px;
    }
 
+   /* Vandret linje */
+   #vandret-linje{
+    border-top: 3px solid ;
+    grid-row: 4 / span 2;
+    align-self: center;
+    padding-bottom: 7rem;
+    grid-column: 1 / span 10;
+   }
 
 /* Nyheder */
 #nyheder-titel-spansk{
@@ -221,6 +228,7 @@ main h1{
     width: 45rem;
 }
 
+
 /* Restauranten */
 #restauranten-titel-spansk{
     grid-row: 11 / span 2;
@@ -254,4 +262,102 @@ main h1{
     grid-column: 2 / span 5;
     width: 45rem;
     margin-top: 150px;
+}
+
+.footer{
+    background-color: #C25851;
+    grid-row: 15;
+    width: 100%;
+    font-family: Josefin Sans;
+}
+
+.footer, .social{
+    text-align: center;
+    padding-bottom: 28px;
+    color: #F5EDDA;
+}
+
+.social {
+    left: 37%;
+}
+
+.social a{
+    font-size: 53px;
+    color: inherit;
+    border: 5px solid #F5EDDA;
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.social a:hover{
+    opacity: 1;
+    color: black;
+    transition: 0.5s;
+}
+
+.footer h1{
+    font-size: 70px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.footer h1:hover{
+    opacity: 1;
+}
+
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 38px;
+    line-height: 10;
+    margin-bottom: 0;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.footer, .copyright{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.copyright{
+  color: #F5EDDA;
+}
+
+.taco-footer{
+    top: 50%;
+    left: 80%;
+    transform: rotate(-30deg);
+    width: 250px;
 }

@@ -75,13 +75,13 @@ nav img{
 #meet-dropdown{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
     position: absolute;
     text-align: center;
     width: 13rem;
     height: 8rem;
     font-size: 1.5rem;
-    margin-top: .5rem;
 }
 
 #kontakt-dropdown{
@@ -130,4 +130,19 @@ ul img{
     text-align: center;
     font-size: 1.3rem;
     font-weight: 330;
+}
+
+#end-1{
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 8rem;
+    font-weight: 350;
+}
+
+#end-2{
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 6rem;
+    font-weight: 350;
+    color: #C25851;
 }
