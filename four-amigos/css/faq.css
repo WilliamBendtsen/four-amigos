@@ -131,3 +131,18 @@ ul img{
     font-size: 1.3rem;
     font-weight: 330;
 }
+
+#end-1{
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 8rem;
+    font-weight: 350;
+}
+
+#end-2{
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 6rem;
+    font-weight: 350;
+    color: #C25851;
+}
