@@ -192,3 +192,7 @@ nav img{
     left: 80%;
     top: 20%;
 }
+
+.hidden{
+    display: none;
+}
