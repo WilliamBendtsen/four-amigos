@@ -175,10 +175,10 @@ main h1{
 
 /* Styling af img */
 .teamwork{
-    width: 150px;
+    width: 400px;
     position: absolute;
-    left: 45%;
-    top: 55%;
+    left: 37%;
+    top: 47%;
     
 }
 
@@ -241,10 +241,10 @@ main h1{
 }
 
 .teamwork_tekst img{
-    width: 350px;
+    width: 700px;
     position: absolute;
-    right: 670px;
-    top: -25px;
+    right: 550px;
+    top: -100px;
 }
 
 /* Gæstfrihed sektion*/
