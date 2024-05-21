@@ -264,6 +264,48 @@ main h1{
     margin-top: 150px;
 }
 
+.carousel {
+    position: absolute;
+    width: 80%;
+    bottom: 100px;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: absolute;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.carousel-slide img {
+    width: calc(100% / 3);
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
 .footer{
     background-color: #C25851;
     grid-row: 15;
