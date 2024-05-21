@@ -44,13 +44,13 @@
     <h1 class="bestil">Bestil</h1>
     <p class="bestil-underskrift">Vælg om du vil bestille via Wolt eller om du vil afhente</p>
 
-    <!-- Knapperne for henholdsvis Wolt & Afhentning -->
-    <a href="https://wolt.com/da/dnk/aarhus/restaurant/four-amigos"><img class="wolt" src="/four-amigos/img/wolt-knap.png"></a>
-    <a href="/four-amigos/afhentning.html"><img class="afhentning" src="/four-amigos/img/afhentning-knap.png"></a>
+    <!-- Knap og tilhørende illustration for Wolt -->
+    <img onclick="redirectToWolt()" id="wolt" src="/four-amigos/img/wolt-knap.png">
+    <img id="wolt-billede" class="hidden" src="/four-amigos/img/wolt-billede.png">
     
-    <!-- Illustrationer for henholdsvis Wolt & Afhentning -->
-    <img class="wolt-billede hidden" src="/four-amigos/img/wolt-billede.png">
-    <img class="afhentning-billede hidden" src="/four-amigos/img/afhentning-billede.png">
+    <!-- Knap og tilhørende illustration for afhentning -->
+    <img onclick="redirectToAfhentning()" id="afhentning" src="/four-amigos/img/afhentning-knap.png">
+    <img id="afhentning-billede" class="hidden" src="/four-amigos/img/afhentning-billede.png">
 
     <script src="js/bestil.js"></script>
 </body>
