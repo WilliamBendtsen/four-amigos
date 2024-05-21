@@ -70,13 +70,13 @@ nav img{
 #meet-dropdown{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
     position: absolute;
     text-align: center;
     width: 13rem;
     height: 8rem;
     font-size: 1.5rem;
-    margin-top: .5rem;
 }
 
 #kontakt-dropdown{
@@ -191,4 +191,8 @@ nav img{
     position: absolute;
     left: 80%;
     top: 20%;
+}
+
+.hidden{
+    display: none;
 }

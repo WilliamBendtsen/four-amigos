@@ -16,6 +16,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <!-- CSS stylesheet -->
+    <script src="https://kit.fontawesome.com/410264dd86.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -30,9 +31,8 @@
 
         <!-- Sidste 2 menupunkter -->
             <div class="dropdown">
-                <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
+                <a href="om_os.html" id="meet-nav">Mød Four Amigos</a>
                 <div id="meet-dropdown">
-                    <a href="om_os.html">Om Os</a>
                     <a href="vaerdier.html">Vores Værdier</a>
                     <a href="find-os.html">Find Os</a>
                 </div>
@@ -56,10 +56,20 @@
         <img id="bestil-knap" src="img/bestil.png" alt="bestil" onclick="redirectToBestil()">
 
         <!-- Billede af de 3 drenge -->
-        <img class="nikolai" src="/four-amigos/video/nikolai.gif">
-        <img class="benjamin" src="/four-amigos/video/benjamin.gif">
-        <img class="william" src="/four-amigos/video/william.gif">
+        <div class="nikolai">
+            <img src="/four-amigos/GIF/nikolai.gif">
+        </div>
 
+        <div class="benjamin">
+            <img src="/four-amigos/GIF/benjamin.gif">
+        </div>
+        
+        <div class="william">
+            <img src="/four-amigos/GIF/william.gif">
+        </div>
+
+        <div id="vandret-linje">
+        </div>
 
 
         <!-- Nyheder -->
@@ -74,6 +84,24 @@
         <p id="restauranten-broedtekst">I en hyggelig baggård på Mejlgade 46B finder du Four Amigos. Du vil blive mødt af duften af friskbagte tortillas og en stemning, som man simpelthen bare ikke må gå glip af. Vi er tre kammerater, der gerne vil byde jer indenfor til en oplevelse fuldt med autentiske smage og hjertevarm gæstfrihed. Velkommen!</p>
         <img id="restauranten-billede" src="img/restauranten-billede.png" alt="billede til restaurant-sektionen">
     </main>
+
+    <footer class="footer">
+        <div class="social">
+          <a href="https://www.facebook.com/profile.php?id=61551904498625&paipv=0&eav=AfY-U6cYUksf6qFbGhzEtIoK-uJ5FSDj4uQaGEyy1nVpahLeHx1xct7cipGEJbA28AI&_rdr" class="fa fa-facebook"></a>
+          <a href="https://www.tiktok.com/@four.amigos03" class="fa-brands fa-tiktok"></a>
+          <a href="https://www.instagram.com/fouramigos_aarhus/" class="fa fa-instagram"></a>
+        </div>
+
+        <ul>
+            <li><a href="#">Vilkår og betingelser</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Privatlivspolitik</a></li>
+            <li><a href="#">Cookiepolitik</a></li>
+        </ul>
+
+
+        <p class="copyright">Four Amigos @ 2023</p>
+    </footer>
 
 
     <script src="js/script.js"></script>
