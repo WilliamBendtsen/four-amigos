@@ -111,18 +111,8 @@ main{
     font-size: 150px;
     position: absolute;
     left: 42.5%;
-    top: 30%;
+    top: 25%;
     text-align: center;
-}
-
-main h1{
-    grid-row: 2;
-    grid-column: 4 / span 5;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 350;
 }
 
 /* Styling af img */
@@ -201,6 +191,7 @@ main h1{
 
 .om-os_tekst{
     font-size: 25px;
+    font-weight: 350;
 }
 
 .læs-mere_tekst{
