@@ -110,6 +110,7 @@ nav img{
 .adresse{
     text-align: center;
     padding-top: 200px;
+    font-size: 1.5rem;
 }
 
 .imgadresse{
@@ -119,5 +120,52 @@ nav img{
 
 .adresse2{
     text-align: center;
-    padding-top: 70px;
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: 350;
+}
+
+
+/* Billede-link til Tik-Tok */
+#tiktok-tekst{
+    position: absolute;
+    left: 23%;
+    margin-top: 8rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#tiktok-logo{
+    position: absolute;
+    left: 37%;
+    margin-top: 7rem;
+}
+
+#tiktok-billede{
+    position: absolute;
+    left: 15%;
+    margin-top: 11rem;
+    cursor: pointer;
+}
+
+/* Billede-link til Instagram */
+#instagram-tekst{
+    position: absolute;
+    margin-top: 8rem;
+    right: 22%;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#instagram-logo{
+    position: absolute;
+    right: 17%;
+    margin-top: 7.5rem;
+}
+
+#instagram-billede{
+    position: absolute;
+    right: 15%;
+    margin-top: 11rem;
+    cursor: pointer;
 }
