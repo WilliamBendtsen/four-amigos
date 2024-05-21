@@ -8,8 +8,11 @@
 /* Generel styling for body */
 body{
     background-color: #57843B;
+    cursor: pointer;
     font-family: Josefin Sans;
 }
+
+
 
 /* Generel styling for alle <a> elementerne på siden */
 a{
@@ -27,6 +30,7 @@ a{
    text-align: center;
    top: 5%;
    left: 40%;
+   animation: fade-up 1s;
 }
 
 .rabatter-underskrift{
