@@ -226,16 +226,8 @@ main h1{
     grid-column: 7 / span 4;
     justify-content: end;
     width: 45rem;
-    animation: fade-in linear;
-    animation-timeline: view();
-    animation-range-start:100px ;
-    animation-range-end:700px ;
 }
 
-@keyframes fade-in {
-    from {scale: .8; opacity: 0;}
-    to {scale: 1; opacity: 1;}
-}
 
 /* Restauranten */
 #restauranten-titel-spansk{
@@ -270,13 +262,4 @@ main h1{
     grid-column: 2 / span 5;
     width: 45rem;
     margin-top: 150px;
-    animation: fade-in linear;
-    animation-timeline: view();
-    animation-range-start:50px ;
-    animation-range-end:700px ;
-}
-
-@keyframes fade-in {
-    from {scale: .8; opacity: 0;}
-    to {scale: 1; opacity: 1;}
 }
