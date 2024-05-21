@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel på side -->
+    <title>Forside</title>
+    <!-- Josefin sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Just Another Hand font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="/four-amigos/css/betalnu.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Første 2 menupunkter -->
+            <a href="menu.html" id="menu-nav">Menu</a>
+            <a href="bestil.html" id="bestil-nav">Bestil</a>
+
+            <!-- Logo -->
+        <img src="img/four-amigos-logo.png" alt="four amigos logo" onclick="redirectToIndex()">
+
+        <!-- Sidste 2 menupunkter -->
+            <div class="dropdown">
+                <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
+                <div id="meet-dropdown">
+                    <a href="om_os.html">Om Os</a>
+                    <a href="vaerdier.html">Vores Værdier</a>
+                    <a href="find-os.html">Find Os</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="kontakt.html" id="kontakt-nav">Kontakt</a>
+                <div id="kontakt-dropdown">
+                    <a href="faq.html">FAQ</a>
+                </div>
+            </div>
+    </nav>
+    
+    <main>
+        <!-- Overskrift -->
+        <p class="betaling">Betaling</p>
+        <p class="eller">Betal med Mobilepay eller Visa</p>
+
+         <!-- Valg af enten Mobilepay eller Visa -->
+        <div class="betal-container">
+
+
+            <!-- Kode til Mobilepay -->
+            <div class="mobilepay-btn">
+                <span class="press-button-mobilepay">
+                    <i class="fa-regular fa-circle"></i>
+                </span>
+                <span class="mobilepay">Mobilepay</span>
+                <ul class="items-mobilepay">
+                    <div class="mobilepay-content">
+                        <p>Når du klikker videre på “Færdiggør betaling”, vil du blive mødt af MobilePay
+                            betalingssiden, hvor du herfra kan gennemføre købet.</p>
+                    </div>
+
+                </ul>
+
+            </div>
+
+                <br>
+                <hr>
+                <br>
+
+            <!-- Kode til Visa -->
+            <div class="visa-btn">
+                <span class="press-button-visa">
+                    <i class="fa-regular fa-circle"></i>
+                </span>
+                <span class="visa">Visa</span>
+            </div>
+
+
+                <ul class="items-visa">
+                    <div class="visa-content">
+                        <!-- Stor boks -->
+                        <div class="box1">
+                            <p>Fornavn</p>
+                            <input type="text" size="15" placeholder="Jens">
+                        </div>
+                        <div class="box2">
+                            <p>Efternavn</p>
+                            <input type="text" size="15" placeholder="Hansen">
+                        </div>
+                        <div class="box3">
+                            <p>Kortnummer</p>
+                            <input type="text" size="15" placeholder="0123 4567 8910">
+                        </div>
+                    </div>
+
+                </ul>
+
+          
+
+
+        </div>
+
+
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
