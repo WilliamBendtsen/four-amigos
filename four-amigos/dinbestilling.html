@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
+    <!-- Titel på side -->
+    <title>Forside</title>
     <!-- Josefin sans font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" href="css/kontakt.css">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="/four-amigos/css/dinbestilling.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -28,8 +30,9 @@
 
         <!-- Sidste 2 menupunkter -->
             <div class="dropdown">
-                <a href="om_os.html" id="meet-nav">Mød Four Amigos</a>
+                <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
                 <div id="meet-dropdown">
+                    <a href="om_os.html">Om Os</a>
                     <a href="vaerdier.html">Vores Værdier</a>
                     <a href="find-os.html">Find Os</a>
                 </div>
@@ -42,26 +45,35 @@
                 </div>
             </div>
     </nav>
-
-    <h1 class="kontakt">Kontakt</h1>
-
-    <section id="service">
-        <h2>Service</h2>
-        <p class="light">Kontakt os:</p>
-        <p class="medium">Tirsdag - Fredag</p>
-        <p class="medium">16:00 - 20:30</p>
-        <p class="medium">Lørdag - Søndag</p>
-        <p class="medium">14:00 - 20:30</p>
-    </section>
+    
+    <main>
+        <!-- Overskrift og billede -->
+        <p class="dinbestilling">Din bestilling</p>
 
 
-    <section id="restauranten">
-        <h2>Restauranten</h2>
-        <p class="medium">Mejlgade 46B</p>
-        <p class="medium">Aarhus C, 8000</p>
-        <p class="light">Tlf: +45 22 66 68 25</p>
-        <p class="light">E-mail: Fouramigosaps@gmail.com</p>
-    </section>
+        <!-- Forskellige elementer (img og p) i ordren.  -->
+        <div class="ordre">
+            <img src="/four-amigos/img/removeknap.png" alt="" class="remove-button">
+            <img class="afhentning-plads" src="/four-amigos/img/afhentning-plads.png">
+            <p class="taco4stk-overskrift">Birria Taco Menu (4 stk)</p>
+            <p class="taco4stk-underskrift">4 smagfulde tacos med<br> hjemmelavet langtidsstegt<br> oksekød. Serveres med ost, <br>koriander, persille og lime. <br>Hermed følger der også <br>hjemmelavet tortilla chips.</p>
+            <img class="afhentning-taco" src="/four-amigos/img/afhentning-taco.png">
+            <p class="taco4stk-pris">Pris: 149,00 kr.</p>
+
+            <a href="/four-amigos/404.html">
+                <button class="betalnu">Betal nu</button>
+            </a>
+            
+            <p class="fjern">Fjern</p>
+
+            <button class="fjernet">Ordre fjernet</button>
+
+            <script src="js/dinbestilling.js"></script>
+        </div>
+
+
+    </main>
+
 
     <script src="js/script.js"></script>
 </body>

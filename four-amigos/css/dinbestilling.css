@@ -75,13 +75,13 @@ nav img{
 #meet-dropdown{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-around;
     position: absolute;
     text-align: center;
     width: 13rem;
     height: 8rem;
     font-size: 1.5rem;
+    margin-top: .5rem;
 }
 
 #kontakt-dropdown{
@@ -95,77 +95,124 @@ nav img{
     font-size: 1.5rem;
 }
 
-.find-os{
+/* Generel styling for main */
+main{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+/* Velkomstbesked */
+.dinbestilling{
     font-family: Just Another Hand;
     color: #C25851;
     font-weight: 200;
     font-size: 150px;
     position: absolute;
-    left: 42.5%;
-    top: 25%;
+    left: 35%;
+    top: 30%;
     text-align: center;
-
 }
 
-.adresse{
+main h1{
+    grid-row: 2;
+    grid-column: 4 / span 5;
+    justify-self: center;
+    align-self: center;
     text-align: center;
-    padding-top: 200px;
-    font-size: 1.5rem;
-}
-
-.imgadresse{
-    width: 700px;
-    margin-left: 28%;
-}
-
-.adresse2{
-    text-align: center;
-    margin-top: 10rem;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 350;
 }
 
 
-/* Billede-link til Tik-Tok */
-#tiktok-tekst{
+.afhentning-plads{
+    width: 500px;
     position: absolute;
-    left: 23%;
-    margin-top: 8rem;
-    font-size: 2rem;
-    font-weight: 200;
+    top: 60%;
+    left: 32%;
 }
 
-#tiktok-logo{
+.taco4stk-overskrift{
+    font-weight: 800;
+    font-size: 20px;
     position: absolute;
-    left: 37%;
-    margin-top: 7rem;
+    top: 62%;
+    left: 35%;
 }
 
-#tiktok-billede{
+.taco4stk-underskrift{
     position: absolute;
-    left: 15%;
-    margin-top: 11rem;
+    top: 65%;
+    left: 35%;
+}
+
+.afhentning-taco{
+    width: 160px;
+    position: absolute;
+    top: 68%;
+    left: 53%;
+}
+
+.taco4stk-pris{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    height: 400px;
+}
+
+.remove-button{
     cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 70%;
 }
 
-/* Billede-link til Instagram */
-#instagram-tekst{
-    position: absolute;
-    margin-top: 8rem;
-    right: 22%;
-    font-size: 2rem;
-    font-weight: 200;
-}
-
-#instagram-logo{
-    position: absolute;
-    right: 17%;
-    margin-top: 7.5rem;
-}
-
-#instagram-billede{
-    position: absolute;
-    right: 15%;
-    margin-top: 11rem;
+.betalnu{
+    border: 3px solid #C25851;
+    border-radius: 15px;
+    background-color: #C25851;
+    color: #F5EDDA;
+    padding: 7px 1px;
+    font-size: 25px;
     cursor: pointer;
+    font-family: Josefin Sans;
+    position: absolute;
+    top: 95%;
+    left: 39%;
+    width: 280px;
+}
+
+.fjernet{
+    border: 3px solid #C25851;
+    border-radius: 15px;
+    background-color: #C25851;
+    color: #F5EDDA;
+    padding: 7px 1px;
+    font-size: 25px;
+    font-family: Josefin Sans;
+    position: fixed;
+    top: 90%;
+    left: 39%;
+    width: 280px;
+    opacity: 0;
+}
+
+.fjern{
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.popup{
+
+    animation: fadein 5s ease-in alternate;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    100% { opacity: 0;}
 }

@@ -134,8 +134,9 @@ main{
 }
 
 #pil-nikolai{
+    width: 30px;
     position: absolute;
-    top: 42%;
+    top: 45%;
     left: 12%;
 }
 
@@ -149,13 +150,15 @@ main{
 }
 
 #pil-william{
+    width: 30px;
     position: absolute;
-    top: 52%;
+    top: 55%;
     left: 36%;
 }
 
 .smalltext3{
     position: absolute;
+    text-align: center;
     top: 35%;
     right: 15%;
     font-size: 25px;
@@ -163,11 +166,11 @@ main{
 }
 
 #pil-benjamin{
+    width: 30px;
     position: absolute;
-    top: 42%;
+    top: 45%;
     right: 20%;
 }
-
 
 .om-os_tekst{
     width: 75%;
@@ -184,6 +187,7 @@ main{
     left: 12%;
     top: -15%;
     font-size: 100px;
+    font-weight: 200;
     font-family: Just Another Hand;
     color: #C25851;
 
@@ -207,6 +211,7 @@ main{
     top: 20%;
     font-size: 100px;
     font-family: Just Another Hand;
+    font-weight: 200;
     color: #C25851;
     width: 400px;
 }
@@ -244,3 +249,4 @@ main{
     width: 1000px;
 
 }
+
