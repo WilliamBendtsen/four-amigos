@@ -101,6 +101,7 @@ main{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(20, 1fr);
+    overflow: hidden;
 }
 
 /* Velkomstbesked */
@@ -141,7 +142,7 @@ main h1{
     cursor: pointer;
 }
 
-/* Billede af de 3 drenge */
+/* Billeder af de 3 drenge */
 .nikolai{
     grid-column: 1 / span 4;
     grid-row: 1 / span 3;
@@ -158,10 +159,8 @@ main h1{
 .benjamin{
     grid-column: 9 / span 2;
     grid-row: 1 / span 3;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 7rem;
-    overflow: hidden;
+    justify-self: end;
+    padding-left: 7rem;
     width: 300px;
     height: 300px;
    }
@@ -183,6 +182,14 @@ main h1{
     width: 300px;
    }
 
+   /* Vandret linje */
+   #vandret-linje{
+    border-top: 3px solid ;
+    grid-row: 4 / span 2;
+    align-self: center;
+    padding-bottom: 7rem;
+    grid-column: 1 / span 10;
+   }
 
 /* Nyheder */
 #nyheder-titel-spansk{
