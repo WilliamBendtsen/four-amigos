@@ -182,3 +182,37 @@ main h1{
     left: 39%;
     width: 280px;
 }
+
+.fjernet{
+    border: 3px solid #C25851;
+    border-radius: 15px;
+    background-color: #C25851;
+    color: #F5EDDA;
+    padding: 7px 1px;
+    font-size: 25px;
+    font-family: Josefin Sans;
+    position: fixed;
+    top: 90%;
+    left: 39%;
+    width: 280px;
+    opacity: 0;
+}
+
+.fjern{
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.popup{
+
+    animation: fadein 5s ease-in alternate;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    100% { opacity: 0;}
+}
