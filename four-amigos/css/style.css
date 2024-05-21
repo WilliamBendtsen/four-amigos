@@ -278,16 +278,18 @@ main h1{
 }
 
 .social {
-    left: 37%;
+position: absolute;
+left: 42%;
+top: 413%;
 }
 
 .social a{
-    font-size: 53px;
+    font-size: 33px;
     color: inherit;
-    border: 5px solid #F5EDDA;
-    width: 100px;
-    height: 100px;
-    line-height: 90px;
+    border: 3px solid #F5EDDA;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -322,7 +324,7 @@ main h1{
     padding: 0;
     list-style: none;
     font-size: 38px;
-    line-height: 10;
+    line-height: 5;
     margin-bottom: 0;
 }
 
@@ -355,9 +357,20 @@ main h1{
   color: #F5EDDA;
 }
 
-.taco-footer{
-    top: 50%;
-    left: 80%;
-    transform: rotate(-30deg);
-    width: 250px;
+.fa-tiktok{
+    position: absolute;
+    left: 100%;
+    font-size: 33px;
+    color: inherit;
+    border: 3px solid #F5EDDA;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 44px;
+}
+
+.fa-tiktok :hover{
+    opacity: 1;
+    color: black;
+    transition: 0.5s;
 }
