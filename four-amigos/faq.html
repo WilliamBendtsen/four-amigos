@@ -44,57 +44,44 @@
             </div>
     </nav>
 
+    <h1 id="faq">FAQ</h1>
+    
     <main>
         <!-- Titel -->
-        <h1 id="faq">FAQ</h1>
 
         <!-- Første række spørgsmål -->
-            <div id="spoergsmaal-1">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Hvor mange tacos bliver typisk bestilt?</h2>
-            </div>
-                    <p id="svar-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, reiciendis.</p>
-            <div id="spoergsmaal-2">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Hvad er jeres åbningstider?</h2>
-            </div>
-            <p id="svar-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse!</p>
-            <div id="spoergsmaal-3">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Hvilke leveringstjenester har i?</h2>
-            </div>
-            <p id="svar-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse!</p>
-            <div id="spoergsmaal-4">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Sker det, at man ikke kan få bord på restauranten?</h2>
-            </div>
-            <p id="svar-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse!</p>
+        <ul id="spoergsmaal-1">
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Hvor mange tacos bliver typisk bestilt?</li>
+            <p class=" faq-answer hidden">Typisk bliver der bestilt den mindste portion, altså 5 tacos</p>
+
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Hvad er jeres åbningstider?</li>
+            <p class=" faq-answer hidden">Mandag: lukket <br> <br> Tirsdag-Fredag: 16:00-20:30(Køkken) <br> <br> Lørdag-Søndag: 14:00-20:30(Køkken)</p>
+
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Hvilke leveringstjenester har i?</li>
+            <p class=" faq-answer hidden">Indtil videre samarbejder vi kun med Wolt</p>
+
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Er der risiko for, at man ikke kan få bord på restauranten?</li>
+            <p class=" faq-answer hidden">Det kan selvfølgelig ske, specielt i myldretiden og i weekenden, <br> men kom alligevel herned og giv det et forsøg!</p>
+        </ul>
 
         <!-- Anden række spørgsmål -->
-            <div id="spoergsmaal-5">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Har i muligheder for vegetarer/veganere?</h2>
-            </div>
-            <p id="svar-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse!</p>
-            <div id="spoergsmaal-6">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Hvor lang tid tager det at lave maden?</h2>
-            </div>
-            <p id="svar-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse!</p>
-            <div id="spoergsmaal-7">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Hvor stærk er jeres mad?</h2>
-            </div>
-            <p id="svar-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse!</p>
-            <div id="spoergsmaal-8">
-                <img src="img/faq-trekant.png" alt="faq trekant">
-                <h2>Hvilke allergener tager i højde for i jeres mad?</h2>
-            </div>
-            <p id="svar-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, esse!</p>
+        <ul>
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Har i muligheder for vegetarer/veganere?</li>
+            <p class=" faq-answer hidden">Ja, vores nachos er veganske!</p>
+
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Hvor lang tid tager det at lave maden?</li>
+            <p class=" faq-answer hidden">Det tager typisk 10-15 minutter at forberede maden.</p>
+
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Hvor stærk er jeres mad?</li>
+            <p class=" faq-answer hidden">Vores mad er generelt mild, men vi kan tilpasse styrken <br> efter ønske.</p>
+
+            <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.png" alt="faq trekant">Hvilke allergener tager i højde for i jeres mad?</li>
+            <p class=" faq-answer hidden">Vi tager hensyn til de mest almindelige allergener som <br> gluten, nødder, og laktose.</p>
+        </ul>
     </main>
 
 
 
-    <script src="js/script.js"></script>
+    <script src="js/faq.js"></script>
 </body>
 </html>

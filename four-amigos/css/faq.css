@@ -96,102 +96,38 @@ nav img{
 }
 
 main{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+   display: flex;
+   justify-content: space-around;
 }
 
 h1{
     font-family: Just Another Hand;
-    grid-column: 2;
-    justify-self: center;
+    text-align: center;
     font-size: 8rem;
     margin-top: 2rem;
     color: #C25851;
     font-weight: bold;
 }
 
-h2{
+li{
     font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    cursor: pointer;
 }
 
-div img{
+ul img{
+    width: .7rem;
     margin-right: .5rem;
-    margin-bottom: .5rem;
+    cursor: pointer;
 }
 
-#spoergsmaal-1, #svar-1{
-    grid-column: 1 / span 2;
-    grid-row: 2;
-    justify-self: center;
+.hidden{
+    display: none;
 }
 
-#spoergsmaal-2{
-    grid-column: 1;
-    grid-row: 3;
-}
-
-#svar-2{
-    grid-column: 1;
-    grid-row: 3;
-}
-
-#spoergsmaal-3{
-    grid-column: 1;
-    grid-row: 4;
-}
-
-#svar-3{
-    grid-column: 1;
-    grid-row: 4;
-}
-
-#spoergsmaal-4{
-    grid-column: 1;
-    grid-row: 5;
-}
-
-#svar-4{
-    grid-column: 1;
-    grid-row: 5;
-}
-
-#spoergsmaal-5{
-    grid-column: 3;
-    grid-row: 2;
-}
-
-#svar-5{
-    grid-column: 3;
-    grid-row: 2;
-}
-
-#spoergsmaal-6{
-    grid-column: 3;
-    grid-row: 3;
-}
-
-#svar-6{
-    grid-column: 3;
-    grid-row: 3;
-}
-
-#spoergsmaal-7{
-    grid-column: 3;
-    grid-row: 4;
-}
-
-#svar-7{
-    grid-column: 3;
-    grid-row: 4;
-}
-
-#spoergsmaal-8{
-    grid-column: 3;
-    grid-row: 5;
-}
-
-#svar-8{
-    grid-column: 3;
-    grid-row: 5;
+.faq-answer{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 330;
 }
