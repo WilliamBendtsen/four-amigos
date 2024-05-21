@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel på side -->
+    <title>Forside</title>
+    <!-- Josefin sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Just Another Hand font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="/four-amigos/css/dinbestilling.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <!-- Første 2 menupunkter -->
+            <a href="menu.html" id="menu-nav">Menu</a>
+            <a href="bestil.html" id="bestil-nav">Bestil</a>
+
+            <!-- Logo -->
+        <img src="img/four-amigos-logo.png" alt="four amigos logo" onclick="redirectToIndex()">
+
+        <!-- Sidste 2 menupunkter -->
+            <div class="dropdown">
+                <a href="meet.html" id="meet-nav">Mød Four Amigos</a>
+                <div id="meet-dropdown">
+                    <a href="om_os.html">Om Os</a>
+                    <a href="vaerdier.html">Vores Værdier</a>
+                    <a href="find-os.html">Find Os</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a href="kontakt.html" id="kontakt-nav">Kontakt</a>
+                <div id="kontakt-dropdown">
+                    <a href="faq.html">FAQ</a>
+                </div>
+            </div>
+    </nav>
+    
+    <main>
+        <!-- Overskrift og billede -->
+        <p class="dinbestilling">Din bestilling</p>
+
+
+        <!-- Forskellige elementer (img og p) i ordren.  -->
+        <div class="ordre">
+            <img src="/four-amigos/img/removeknap.png" alt="" class="remove-button">
+            <img class="afhentning-plads" src="/four-amigos/img/afhentning-plads.png">
+            <p class="taco4stk-overskrift">Birria Taco Menu (4 stk)</p>
+            <p class="taco4stk-underskrift">4 smagfulde tacos med<br> hjemmelavet langtidsstegt<br> oksekød. Serveres med ost, <br>koriander, persille og lime. <br>Hermed følger der også <br>hjemmelavet tortilla chips.</p>
+            <img class="afhentning-taco" src="/four-amigos/img/afhentning-taco.png">
+            <p class="taco4stk-pris">Pris: 149,00 kr.</p>
+
+            <a href="/four-amigos/404.html">
+                <button class="betalnu">Betal nu</button>
+            </a>
+
+            <script src="js/dinbestilling.js"></script>
+        </div>
+
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

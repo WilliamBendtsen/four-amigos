@@ -104,13 +104,13 @@ main{
 }
 
 /* Velkomstbesked */
-.om-os{
+.dinbestilling{
     font-family: Just Another Hand;
     color: #C25851;
     font-weight: 200;
     font-size: 150px;
     position: absolute;
-    left: 42.5%;
+    left: 35%;
     top: 30%;
     text-align: center;
 }
@@ -125,112 +125,60 @@ main h1{
     font-weight: 350;
 }
 
-/* Styling af img */
-.gutterne{
-    width: 1100px;
+
+.afhentning-plads{
+    width: 500px;
     position: absolute;
-    top: 42.2%;
-    left: 10%;
-    
+    top: 60%;
+    left: 32%;
 }
 
-.smalltext1{
-    position: absolute;
-    top: 75%;
-    left: 5%;
+.taco4stk-overskrift{
+    font-weight: 800;
     font-size: 20px;
-    color: #C25851;
-}
-
-.smalltext2{
     position: absolute;
-    top: 75%;
-    left: 29%;
-    font-size: 20px;
-    color: #C25851;
+    top: 62%;
+    left: 35%;
 }
 
-.smalltext3{
+.taco4stk-underskrift{
     position: absolute;
-    top: 75%;
-    left: 56%;
-    font-size: 20px;
-    color: #C25851;
+    top: 65%;
+    left: 35%;
 }
 
-
-.om-os_tekst{
-    width: 75%;
+.afhentning-taco{
+    width: 160px;
     position: absolute;
-    left: 12%;
-    top: 130%;
-    text-align: center;
-    padding-top: 50px;
+    top: 68%;
+    left: 53%;
 }
 
-.om-os_tekst h1{
-    width: 75%;
+.taco4stk-pris{
     position: absolute;
-    left: 12%;
-    top: -15%;
-    font-size: 100px;
-    font-family: Just Another Hand;
-    color: #C25851;
-
+    top: 80%;
+    left: 35%;
+    height: 400px;
 }
 
-.om-os_tekst{
-    font-size: 25px;
-}
-
-.læs-mere_tekst{
+.remove-button{
+    cursor: pointer;
     position: absolute;
-    top: 220%;
-    left: 16%;
-
+    top: 40%;
+    left: 70%;
 }
 
-.læs-mere_tekst h1{
-    position: absolute;
-    left: 26%;
-    top: 20%;
-    font-size: 100px;
-    font-family: Just Another Hand;
-    color: #C25851;
-    width: 400px;
-}
-
-.læsmere{
-    border: 3px solid #57843B;
+.betalnu{
+    border: 3px solid #C25851;
     border-radius: 15px;
-    background-color: #F5EDDA;
-    color: #57843B;
-    padding: 14px 28px;
+    background-color: #C25851;
+    color: #F5EDDA;
+    padding: 7px 1px;
     font-size: 25px;
     cursor: pointer;
     font-family: Josefin Sans;
     position: absolute;
-    top: 50%;
-    left: 28%;
+    top: 95%;
+    left: 39%;
+    width: 280px;
 }
-
-
-.tilbage{
-    border: 3px solid #57843B;
-    border-radius: 15px;
-    background-color: #F5EDDA;
-    color: #57843B;
-    padding: 14px 40px;
-    font-size: 25px;
-    cursor: pointer;
-    font-family: Josefin Sans;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.læs-mere_tekst img{
-    width: 1000px;
-
-}
-

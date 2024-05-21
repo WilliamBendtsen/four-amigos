@@ -16,7 +16,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="/four-amigos/css/om-os.css">
+    <link rel="stylesheet" href="/four-amigos/css/betaling.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -48,36 +48,71 @@
     
     <main>
         <!-- Overskrift og billede -->
-        <p class="om-os">Om os</p>
-        <img class="gutterne" src="/four-amigos/img/Gutterne.png" alt="">
-        <p class="smalltext1">Nikolai (Direktør)</p>
-        <p class="smalltext2">William (adm. direktør)</p>
-        <p class="smalltext3">Benjamin (Direktør)</p>
+        <p class="betaling">Betaling</p>
 
-        <div class="om-os_tekst">
-            <h1>Vi tilbyder</h1>
-            <p>Four Amigos består af tre venner, der alle deler en passion for mexicansk mad. De havde længe savnet et autentisk mexicansk spisested i Aarhus, og det var derfor, de besluttede at skabe deres egen lille oase af smag og krydderier midt i byen. <br> <br>
-                Hovedattraktionen på Four Amigos-menuen er vores langtidsbraiserede oksekødstacos. Disse saftige tacos er fyldt med mørt, krydret oksekød, og de serveres med ost, løg, koriander eller persille og en skvis lime. <br> <br> 
-                Men det stopper ikke der! Her er nogle af de andre lækre retter, du kan nyde hos Four Amigos: <br> <br>
-                Birria Tacos: Disse tacos er fyldt med den samme langtidsbraiserede okse, men du kan vælge mellem forskellige portioner af dem. Prøv 4, 5, 8 eller 12 stykker, alt efter hvor sulten du er! <br> <br>
-                Nachos: Hvis du er i humør til noget knasende, kan du bestille vores hjemmelavede tortillachips med salsa verde, cheddar, løg, tomat og guacamole. <br> <br>
-                Tequila: Four Amigos har også et udvalg af tequila-shots og tequila-drinks, hvis du ønsker at skylle dine tacos ned med noget stærkt. <br> <br>
-                Vores restaurant har en hyggelig atmosfære og ligger i en skjult baggård, hvilket giver den en autentisk og afslappet stemning. Og husk, der er ingen bordreservationer – det er først til tacos! </p>
+        <div class="svar">
+            <!-- Lille boks -->
+            <div class="box1">
+                <p>Fornavn</p>
+                <input type="text" size="15" placeholder="Jens">
+            </div>
+            <div class="box2">
+                <p>Efternavn</p>
+                <input type="text" size="15" placeholder="Hansen">
+            </div>
+
+            <!-- Stor boks -->
+            <div class="box3">
+                <p>Email</p>
+                <input type="text" size="15" placeholder="Fouramigosaps@gmail.com">
+            </div>
+            <div class="box4">
+                <p>Adresse</p>
+                <input type="text" size="15" placeholder="Mejlgade 46B">
+            </div>
+
+            <!-- Lille boks -->
+            <div class="box5">
+                <p>By</p>
+                <input type="text" size="15" placeholder="Aarhus">
+            </div>
+            <div class="box6">
+                <p>Postnummer</p>
+                <input type="text" size="15" placeholder="8000">
+            </div>
+
+            <!-- Stor boks -->
+            <div class="box7">
+                <p>Telefonnummer</p>
+                <input type="text" size="15" placeholder="22 66 68 25">
+            </div>
+
         </div>
 
-        <div class="læs-mere_tekst">
-            <h1>Vil du læse mere?</h1>
+        <!-- Afsnit med knapper -->
+        <div class="nu_eller_restauranten">
+            <h1>Vil du betale nu eller ved restauranten?</h1>
             <a href="/four-amigos/404.html">
-                <button class="læsmere">Læs mere</button>
+                <button class="betalnu">Betal nu</button>
             </a>
             
-            <a href="/four-amigos/om_os.html">
-                <button class="tilbage">Tilbage</button>
+            <a href="/four-amigos/dinbestilling.html">
+                <button class="restaurant">Betal ved restaurant</button>
             </a>
-            <img src="/four-amigos/img/Skeleton.png" alt="">
 
 
         </div>
+
+        <!-- Kode for oversigt over betaling -->
+        <div class="oversigt">
+            <p class="tekst1">Oversigt</p>
+            <hr>
+            <p class="tekst2">Enkelvis</p>
+            <p class="tekst3">I alt</p>
+            <p class="tekst4">Husk at have en beskræftelse på bestillingen, så vi kan godkende ved afhentelse.</p>
+        </div>
+
+        <script src="js/betaling.js"></script>
 
 
     </main>
