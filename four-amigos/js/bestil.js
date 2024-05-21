@@ -34,3 +34,43 @@ dropdown1.addEventListener("mouseout", () => hideDropDown1());
 kontakt.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseout", () => hideDropDown2());
+
+/* Så knapperne redirecter til deres henholdsvise sider */
+function redirectToWolt() {
+    window.location.href = "https://wolt.com/da/dnk/aarhus/restaurant/four-amigos";
+}
+
+function redirectToAfhentning() {
+    window.location.href = "afhentning.html"
+}
+
+/* Så illustrationerne til henholdsvis Wolt of Afhentning bliver vist, 
+når man hover hen over knapperne */
+
+const woltBtn = document.getElementById("wolt");
+const woltImg = document.getElementById("wolt-billede");
+
+const afhentningBtn = document.getElementById("afhentning");
+const afhentningImg = document.getElementById("afhentning-billede")
+
+function showWoltImg () {
+    woltImg.style.display = "block";
+}
+
+function hideWoltImg () {
+    woltImg.style.display = "none";
+}
+
+function showAfhentningImg() {
+    afhentningImg.style.display = "block";
+}
+
+function hideAfhentningImg() {
+    afhentningImg.style.display = "none";
+}
+
+woltBtn.addEventListener("mouseover", () => showWoltImg());
+woltBtn.addEventListener("mouseout", () => hideWoltImg ());
+
+afhentningBtn.addEventListener("mouseover", () => showAfhentningImg());
+afhentningBtn.addEventListener("mouseout", () => hideAfhentningImg());

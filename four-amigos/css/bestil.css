@@ -91,58 +91,9 @@ nav img{
 }
 
 /* Generel styling for body */
-
 body{
     background-color: #F5EDDA;
     font-family: Josefin Sans;
-}
-
-/* Navbar */
-nav{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    margin-top: 3rem;
-}
-
-nav img{
-    grid-column: 3;
-    justify-self: center;
-    align-self: center;
-    width: 8rem;
-    cursor: pointer;
-}
-
-#menu-nav{
-    grid-column: 1;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#bestil-nav{
-    grid-column: 2;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#meet-nav{
-    grid-column: 4;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#kontakt-nav{
-    grid-column: 5;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
 }
 
 .bestil{
@@ -165,28 +116,30 @@ nav img{
     left: 25%;
 }
 
-.wolt{
+#wolt{
     width: 200px;
     position: absolute;
     top: 70%;
     left: 30%;
+    cursor: pointer;
 }
 
-.afhentning{
+#afhentning{
     width: 250px;
     position: absolute;
     top: 70%;
     left: 55%;
+    cursor: pointer;
 }
 
-.wolt-billede{
+#wolt-billede{
     width: 300px;
     position: absolute;
     top: 30%;
     right: 80%;
 }
 
-.afhentning-billede{
+#afhentning-billede{
     width: 250px;
     position: absolute;
     left: 80%;
