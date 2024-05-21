@@ -266,14 +266,15 @@ main h1{
 }
 
 .carousel {
-    position: absolute;
-    width: 80%;
-    bottom: 100px;
+    position: relative;
+    bottom: 50%;
     overflow: hidden;
     grid-row: 14;
     grid-column: 1 / span 10;
-    width: 40rem;
+    width: 75rem;
+    z-index: 100;
 }
+
 
 .carousel-container {
     position: absolute;
@@ -287,7 +288,6 @@ main h1{
 
 .carousel-slide img {
     width: calc(100% / 3);
-    height: auto;
 }
 
 button {
