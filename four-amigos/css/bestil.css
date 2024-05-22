@@ -106,7 +106,7 @@ body{
     font-weight: 200;
    font-size: 200px;
    position: absolute;
-   top: 25%;
+   top: 50%;
    text-align: center;
    left: 41%;
    animation: fade-up 1s;
@@ -267,4 +267,526 @@ body{
 .copyright{
   color: #F5EDDA;
   background-color: inherit;
+}
+
+@media only screen and (max-width: 390px) {
+
+    /* Keyframes animation for at teksten til at fade ind når siden indlæses */
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
+    /* Navbar */
+nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+nav img{
+    grid-column: 3;
+    justify-self: center;
+    align-self: center;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#menu-nav{
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#bestil-nav{
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#meet-nav{
+    grid-column: 4;
+    justify-self: center;
+    align-self: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#kontakt-nav{
+    grid-column: 5;
+    justify-self: center;
+    align-self: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* Dropdown */
+.dropdown{
+    align-self: center;
+    justify-self: center;
+}
+
+#meet-dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    text-align: center;
+    width: 1rem;
+    height: 8rem;
+    font-size: medium;
+}
+
+#kontakt-dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    width: 5.5rem;
+    height: 4rem;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+
+    .bestil{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+       font-size: 100px;
+       position: absolute;
+       top: 50%;
+       text-align: center;
+       left: 30%;
+       animation: fade-up 1s;
+    }
+    
+    .bestil-underskrift{
+        font-family: Josefin Sans;
+        font-weight: 200;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        top: 80%;
+        left: 2%;
+        animation: fade-up 1s;
+    }
+    
+    #wolt{
+        width: 100px;
+        position: absolute;
+        top: 100%;
+        left: 10%;
+        cursor: pointer;
+        animation: fade-up 1s;
+    }
+    
+    #afhentning{
+        width: 130px;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        cursor: pointer;
+        animation: fade-up 1s;
+    }
+    
+    #wolt-billede{
+        width: 400px;
+        position: absolute;
+        top: 20%;
+        right: 78%;
+        animation: fade-up 0.5s;
+    }
+    
+    #afhentning-billede{
+        width: 400px;
+        position: absolute;
+        left: 75%;
+        top: 20%;
+        animation: fade-up 1s;
+    }
+    
+    .hidden{
+        display: none;
+    }
+    
+    /* Footer */
+.footer{
+    bottom: -30rem;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3, 5rem);
+    background-color: #C25851;
+    width: 100%;
+    font-family: Josefin Sans;
+    grid-row: 1;
+}
+
+.footer,
+.social{
+    text-align: center;
+    color: #F5EDDA;
+}
+
+.social {
+    display: flex;
+    background-color: inherit;
+    justify-content: center;
+    justify-self: center;
+    align-self: end;
+    width: fit-content;
+    grid-row: 2;
+}
+
+.social a{
+    font-size: 23px;
+    color: #F5EDDA;
+    background-color: #C25851;
+    border: 3px solid #F5EDDA;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.social a:hover{
+    opacity: 1;
+    color: black;
+    transition: 0.5s;
+}
+
+.footer h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer h1:hover{
+    opacity: 1;
+}
+
+
+.footer ul{
+    padding-top: 4rem;
+    list-style: none;
+    font-size: 38px;
+    margin-bottom: 0;
+    background-color: inherit;
+    align-self: center;
+    z-index: 999;
+    line-height: 1;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 1px; 
+    background-color: inherit;
+}
+
+.footer ul li a{
+    color: #F5EDDA;
+    left: 20%;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.5s;
+    background-color: inherit;
+    font-size: 15px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.footer, .copyright{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+}
+
+.copyright{
+  color: #F5EDDA;
+  background-color: inherit;
+}
+
+  
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+/* Keyframes animation for at teksten til at fade ind når siden indlæses */
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
+    /* Navbar */
+nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+nav img{
+    grid-column: 3;
+    justify-self: center;
+    align-self: center;
+    width: 8rem;
+    cursor: pointer;
+}
+
+#menu-nav{
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#bestil-nav{
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#meet-nav{
+    grid-column: 4;
+    justify-self: center;
+    align-self: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#kontakt-nav{
+    grid-column: 5;
+    justify-self: center;
+    align-self: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Dropdown */
+.dropdown{
+    align-self: center;
+    justify-self: center;
+}
+
+#meet-dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    position: absolute;
+    text-align: center;
+    width: 13rem;
+    height: 8rem;
+    font-size: 1.5rem;
+}
+
+#kontakt-dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    width: 5.5rem;
+    height: 4rem;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+    .bestil{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+       font-size: 200px;
+       position: absolute;
+       top: 50%;
+       text-align: center;
+       left: 38%;
+       animation: fade-up 1s;
+    }
+    
+    .bestil-underskrift{
+        font-family: Josefin Sans;
+        font-weight: 200;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        top: 105%;
+        left: 28%;
+        animation: fade-up 1s;
+    }
+    
+    #wolt{
+        width: 200px;
+        position: absolute;
+        top: 120%;
+        left: 20%;
+        cursor: pointer;
+        animation: fade-up 1s;
+    }
+    
+    #afhentning{
+        width: 240px;
+        position: absolute;
+        top: 120%;
+        left: 55%;
+        cursor: pointer;
+        animation: fade-up 1s;
+    }
+    
+    #wolt-billede{
+        width: 400px;
+        position: absolute;
+        top: 20%;
+        right: 78%;
+        animation: fade-up 0.5s;
+    }
+    
+    #afhentning-billede{
+        width: 400px;
+        position: absolute;
+        left: 75%;
+        top: 20%;
+        animation: fade-up 1s;
+    }
+    
+    .hidden{
+        display: none;
+    }
+    
+    /* Footer */
+.footer{
+    bottom: -40rem;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3, 5rem);
+    background-color: #C25851;
+    width: 100%;
+    font-family: Josefin Sans;
+    grid-row: 1;
+}
+
+.footer,
+.social{
+    text-align: center;
+    color: #F5EDDA;
+}
+
+.social {
+    display: flex;
+    background-color: inherit;
+    justify-content: center;
+    justify-self: center;
+    align-self: end;
+    width: fit-content;
+    grid-row: 2;
+}
+
+.social a{
+    font-size: 23px;
+    color: #F5EDDA;
+    background-color: #C25851;
+    border: 3px solid #F5EDDA;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.social a:hover{
+    opacity: 1;
+    color: black;
+    transition: 0.5s;
+}
+
+.footer h1{
+    font-size: 2px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer h1:hover{
+    opacity: 1;
+}
+
+
+.footer ul{
+    padding-top: 4rem;
+    list-style: none;
+    font-size: 38px;
+    margin-bottom: 0;
+    background-color: inherit;
+    align-self: center;
+    z-index: 999;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+    background-color: inherit;
+}
+
+.footer ul li a{
+    color: #F5EDDA;
+    text-decoration: none;
+    opacity: 1;
+    transition: 0.5s;
+    background-color: inherit;
+    font-size: 30px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.footer, .copyright{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+}
+
+.copyright{
+  color: #F5EDDA;
+  background-color: inherit;
+}
+
+
 }
