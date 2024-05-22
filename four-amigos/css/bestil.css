@@ -133,10 +133,10 @@ body{
 }
 
 #wolt-billede{
-    width: 300px;
+    width: 400px;
     position: absolute;
-    top: 30%;
-    right: 80%;
+    top: 20%;
+    right: 75%;
 }
 
 #afhentning-billede{
@@ -152,21 +152,19 @@ body{
 
 .footer{
     background-color: #C25851;
-    grid-row: 15;
     width: 100%;
     font-family: Josefin Sans;
 }
 
 .footer, .social{
     text-align: center;
-    padding-bottom: 28px;
-    color: #F5EDDA;
+    color: #f5edda;
 }
 
 .social {
 position: absolute;
 left: 42%;
-top: 413%;
+top: 140%;
 }
 
 .social a{
@@ -210,7 +208,7 @@ top: 413%;
     padding: 0;
     list-style: none;
     font-size: 38px;
-    line-height: 40;
+    line-height: 20;
     margin-bottom: 0;
 }
 
