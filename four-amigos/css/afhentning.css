@@ -421,7 +421,6 @@ nav img{
 body{
     background-color: #F5EDDA;
     font-family: Josefin Sans;
-    height: 1400px;
 }
 
 @keyframes fade-up{
@@ -530,10 +529,10 @@ nav img{
 }
 
 .afhentning-plads{
-    width: 100px;
+    width: 150px;
     position: absolute;
     top: 70%;
-    left: 3%;
+    left: 5%;
     animation: fade-up 1s;
 }
 
@@ -541,15 +540,15 @@ nav img{
     font-weight: 800;
     font-size: 10px;
     position: absolute;
-    top: 75%;
-    right: -65px;
+    top: 71%;
+    left: 6%;
     animation: fade-up 1s;
 }
 
 .taco4stk-underskrift{
     position: absolute;
-    top: 79%;
-    left: 10%;
+    top: 75%;
+    left: 7%;
     animation: fade-up 1s;
     font-size: 5px;
 }
@@ -558,23 +557,23 @@ nav img{
     width: 50px;
     position: absolute;
     top: 75%;
-    left: 30%;
+    left: 27%;
     animation: fade-up 1s;
 }
 
 .taco4stk-pris{
     position: absolute;
-    top: 90%;
-    left: 32%;
+    top: 84.5%;
+    left: 31%;
     animation: fade-up 1s;
-    font-size: 5px;
+    font-size: 3px;
 }
 
 .afhentning-plads-2{
-    width: 200px;
+    width: 150px;
     position: absolute;
     top: 70%;
-    left: 60%;
+    left: 50%;
     animation: fade-up 1s;
 }
 
@@ -582,15 +581,15 @@ nav img{
     font-weight: 800;
     font-size: 10px;
     position: absolute;
-    top: 73%;
-    left: 62%;
+    top: 71%;
+    left: 52%;
     animation: fade-up 1s;
 }
 
 .taco5stk-underskrift{
     position: absolute;
-    top: 77%;
-    left: 62%;
+    top: 75%;
+    left: 52%;
     animation: fade-up 1s;
     font-size: 5px;
 }
@@ -599,95 +598,99 @@ nav img{
     width: 50px;
     position: absolute;
     top: 75%;
-    left: 95%;
+    left: 72%;
     animation: fade-up 1s;
 }
 
 .taco5stk-pris{
     position: absolute;
-    top: 85%;
-    left: 95%;
+    top: 84.5%;
+    left: 76%;
     animation: fade-up 1s;
-    font-size: 5px;
+    font-size: 3px;
 }
 
 .afhentning-plads-3{
-    width: 100px;
+    width: 150px;
     position: absolute;
-    top: 100%;
-    left: 9%;
+    top: 90%;
+    left: 5%;
     animation: fade-up 1s;
 }
 
 .taco8stk-overskrift{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 10px;
     position: absolute;
-    top: 102%;
-    left: 10%;
+    top: 91%;
+    left: 6%;
     animation: fade-up 1s;
 }
 
 .taco8stk-underskrift{
     position: absolute;
-    top: 105%;
-    left: 10%;
+    top: 95%;
+    left: 7%;
     animation: fade-up 1s;
+    font-size: 5px;
 }
 
 .afhentning-taco-3{
-    width: 160px;
+    width: 50px;
     position: absolute;
-    top: 105%;
-    left: 30%;
+    top: 95%;
+    left: 27%;
     animation: fade-up 1s;
 }
 
 .taco8stk-pris{
     position: absolute;
-    top: 120%;
-    left: 32%;
+    top: 104.8%;
+    left: 31%;
     animation: fade-up 1s;
+    font-size: 3px;
 }
 
 .afhentning-plads-4{
-    width: 100px;
+    width: 150px;
     position: absolute;
-    top: 100%;
-    left: 55%;
+    top: 90%;
+    left: 50%;
     padding-bottom: 30px;
     animation: fade-up 1s;
 }
 
 .taco12stk-overskrift{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 10px;
     position: absolute;
-    top: 102%;
-    left: 56%;
+    top: 91.5%;
+    left: 52%;
     animation: fade-up 1s;
 }
 
 .taco12stk-underskrift{
     position: absolute;
-    top: 106%;
-    left: 56%;
+    top: 95%;
+    left: 52%;
     animation: fade-up 1s;
+    font-size: 5px;
 }
 
 .afhentning-taco-4{
-    width: 160px;
+    width: 50px;
     position: absolute;
-    top: 105%;
-    left: 75%;
+    top: 95%;
+    left: 72%;
     animation: fade-up 1s;
 }
 
 .taco12stk-pris{
     position: absolute;
-    top: 120%;
-    left: 77%;
+    top: 104.8%;
+    left: 76%;
     animation: fade-up 1s;
+    font-size: 3px;
 }
 
 .betalnu{
@@ -696,12 +699,12 @@ nav img{
     background-color: #57843B;
     color: #F5EDDA;
     padding: 7px 1px;
-    font-size: 25px;
+    font-size: 10px;
     cursor: pointer;
     font-family: Josefin Sans;
     position: absolute;
-    top: 1070px;
-    left: 41.5%;
+    top: 120%;
+    left: 21%;
     width: 230px;
 }
 
@@ -710,12 +713,12 @@ nav img{
     background-color: #F5EDDA;
     color: #57843B;
     padding: 7px 1px;
-    font-size: 25px;
+    font-size: 10px;
     cursor: pointer;
     font-family: Josefin Sans;
     position: absolute;
-    top: 1000px;
-    left: 41.5%;
+    top: 132%;
+    left: 21%;
     width: 230px;
     border: 3px solid #57843B;
     z-index: 1;
@@ -724,7 +727,7 @@ nav img{
 /* Footer */
 .footer{
     position: absolute;
-    bottom: -44rem;
+    bottom: -30rem;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 5rem);
@@ -798,7 +801,7 @@ nav img{
 
 .footer ul li{
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 5px;
     background-color: inherit;
 }
 
@@ -808,6 +811,7 @@ nav img{
     opacity: 1;
     transition: 0.5s;
     background-color: inherit;
+    font-size: 12px;
 }
 
 .footer ul li a:hover{
