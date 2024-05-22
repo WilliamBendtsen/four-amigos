@@ -1,3 +1,10 @@
+*{
+    background-color: #f5edda;
+    text-decoration: none;
+    color: black;
+}
+
+
 /* Generel styling for alt indhold på siden */
 *{
     margin: 0;
@@ -6,6 +13,21 @@
     list-style-type: none;
     text-decoration: none;
     color: black;
+}
+
+body{
+    background-color: #F5EDDA;
+}
+
+.baggrund{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    width: 1000px;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
 }
 
 /* Keyframes animation der får teksten til at fade ind */
@@ -95,7 +117,6 @@ nav img{
 
 /* Generel styling for body */
 body{
-    background-color: #F5EDDA;
     font-family: Josefin Sans;
 }
 
@@ -133,7 +154,7 @@ body{
 /* Footer */
 .footer{
     position: absolute;
-    bottom: -15rem;
+    bottom: -20rem;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 5rem);
