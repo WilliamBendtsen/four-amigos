@@ -252,8 +252,9 @@ main{
 
 .footer{
     background-color: #C25851;
-    grid-row: 14;
-    width: 500%;
+    position: absolute;
+    top: 320%;
+    width: 100%;
     font-family: Josefin Sans;
 }
 
@@ -265,8 +266,8 @@ main{
 
 .social {
 position: absolute;
-left: 42%;
-top: 413%;
+left: 43%;
+top: 53%;
 }
 
 .social a{
