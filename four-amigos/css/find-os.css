@@ -130,7 +130,7 @@ nav img{
 
 .adresse2{
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 7rem;
     font-size: 2rem;
     font-weight: 350;
     animation: fade-up 1s;
@@ -141,7 +141,7 @@ nav img{
 #tiktok-tekst{
     position: absolute;
     left: 23%;
-    margin-top: 8rem;
+    margin-top: 6rem;
     font-size: 2rem;
     font-weight: 200;
 }
@@ -149,13 +149,13 @@ nav img{
 #tiktok-logo{
     position: absolute;
     left: 37%;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 #tiktok-billede{
     position: absolute;
     left: 15%;
-    margin-top: 11rem;
+    margin-top: 9rem;
     cursor: pointer;
 }
 
@@ -177,7 +177,7 @@ nav img{
 /* Billede-link til Instagram */
 #instagram-tekst{
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 6rem;
     right: 22%;
     font-size: 2rem;
     font-weight: 200;
@@ -186,20 +186,20 @@ nav img{
 #instagram-logo{
     position: absolute;
     right: 17%;
-    margin-top: 7.5rem;
+    margin-top: 5rem;
 }
 
 #instagram-billede{
     position: absolute;
     right: 15%;
-    margin-top: 11rem;
+    margin-top: 9rem;
     cursor: pointer;
 }
 
 
 .footer{
     position: absolute;
-    top: 300%;
+    top: 225%;
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;
