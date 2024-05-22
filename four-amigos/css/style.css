@@ -171,9 +171,13 @@ main h1{
    }
 
    .william{
-    grid-column: 5 / span 3;
+    position: absolute;
+    left: -10%;
+    top: 65%;
+    grid-column: 1 / span 3;
     justify-self: center;
-    grid-row: 3 / span 2;
+    grid-row: 2 / span 2;
+transform: rotate(50deg);
     width: fit-content;
     height: fit-content;
    }
