@@ -103,6 +103,7 @@ main{
     grid-template-rows: repeat(4, 1fr);
 }
 
+/* Styling af 404 */
 #fire-forrest{
     font-family: Just Another Hand;
     color: #C25851;
@@ -221,7 +222,6 @@ main{
     opacity: 1;
 }
 
-
 .footer ul{
     padding-top: 4rem;
     list-style: none;
@@ -251,7 +251,6 @@ main{
     color: black;
     transition: 0.5s;
 }
-
 
 .footer, .copyright{
     margin-top: 20px;

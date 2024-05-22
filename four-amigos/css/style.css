@@ -12,6 +12,7 @@ body{
     font-family: Josefin Sans;
 }
 
+/* Fade-effekt keyframes animation på tekst */
 @keyframes fade-up{
     0% {
         opacity: 0;
@@ -73,7 +74,7 @@ nav img{
     font-weight: bold;
 }
 
-/* Dropdown */
+/* Dropdown til navbaren */
 .dropdown{
     align-self: center;
     justify-self: center;
@@ -198,15 +199,6 @@ transform: rotate(50deg);
     width: 300px;
    }
 
-   /* Vandret linje */
-   #vandret-linje{
-    border-top: 3px solid ;
-    grid-row: 4 / span 2;
-    align-self: center;
-    padding-bottom: 7rem;
-    grid-column: 1 / span 10;
-   }
-
 /* Nyheder */
 #nyheder-titel-spansk{
     grid-row: 5;
@@ -246,7 +238,6 @@ transform: rotate(50deg);
     transform: rotate(-15deg);
 }
 
-
 /* Restauranten */
 #restauranten-titel-spansk{
     grid-row: 8 / span 2;
@@ -285,6 +276,7 @@ transform: rotate(50deg);
     
 }
 
+/* Billedekarousel og tilhørende titeltekst */
 .stemning{
     grid-row: 11 / span 2;
     grid-column: 4 / span 4;
@@ -322,6 +314,7 @@ transform: rotate(50deg);
         animation: slide 10s linear infinite;
 }
 
+/* Keyframes animation der giver karousel-effekten */
 @keyframes slide{
     0% {
         transform: translateX(0);
@@ -332,6 +325,7 @@ transform: rotate(50deg);
     }
 }
 
+/* Footer */
 .footer{
     background-color: #C25851;
     width: 100%;
@@ -384,7 +378,6 @@ top: 105%;
     opacity: 1;
 }
 
-
 .footer ul{
     margin-top: 0;
     padding: 0;
@@ -411,7 +404,6 @@ top: 105%;
     color: black;
     transition: 0.5s;
 }
-
 
 .footer, .copyright{
     margin-top: 20px;
