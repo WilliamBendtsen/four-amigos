@@ -159,6 +159,21 @@ nav img{
     cursor: pointer;
 }
 
+
+ #tiktok-billede:hover{
+    border: 20px solid #C25851;
+    transition: 1s;
+    border-radius: 50px;
+ }
+
+ #instagram-billede:hover{
+    border: 20px solid #C25851;
+    transition: 1s;
+    border-radius: 50px;
+ }
+  
+
+
 /* Billede-link til Instagram */
 #instagram-tekst{
     position: absolute;
@@ -180,6 +195,7 @@ nav img{
     margin-top: 11rem;
     cursor: pointer;
 }
+
 
 .footer{
     position: absolute;
