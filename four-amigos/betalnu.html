@@ -52,63 +52,86 @@
         <p class="betaling">Betaling</p>
         <p class="eller">Betal med Mobilepay eller Visa</p>
 
-         <!-- Valg af enten Mobilepay eller Visa -->
-        <div class="betal-container">
 
+        <img class="visaLogo" src="/four-amigos/img/visa.png" alt="">
+        <img class="mobilepayLogo" src="/four-amigos/img/mobilepay.png" alt="">
 
-            <!-- Kode til Mobilepay -->
-            <div class="mobilepay-btn">
-                <span class="press-button-mobilepay">
-                    <i class="fa-regular fa-circle"></i>
-                </span>
-                <span class="mobilepay">Mobilepay</span>
-                <ul class="items-mobilepay">
-                    <div class="mobilepay-content">
-                        <p>Når du klikker videre på “Færdiggør betaling”, vil du blive mødt af MobilePay
-                            betalingssiden, hvor du herfra kan gennemføre købet.</p>
-                    </div>
+        <div class="buttons">
 
-                </ul>
+        <div class="button-content">
+            <button class="mobilepayButton" onclick="showContent('mobilepayContent')">
+                <img class="rotated" src="/four-amigos/img/triangle.png" alt="">
+                MobilePay
+            </button>
+            <div id="mobilepayContent" class="content">
+                <p>Når du klikker videre på “Færdiggør betaling”, vil du blive mødt
+                     af MobilePay betalingssiden, hvor du herfra kan gennemføre købet.</p>
+            </div>
+        </div>
+        
 
+        <div class="button-content">
+            <button class="visaButton" onclick="showContent('visaContent')">
+                <img class="rotated" src="/four-amigos/img/triangle.png" alt="">
+                Visa
+            </button>
+            <div id="visaContent" class="content">
+                <!-- Stor boks -->
+            <div class="box1">
+                <p>Fornavn</p>
+                <input type="text" size="15" placeholder="Jens">
+            </div>
+            <div class="box2">
+                <p>Efternavn</p>
+                <input type="text" size="15" placeholder="Hansen">
+            </div>
+            <div class="box3">
+                <p>Kortnummer</p>
+                <input type="text" size="15" placeholder="0123 4567 8910 0123">
             </div>
 
-                <br>
+            <!-- Lille boks -->
+            <div class="box4">
+                <p>CVC</p>
+                <input type="text" size="15" placeholder="123">
+            </div>
+            <div class="box5">
+                <p>Udløbsdato</p>
+                <input type="text" size="15" placeholder="01/01">
+            </div>
+            </div>
+
+            <div class="oversigt">
+                <p class="tekst1">Oversigt</p>
                 <hr>
-                <br>
-
-            <!-- Kode til Visa -->
-            <div class="visa-btn">
-                <span class="press-button-visa">
-                    <i class="fa-regular fa-circle"></i>
-                </span>
-                <span class="visa">Visa</span>
+                <p class="tekst2">Enkelvis</p>
+                <p class="tekst3">I alt</p>
+                <p class="tekst4">Når du fortsætter, godtager du derudover Four Amigos generelle vilkår og betingelser</p>
+                <a href="/four-amigos/betalnu.html">
+                    <button class="done">Betal nu</button>
+                </a>
             </div>
-
-
-                <ul class="items-visa">
-                    <div class="visa-content">
-                        <!-- Stor boks -->
-                        <div class="box1">
-                            <p>Fornavn</p>
-                            <input type="text" size="15" placeholder="Jens">
-                        </div>
-                        <div class="box2">
-                            <p>Efternavn</p>
-                            <input type="text" size="15" placeholder="Hansen">
-                        </div>
-                        <div class="box3">
-                            <p>Kortnummer</p>
-                            <input type="text" size="15" placeholder="0123 4567 8910">
-                        </div>
-                    </div>
-
-                </ul>
-
-          
-
-
         </div>
 
+        </div>
+    
+        
+
+        <script>
+            function showContent(contentId) {
+                // Skjul alle indholdselementer
+                var contents = document.querySelectorAll('.content');
+                contents.forEach(function(content) {
+                    content.style.display = 'none';
+
+                });
+        
+                // Vis det valgte indhold
+                var selectedContent = document.getElementById(contentId);
+                selectedContent.style.display = 'block';
+            }         
+
+        </script>
 
 
     </main>
