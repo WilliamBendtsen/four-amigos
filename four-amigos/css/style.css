@@ -100,7 +100,7 @@ main{
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(15, 1fr);
     overflow: hidden;
 }
 
@@ -266,15 +266,14 @@ main h1{
 }
 
 .carousel {
+    display: flex;
     position: relative;
-    bottom: 50%;
     overflow: hidden;
-    grid-row: 14;
+    grid-row: 15;
     grid-column: 1 / span 10;
-    width: 75rem;
+    width: 100%;
     z-index: 100;
 }
-
 
 .carousel-container {
     position: absolute;
@@ -287,12 +286,11 @@ main h1{
 }
 
 .carousel-slide img {
-    width: calc(100% / 3);
+    width: 12rem;
 }
 
 button {
     position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -304,15 +302,17 @@ button {
 
 button.prev {
     position: absolute;
+    top: 50%;
 }
 
 button.next {
     position: absolute;
+    right: 0;
+    top: 50%;
 }
 
 .footer{
     background-color: #C25851;
-    grid-row: 15;
     width: 100%;
     font-family: Josefin Sans;
 }
