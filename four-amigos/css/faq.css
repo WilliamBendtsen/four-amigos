@@ -164,10 +164,20 @@ ul img{
     animation: fade-up 1s;
 }
 
+<<<<<<< HEAD
+.infographic{
+    position: absolute;
+    top: 100%;
+    width: 600px;
+    height: auto
+}
+
+=======
 /* Footer */
+>>>>>>> 597ef24c0cb5b8924060b5e17ed11c6d910022e2
 .footer{
     position: absolute;
-    top: 120%;
+    top: 170%;
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;
