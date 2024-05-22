@@ -100,7 +100,7 @@ main{
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(15, 1fr);
+    grid-template-rows: repeat(14, 1fr);
     overflow: hidden;
 }
 
@@ -193,7 +193,7 @@ main h1{
 
 /* Nyheder */
 #nyheder-titel-spansk{
-    grid-row: 6;
+    grid-row: 5;
     grid-column: 3 / span 2;
     align-self: start;
     font-family: Just Another Hand;
@@ -202,7 +202,7 @@ main h1{
 }
 
 #nyheder-titel-dansk{
-    grid-row: 6;
+    grid-row: 5;
     grid-column: 3 / span 2;
     align-self: end;
     justify-self: center;
@@ -212,7 +212,7 @@ main h1{
 }
 
 #nyheder-broedtekst{
-    grid-row: 7 / span 2;
+    grid-row: 6 / span 2;
     align-self: start;
     grid-column: 2 / span 4;
     justify-self: center;
@@ -222,7 +222,7 @@ main h1{
 }
 
 #nyheder-billede{
-    grid-row: 5 / span 6;
+    grid-row: 4 / span 6;
     grid-column: 7 / span 4;
     justify-content: end;
     width: 45rem;
@@ -231,7 +231,7 @@ main h1{
 
 /* Restauranten */
 #restauranten-titel-spansk{
-    grid-row: 11 / span 2;
+    grid-row: 8 / span 2;
     align-self: center;
     justify-self: center;
     grid-column: 7 / span 3;
@@ -241,7 +241,7 @@ main h1{
 }
 
 #restauranten-titel-dansk{
-    grid-row: 12;
+    grid-row: 9;
     align-self: center;
     justify-self: center;
     font-weight: 350;
@@ -250,7 +250,7 @@ main h1{
 }
 
 #restauranten-broedtekst{
-    grid-row: 13;
+    grid-row: 10;
     grid-column: 7 / span 3;
     justify-self: center;
     text-align: center;
@@ -258,56 +258,55 @@ main h1{
 }
 
 #restauranten-billede{
-    grid-row: 10 / span 6;
+    grid-row: 8 / span 6;
     grid-column: 2 / span 5;
     width: 45rem;
     margin-top: 150px;
     
 }
 
-.carousel {
-    position: relative;
-    bottom: 50%;
-    overflow: hidden;
+.stemning{
+    margin-top: 80px;
     grid-row: 14;
+    grid-column: 7 / span 5;
+    align-self: start;
+    font-family: Just Another Hand;
+    color: #C25851;
+    font-size: 4rem;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-self: center;
+    margin: 0;
+    overflow: hidden;
+    grid-row: 15;
     grid-column: 1 / span 10;
-    width: 75rem;
-    z-index: 100;
 }
 
-
-.carousel-container {
-    position: absolute;
+.carousel-images {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    animation: slide 60s linear infinite;
 }
 
-.carousel-slide {
-    display: flex;
+.carousel-images img {
+    width: 30%;
+    margin-left: 40px;
+    object-fit: cover;  
+        animation: slide 10s linear infinite;
 }
 
-.carousel-slide img {
-    width: calc(100% / 3);
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-button.prev {
-    position: absolute;
-}
-
-button.next {
-    position: absolute;
+@keyframes slide{
+    0% {
+        transform: translateX(0);
+    }
+    
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .footer{
