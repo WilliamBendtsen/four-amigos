@@ -45,13 +45,14 @@
                 </div>
             </div>
     </nav>
-
-    <!-- Titel -->
-    <h1 id="faq">FAQ</h1>
     
     <!-- Main indhold -->
     <main>
-        <!-- Første række spørgsmål -->
+        <!-- Titel -->
+        <h1 id="faq">FAQ</h1>
+
+        <section class="spoergsmaal">
+            <!-- Første række spørgsmål -->
         <ul id="spoergsmaal-1">
             <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.webp" alt="faq trekant">Hvor mange tacos bliver typisk bestilt?</li>
             <p class=" faq-answer hidden">Typisk bliver der bestilt den mindste portion, altså 5 tacos</p>
@@ -80,15 +81,17 @@
             <li onclick="toggleParagraph(this)"><img src="img/faq-trekant.webp" alt="faq trekant">Hvilke allergener tager i højde for i jeres mad?</li>
             <p class=" faq-answer hidden">Vi tager hensyn til de mest almindelige allergener som <br> gluten, nødder, og laktose.</p>
         </ul>
+        </section>
 
-        <div class="infoGraphic">
-            <h5>Hvordan laver vi vores mad?</h5>
-            <img src="/four-amigos/img/Infographic.png" alt="">
-
-        </div>
-
+        <!-- Infographic -->
+        <img id="infographic" src="/four-amigos/img/Infographic.webp" alt="infographic">
+        
+        <!-- Slut tekst -->
+        <div class="end">
         <p id="end-1">Er dit spørgsmål stadig ikke besvaret?</p>
         <a id="end-2" href="kontakt.html"><p>Kontakt os her</p></a>
+        </div>
+
 
 
     </main>
