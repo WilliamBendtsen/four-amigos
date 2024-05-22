@@ -242,7 +242,7 @@ main{
     cursor: pointer;
     font-family: Josefin Sans;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 28%;
 }
 
@@ -257,12 +257,14 @@ main{
     cursor: pointer;
     font-family: Josefin Sans;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
 }
 
 .læs-mere_tekst img{
     width: 1000px;
+    padding-top: 600px;
+
 
 }
 
@@ -321,12 +323,20 @@ main{
     padding-right: 80px;
 }
 
+.motionGraphic{
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    padding-top: 50px;
+    align-items: center;
+}
+
 
 /* Footer */
 .footer{
     background-color: #C25851;
     position: absolute;
-    top: 320%;
+    top: 390%;
     width: 100%;
     font-family: Josefin Sans;
 }
