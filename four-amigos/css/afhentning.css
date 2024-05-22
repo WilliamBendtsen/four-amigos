@@ -18,6 +18,7 @@
 body{
     background-color: #F5EDDA;
     font-family: Josefin Sans;
+    height: 1400px;
 }
 
 @keyframes fade-up{
@@ -281,10 +282,41 @@ nav img{
     animation: fade-up 1s;
 }
 
+.betalnu{
+    border: none;
+    border-radius: 25px;
+    background-color: #57843B;
+    color: #F5EDDA;
+    padding: 7px 1px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Josefin Sans;
+    position: absolute;
+    top: 1070px;
+    left: 41.5%;
+    width: 230px;
+}
+
+.sebestilling{
+    border-radius: 25px;
+    background-color: #F5EDDA;
+    color: #57843B;
+    padding: 7px 1px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: Josefin Sans;
+    position: absolute;
+    top: 1000px;
+    left: 41.5%;
+    width: 230px;
+    border: 3px solid #57843B;
+    z-index: 1;
+}
+
 /* Footer */
 .footer{
     position: absolute;
-    bottom: -30rem;
+    bottom: -44rem;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 5rem);
