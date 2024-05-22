@@ -1,3 +1,4 @@
+/* Scroll-funktion for oversigt-boksen */
 document.addEventListener('scroll', function() {
     let div = document.querySelector('.oversigt');
     let stopPosition = 600;

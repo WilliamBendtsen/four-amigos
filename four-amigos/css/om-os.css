@@ -265,6 +265,64 @@ main{
 
 }
 
+
+.info{
+    padding-top: 80px;
+}
+
+.om-os_tekst h2{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 35px;
+    color: #C25851;
+    position: absolute;
+    left: 21%;
+    
+}
+
+.birria{
+    width: 600px;
+    padding-top: 70px;
+}
+
+.om-os_tekst h3{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 10px;
+    color: #C25851;
+    position: absolute;
+    left: 71%;
+    
+}
+
+.nachos{
+    position: absolute;
+    top: 110%;
+    width: 50%;
+    left: 50%;
+}
+
+
+.om-os_tekst h4{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 110px;
+    color: #C25851;
+    position: absolute;
+    left: 17%;
+
+    
+}
+
+.tequila{
+    position: absolute;
+    top: 133%;
+    width: 50%;
+    padding-right: 80px;
+}
+
+
+/* Footer!*/
 .footer{
     background-color: #C25851;
     position: absolute;
@@ -376,3 +434,5 @@ top: 53%;
     color: black;
     transition: 0.5s;
 }
+
+
