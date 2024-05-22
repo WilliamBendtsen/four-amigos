@@ -107,14 +107,15 @@ main{
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(14, 1fr);
+    grid-template-rows: repeat(13, 1fr);
     overflow: hidden;
 }
 
 /* Velkomstbesked */
 #velkommen{
     font-family: Just Another Hand;
-    grid-column: 5 / span 3;
+    grid-column: 4 / span 4;
+    grid-row: 1;
     justify-self: center;
     align-self: center;
     font-size: 11rem;
@@ -125,7 +126,7 @@ main{
 
 main h1{
     grid-row: 2;
-    grid-column: 4 / span 5;
+    grid-column: 4 / span 4;
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -136,8 +137,8 @@ main h1{
 
 /* Menu & Bestil knapper */
 #menu-knap{
-    grid-column: 4 / span 2;
-    justify-self: center;
+    grid-column: 3 / span 2;
+    justify-self: end;
     grid-row: 3;
     width: 15rem;
     cursor: pointer;
@@ -146,7 +147,7 @@ main h1{
 
 #bestil-knap{
     grid-column: 7 / span 2;
-    justify-self: center;
+    justify-self: start;
     grid-row: 3;
     width: 15rem;
     cursor: pointer;
@@ -219,10 +220,10 @@ transform: rotate(50deg);
 #nyheder-titel-dansk{
     grid-row: 5;
     grid-column: 3 / span 2;
-    align-self: end;
+    align-self: center;
     justify-self: center;
     font-weight: 350;
-    padding-top: 3rem;
+    padding-top: 5rem;
     font-size: 2.5rem;
 }
 
@@ -237,11 +238,12 @@ transform: rotate(50deg);
 }
 
 #nyheder-billede{
-    grid-row: 4 / span 6;
-    grid-column: 7 / span 4;
+    grid-row: 4 / span 4;
+    grid-column: 6 / span 4;
     justify-content: end;
-    width: 45rem;
-    
+    align-self: center;
+    width: 35rem;
+    transform: rotate(-15deg);
 }
 
 
@@ -249,8 +251,8 @@ transform: rotate(50deg);
 #restauranten-titel-spansk{
     grid-row: 8 / span 2;
     align-self: center;
-    justify-self: center;
-    grid-column: 7 / span 3;
+    justify-self: start;
+    grid-column: 7 / span 4;
     font-family: Just Another Hand;
     color: #C25851;
     font-size: 10rem;
@@ -274,7 +276,9 @@ transform: rotate(50deg);
 }
 
 #restauranten-billede{
-    grid-row: 8 / span 6;
+    grid-row: 7 / span 4;
+    align-self: center;
+    padding-top: 4rem;
     grid-column: 2 / span 5;
     width: 45rem;
     margin-top: 150px;
@@ -282,24 +286,26 @@ transform: rotate(50deg);
 }
 
 .stemning{
-    margin-top: 80px;
-    grid-row: 14;
-    grid-column: 7 / span 5;
-    align-self: start;
+    grid-row: 11 / span 2;
+    grid-column: 4 / span 4;
+    align-self: center;
+    justify-self: center;
     font-family: Just Another Hand;
     color: #C25851;
     font-size: 4rem;
+    padding-bottom: 2rem;
 }
 
 .carousel{
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: end;
     width: 100%;
     justify-self: center;
     margin: 0;
     overflow: hidden;
-    grid-row: 15;
+    grid-row: 12 / span 3;
     grid-column: 1 / span 10;
 }
 
@@ -327,8 +333,6 @@ transform: rotate(50deg);
 
 .footer{
     background-color: #C25851;
-    position: absolute;
-    top: 560%;
     width: 100%;
     font-family: Josefin Sans;
 }
@@ -340,9 +344,8 @@ transform: rotate(50deg);
 }
 
 .social {
-position: absolute;
 left: 42%;
-top: 55%;
+top: 105%;
 }
 
 .social a{
@@ -386,7 +389,7 @@ top: 55%;
     padding: 0;
     list-style: none;
     font-size: 38px;
-    line-height: 5;
+    line-height: 3;
     margin-bottom: 0;
 }
 
@@ -417,22 +420,4 @@ top: 55%;
 
 .copyright{
   color: #F5EDDA;
-}
-
-.fa-tiktok{
-    position: absolute;
-    left: 100%;
-    font-size: 33px;
-    color: inherit;
-    border: 3px solid #F5EDDA;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    line-height: 44px;
-}
-
-.fa-tiktok :hover{
-    opacity: 1;
-    color: black;
-    transition: 0.5s;
 }
