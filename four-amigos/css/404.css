@@ -108,8 +108,8 @@ main{
     font-family: Just Another Hand;
     color: #C25851;
     font-size: 20rem;
-    grid-column: 4 / span 2;
-    justify-self: center;
+    grid-column: 4;
+    justify-self: end;
     grid-row: 1 / span 2;
 }
 
@@ -118,6 +118,7 @@ main{
     justify-self: center;
     grid-row: 1 / span 2;
     width: 13rem;
+    margin-left: 3rem;
 }
 
 #fire-bagerst{
@@ -125,7 +126,6 @@ main{
     color: #C25851;
     font-size: 20rem;
     grid-column: 6 / span 2;
-    justify-self: center;
     grid-row: 1 / span 2;
 }
 
@@ -138,6 +138,7 @@ main{
     justify-self: center;
     font-size: 7rem;
     padding-top: 2rem;
+    margin-left: 3rem;
 }
 
 #tekst-dansk{
@@ -147,6 +148,7 @@ main{
     justify-self: center;
     font-size: 2rem;
     text-align: center;
+    margin-left: 3rem;
 }
 
 #tilbage-knap{
@@ -161,10 +163,10 @@ main{
 /* Footer */
 .footer{
     position: absolute;
-    bottom: -30rem;
+    top: 120%;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: repeat(3, 5rem);
+    grid-template-rows: repeat(3, 1fr);
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;
@@ -265,8 +267,11 @@ main{
 }
 
 @media only screen and (max-width: 390px) {
+    nav{
+        display: none;
+    }
     main{
-        margin-left: 2rem;
+        align-items: center;
     }
     #fire-forrest{
         font-size: 10rem;
@@ -298,11 +303,26 @@ main{
         grid-row: 3;
         align-self: end;
     }
+
+    .footer{
+        top: 85%;
+        height: 20rem;
+    }
+
+    .footer ul{
+        padding-top: 2rem;
+        }
+    
+    .footer ul li{
+        padding: .5rem 0;
+    }
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1920px) {
     main{
         display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: 10rem;
     }
     #fire-forrest,
     #skelet,
@@ -330,5 +350,15 @@ main{
         grid-row: 2 / span 2;
         align-self: center;
     }
-    .footer{}
+
+    /* Footer */
+    .footer{
+        position: absolute;
+        bottom: 0;
+        height: 20rem;
+    }
+
+    .footer ul li{
+        padding: 15px 15px;
+    }
 }
