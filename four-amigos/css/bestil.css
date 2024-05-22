@@ -150,30 +150,40 @@ body{
     display: none;
 }
 
+
+/* Footer */
 .footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;
 }
 
-.footer, .social{
+.footer,
+.social{
     text-align: center;
     color: #f5edda;
 }
 
 .social {
+<<<<<<< HEAD
+    position: relative;
+    background-color: inherit;
+=======
 position: absolute;
 left: 42%;
 top: 140%;
+>>>>>>> c09e27e8d39f07bb1980c39c4d4ca950747e6048
 }
 
 .social a{
-    font-size: 33px;
-    color: inherit;
     border: 3px solid #F5EDDA;
     width: 50px;
     height: 50px;
-    line-height: 45px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -195,7 +205,6 @@ top: 140%;
     font-family: Josefin Sans;
     font-weight: 400;
     font-style: normal;
-    
 }
 
 .footer h1:hover{
@@ -208,20 +217,26 @@ top: 140%;
     padding: 0;
     list-style: none;
     font-size: 38px;
+<<<<<<< HEAD
+=======
     line-height: 20;
+>>>>>>> c09e27e8d39f07bb1980c39c4d4ca950747e6048
     margin-bottom: 0;
+    background-color: inherit;
 }
 
 .footer ul li{
     display: inline-block;
     padding: 0 15px;
+    background-color: inherit;
 }
 
 .footer ul li a{
-    color: inherit;
+    color: #F5EDDA;
     text-decoration: none;
     opacity: 1;
     transition: 0.5s;
+    background-color: inherit;
 }
 
 .footer ul li a:hover{
@@ -239,22 +254,5 @@ top: 140%;
 
 .copyright{
   color: #F5EDDA;
-}
-
-.fa-tiktok{
-    position: absolute;
-    left: 100%;
-    font-size: 33px;
-    color: inherit;
-    border: 3px solid #F5EDDA;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    line-height: 44px;
-}
-
-.fa-tiktok :hover{
-    opacity: 1;
-    color: black;
-    transition: 0.5s;
+  background-color: inherit;
 }
