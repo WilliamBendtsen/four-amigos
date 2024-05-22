@@ -264,24 +264,24 @@ main h1{
 }
 
 /* Gæstfrihed sektion*/
-.gæstfrihed_tekst{
+.gaestfrihed_tekst{
     position: absolute;
     left: 15%;
     top: 215%;
     width: 550px;
 }
 
-.gæstfrihed_tekst h1{
+.gaestfrihed_tekst h1{
     font-weight: 100;
     font-size: 100px;
     text-align: left;
 }
 
-.gæstfrihed_tekst p{
+.gaestfrihed_tekst p{
     font-size: 22px;
 }
 
-.gæstfrihed_tekst img{
+.gaestfrihed_tekst img{
     width: 500px;
     position: absolute;
     left: 600px;
@@ -291,7 +291,7 @@ main h1{
 .footer{
     background-color: #C25851;
     position: absolute;
-    top: 300%;
+    top: 275%;
     width: 100%;
     font-family: Josefin Sans;
 }
