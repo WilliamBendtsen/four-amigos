@@ -75,7 +75,7 @@
         </div>
         
 
-        <div class="button-content">
+        <article class="button-content">
             <button class="visaButton" onclick="showContent('visaContent')">
                 <img class="rotated" src="/four-amigos/img/triangle.png" alt="">
                 Visa
@@ -117,28 +117,11 @@
                     <button class="done">Betal nu</button>
                 </a>
             </div>
-        </div>
+        </article>
 
         </div>
     
-        
-
-        <!-- Kort javascript for siden -->
-        <script>
-            function showContent(contentId) {
-                // Skjul alle indholdselementer
-                var contents = document.querySelectorAll('.content');
-                contents.forEach(function(content) {
-                    content.style.display = 'none';
-
-                });
-        
-                // Vis det valgte indhold
-                var selectedContent = document.getElementById(contentId);
-                selectedContent.style.display = 'block';
-            }         
-
-        </script>
+    <script src="/four-amigos/js/betalnu.js"></script>
 
 
     </main>
@@ -161,5 +144,6 @@
           <p class="copyright">Four Amigos @ 2023</p>
     </footer>
 
+    <script src="/four-amigos/js/script.js"></script>
 </body>
 </html>
