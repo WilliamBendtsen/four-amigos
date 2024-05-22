@@ -20,6 +20,13 @@ body{
     font-family: Josefin Sans;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
 /* Navbar */
 nav{
     display: grid;
@@ -105,6 +112,7 @@ nav img{
    position: absolute;
    top: 30%;
    left: 33%;
+   animation: fade-up 1s;
 }
 
 .menuer{
@@ -113,6 +121,7 @@ nav img{
     left: 10%;
     font-size: 40px;
     font-weight: 400;
+    animation: fade-up 1s;
 }
 
 .afhentning-plads{
@@ -120,6 +129,7 @@ nav img{
     position: absolute;
     top: 70%;
     left: 9%;
+    animation: fade-up 1s;
 }
 
 .taco4stk-overskrift{
@@ -128,12 +138,14 @@ nav img{
     position: absolute;
     top: 75%;
     left: 10%;
+    animation: fade-up 1s;
 }
 
 .taco4stk-underskrift{
     position: absolute;
     top: 79%;
     left: 10%;
+    animation: fade-up 1s;
 }
 
 .afhentning-taco{
@@ -141,12 +153,14 @@ nav img{
     position: absolute;
     top: 75%;
     left: 30%;
+    animation: fade-up 1s;
 }
 
 .taco4stk-pris{
     position: absolute;
     top: 90%;
     left: 32%;
+    animation: fade-up 1s;
 }
 
 .afhentning-plads-2{
@@ -154,6 +168,7 @@ nav img{
     position: absolute;
     top: 70%;
     left: 55%;
+    animation: fade-up 1s;
 }
 
 .taco5stk-overskrift{
@@ -162,12 +177,14 @@ nav img{
     position: absolute;
     top: 75%;
     left: 56%;
+    animation: fade-up 1s;
 }
 
 .taco5stk-underskrift{
     position: absolute;
     top: 79%;
     left: 56%;
+    animation: fade-up 1s;
 }
 
 .afhentning-taco-2{
@@ -175,12 +192,14 @@ nav img{
     position: absolute;
     top: 75%;
     left: 75%;
+    animation: fade-up 1s;
 }
 
 .taco5stk-pris{
     position: absolute;
     top: 90%;
     left: 77%;
+    animation: fade-up 1s;
 }
 
 .afhentning-plads-3{
@@ -188,6 +207,7 @@ nav img{
     position: absolute;
     top: 100%;
     left: 9%;
+    animation: fade-up 1s;
 }
 
 .taco8stk-overskrift{
@@ -196,12 +216,14 @@ nav img{
     position: absolute;
     top: 102%;
     left: 10%;
+    animation: fade-up 1s;
 }
 
 .taco8stk-underskrift{
     position: absolute;
     top: 105%;
     left: 10%;
+    animation: fade-up 1s;
 }
 
 .afhentning-taco-3{
@@ -209,12 +231,14 @@ nav img{
     position: absolute;
     top: 105%;
     left: 30%;
+    animation: fade-up 1s;
 }
 
 .taco8stk-pris{
     position: absolute;
     top: 120%;
     left: 32%;
+    animation: fade-up 1s;
 }
 
 .afhentning-plads-4{
@@ -223,6 +247,7 @@ nav img{
     top: 100%;
     left: 55%;
     padding-bottom: 30px;
+    animation: fade-up 1s;
 }
 
 .taco12stk-overskrift{
@@ -231,12 +256,14 @@ nav img{
     position: absolute;
     top: 102%;
     left: 56%;
+    animation: fade-up 1s;
 }
 
 .taco12stk-underskrift{
     position: absolute;
     top: 106%;
     left: 56%;
+    animation: fade-up 1s;
 }
 
 .afhentning-taco-4{
@@ -244,10 +271,12 @@ nav img{
     position: absolute;
     top: 105%;
     left: 75%;
+    animation: fade-up 1s;
 }
 
 .taco12stk-pris{
     position: absolute;
     top: 120%;
     left: 77%;
+    animation: fade-up 1s;
 }
