@@ -523,7 +523,7 @@ nav img{
 .menuer{
     position: absolute;
     top: 60%;
-    left: 10%;
+    left: 5%;
     font-size: 20px;
     font-weight: 400;
     animation: fade-up 1s;
@@ -533,7 +533,7 @@ nav img{
     width: 100px;
     position: absolute;
     top: 70%;
-    left: 9%;
+    left: 3%;
     animation: fade-up 1s;
 }
 
@@ -551,7 +551,7 @@ nav img{
     top: 79%;
     left: 10%;
     animation: fade-up 1s;
-    font-size: 10px;
+    font-size: 5px;
 }
 
 .afhentning-taco{
@@ -567,14 +567,14 @@ nav img{
     top: 90%;
     left: 32%;
     animation: fade-up 1s;
-    font-size: 10px;
+    font-size: 5px;
 }
 
 .afhentning-plads-2{
     width: 200px;
     position: absolute;
     top: 70%;
-    left: 40%;
+    left: 60%;
     animation: fade-up 1s;
 }
 
@@ -583,14 +583,14 @@ nav img{
     font-size: 10px;
     position: absolute;
     top: 73%;
-    left: 42%;
+    left: 62%;
     animation: fade-up 1s;
 }
 
 .taco5stk-underskrift{
     position: absolute;
     top: 77%;
-    left: 42%;
+    left: 62%;
     animation: fade-up 1s;
     font-size: 5px;
 }
@@ -599,14 +599,14 @@ nav img{
     width: 50px;
     position: absolute;
     top: 75%;
-    left: 75%;
+    left: 95%;
     animation: fade-up 1s;
 }
 
 .taco5stk-pris{
     position: absolute;
     top: 85%;
-    left: 77%;
+    left: 95%;
     animation: fade-up 1s;
     font-size: 5px;
 }
