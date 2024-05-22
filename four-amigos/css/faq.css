@@ -161,9 +161,16 @@ ul img{
     animation: fade-up 1s;
 }
 
+.infographic{
+    position: absolute;
+    top: 100%;
+    width: 600px;
+    height: auto
+}
+
 .footer{
     position: absolute;
-    top: 120%;
+    top: 170%;
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;
