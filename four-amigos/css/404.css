@@ -266,7 +266,7 @@ main{
   background-color: inherit;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 800px) {
     nav{
         display: none;
     }
@@ -318,7 +318,7 @@ main{
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1920px) {
+@media (min-width: 801px) and (max-width: 1024px) {
     main{
         display: grid;
         grid-template-rows: repeat(3, 1fr);

@@ -240,9 +240,6 @@ transform: rotate(50deg);
 }
 
 
-
-
-
 /* Restauranten */
 #restauranten-titel-spansk{
     grid-row: 8 / span 2;
@@ -419,4 +416,85 @@ transform: rotate(50deg);
 
 .copyright{
   color: #F5EDDA;
+}
+
+@media (max-width: 800px) {
+    nav{
+        display: none;
+    }
+    .nikolai{
+        display: none;
+    }
+    .benjamin{
+        display: none;
+    }
+    .william{
+        display: none;
+    }
+
+    main{
+        width: 100%;
+    }
+    #velkommen{
+        grid-column: 2 / span 3;
+        justify-self: center;
+        font-size: 8rem;
+        margin-right: 2rem;
+    }
+    main h1{
+        grid-column: 2 / span 3;
+        justify-self: center;
+        align-self: start;
+        font-size: 1.8rem;
+        margin-right: 3rem;
+    }
+    #menu-knap{
+        grid-column: 2 / span 3;
+        justify-self: center;
+        width: 17rem;
+        grid-row: 2;
+        align-self: center;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+    #bestil-knap{
+        grid-column: 2 / span 3;
+        justify-self: center;
+        width: 17rem;
+        grid-row: 3;
+        margin-right: 2rem;
+    }
+
+    #nyheder-titel-spansk{
+        grid-row: 3 / span 2;
+        align-self: center;
+        grid-column: 2 / span 3;
+        justify-self: center;
+        margin-right: 2rem;
+    }
+    #nyheder-titel-dansk{
+        grid-row: 3 / span 2;
+        align-self: center;
+        grid-column: 2 / span 3;
+        margin-top: 6rem;
+        margin-right: 2rem;
+    }
+    #nyheder-broedtekst{
+        grid-row: 4;
+        align-self: center;
+        grid-column: 2;
+        max-width: 70%;
+        margin-right: 2rem;
+    }
+    #nyheder-billede{
+        width: 15rem;
+        grid-row: 4 / span 5;
+        align-self: center;
+        justify-self: center;
+        grid-column: 2 / span 3;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+
 }
