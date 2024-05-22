@@ -106,7 +106,14 @@ nav img{
 /* Main styling */
 main{
    display: flex;
-   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   gap: 5rem;
+}
+
+.spoergsmaal{
+    display: flex;
+    gap: 7rem;
 }
 
 h1{
@@ -145,29 +152,38 @@ ul img{
     font-weight: 330;
 }
 
+/* Infographic */
+#infographic{
+    width: 75%;
+    padding-right: 4rem;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
 #end-1{
-    position: absolute;
     font-size: 1.5rem;
-    bottom: 8rem;
     font-weight: 350;
-    top: 95%;
     animation: fade-up 1s;
 }
 
 #end-2{
-    position: absolute;
-    top: 100%;
     font-size: 1.5rem;
-    bottom: 6rem;
     font-weight: 350;
     color: #C25851;
     animation: fade-up 1s;
 }
 
 
+
+/* Footer */
 .footer{
     position: absolute;
-    top: 170%;
+    top: 200%;
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;

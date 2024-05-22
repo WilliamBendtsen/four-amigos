@@ -263,3 +263,7 @@ main{
   color: #F5EDDA;
   background-color: inherit;
 }
+
+@media (max-width: 390px) {
+    
+}
