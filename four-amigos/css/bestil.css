@@ -133,10 +133,10 @@ body{
 }
 
 #wolt-billede{
-    width: 300px;
+    width: 400px;
     position: absolute;
-    top: 30%;
-    right: 80%;
+    top: 20%;
+    right: 78%;
 }
 
 #afhentning-billede{
