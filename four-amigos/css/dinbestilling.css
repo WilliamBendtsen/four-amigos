@@ -9,6 +9,7 @@
 /* Generel styling for body */
 body{
     font-family: Josefin Sans;
+    background-color: #F5EDDA;
 }
 
 /* Generel styling for alle <a> elementerne på siden */
@@ -125,6 +126,7 @@ main h1{
 }
 
 
+/* Bestilling boks og tilhørende skrift */
 .afhentning-plads{
     width: 500px;
     position: absolute;
@@ -206,10 +208,10 @@ main h1{
 }
 
 .popup{
-
     animation: fadein 5s ease-in alternate;
 }
 
+/* Keyframes animation så pop-up beskeden kan fade ind og ud */
 @keyframes fadein {
     0% { opacity: 0; }
     20% { opacity: 1; }

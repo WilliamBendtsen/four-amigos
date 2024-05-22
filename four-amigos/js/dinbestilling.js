@@ -1,3 +1,4 @@
+/* Så teksten "fjern" får den tilhørende notifikation til at komme frem, og derefter forsvinde igen, når den er trykket på */
 document.addEventListener('DOMContentLoaded', function() {
     let removeButton1 = document.querySelector('.remove-button');
     let removeButton2 = document.querySelector('.fjern');

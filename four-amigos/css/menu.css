@@ -1,3 +1,4 @@
+/* Generel styling for hele siden */
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body{
     font-family: Josefin Sans;
 }
 
+/* Keyframes animation så teksten fader ind når man indlæser siden */
 @keyframes fade-up{
     0% {
         opacity: 0;
@@ -101,7 +103,7 @@ nav img{
     font-size: 1.5rem;
 }
 
-/* Menu.html start */
+/* Menu */
 .menu{
     font-family: Just Another Hand;
     color: #C25851;
@@ -174,7 +176,6 @@ nav img{
     animation: fade-up 1s;
 }
 
-
 .pssst{
     font-family: Just Another Hand;
     font-size: 20px;
@@ -194,10 +195,10 @@ nav img{
 }
 
 .tacomenu {
-    border: 3px solid #C25851; /* Tykkelse, stil og farve på border */
-    padding: 50px 0px; /* Ekstra afstand mellem indhold og border */
-    margin: 250px 80px 80px 80px; /* Ekstra afstand udenfor border */
-    box-sizing: border-box; /* Inkluderer padding og border i elementets samlede bredde og højde */
+    border: 3px solid #C25851;
+    padding: 50px 0px;
+    margin: 250px 80px 80px 80px;
+    box-sizing: border-box;
     animation: fade-up 1s;
 }
 
@@ -208,7 +209,6 @@ nav img{
     top: 80%;
     animation: fade-up 1.5s;
 }
-  
 
 .tacos{
     font-family: Just Another Hand;
@@ -249,10 +249,10 @@ nav img{
 }
 
 .nachosmenu {
-    border: 3px solid #C25851; /* Tykkelse, stil og farve på border */
-    padding: 50px 0px; /* Ekstra afstand mellem indhold og border */
-    margin: 80px; /* Ekstra afstand udenfor border */
-    box-sizing: border-box; /* Inkluderer padding og border i elementets samlede bredde og højde */
+    border: 3px solid #C25851;
+    padding: 50px 0px;
+    margin: 80px;
+    box-sizing: border-box; 
     animation: fade-up 1s;
 }
 
@@ -296,10 +296,10 @@ nav img{
 }
 
 .garnishmenu {
-    border: 3px solid #C25851; /* Tykkelse, stil og farve på border */
-    padding: 50px 0px; /* Ekstra afstand mellem indhold og border */
-    margin: 80px; /* Ekstra afstand udenfor border */
-    box-sizing: border-box; /* Inkluderer padding og border i elementets samlede bredde og højde */
+    border: 3px solid #C25851;
+    padding: 50px 0px;
+    margin: 80px; 
+    box-sizing: border-box;
     animation: fade-up 1s;
 }
 

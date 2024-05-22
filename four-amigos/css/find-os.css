@@ -12,6 +12,7 @@ body{
     font-family: Josefin Sans;
 }
 
+/* Keyframes så teksten fader ind når man indlæser siden */
 @keyframes fade-up{
     0% {
         opacity: 0;
@@ -102,6 +103,7 @@ nav img{
     font-size: 1.5rem;
 }
 
+/* Find os */
 .find-os{
     font-family: Just Another Hand;
     color: #C25851;
@@ -196,7 +198,7 @@ nav img{
     cursor: pointer;
 }
 
-
+/* Footer */
 .footer{
     position: absolute;
     top: 225%;

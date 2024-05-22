@@ -13,6 +13,7 @@ const kontakt = document.getElementById("kontakt-nav");
 dropdown1.style.display = "none";
 dropdown2.style.display = "none";
 
+/* Funktioner for at henholdsvis gemme og vise dropdown-menuen */
 function showDropDown1() {
     dropdown1.style.display = "flex";
 }
@@ -27,6 +28,7 @@ function hideDropDown2() {
     dropdown2.style.display = "none";
 }
 
+/* Mouseover og mouseout effekter på de relevante menupunkter i navbaren, der styrer hvorvidt dropdownmenuen vises eller ej */
 meet.addEventListener("mouseover", () => showDropDown1());
 dropdown1.addEventListener("mouseover", () => showDropDown1());
 dropdown1.addEventListener("mouseout", () => hideDropDown1());
@@ -35,7 +37,7 @@ kontakt.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseout", () => hideDropDown2());
 
-/* FAQ */
+/* Så svaret på spørgsmålene kommer frem når man klikker på spørgsmålene */
 function toggleParagraph(element) {
     var nextElement = element.nextElementSibling;
     if (nextElement && nextElement.tagName === 'P') {
