@@ -12,6 +12,7 @@ body{
     font-family: Josefin Sans;
 }
 
+/* Keyframes så teksten fader ind på siden når den indlæses */
 @keyframes fade-up{
     0% {
         opacity: 0;
@@ -265,7 +266,6 @@ main{
 
 }
 
-
 .info{
     padding-top: 80px;
 }
@@ -322,7 +322,7 @@ main{
 }
 
 
-/* Footer!*/
+/* Footer */
 .footer{
     background-color: #C25851;
     position: absolute;

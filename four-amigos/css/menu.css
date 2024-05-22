@@ -335,10 +335,10 @@ nav img{
 }
 
 .tequilamenu {
-    border: 3px solid #C25851; /* Tykkelse, stil og farve på border */
-    padding: 50px 0px; /* Ekstra afstand mellem indhold og border */
-    margin: 0px 80px 80px 80px; /* Ekstra afstand udenfor border */
-    box-sizing: border-box; /* Inkluderer padding og border i elementets samlede bredde og højde */
+    border: 3px solid #C25851;
+    padding: 50px 0px;
+    margin: 0px 80px 80px 80px;
+    box-sizing: border-box;
     background-image: url('/four-amigos/img/tequila.png'); 
     background-repeat: no-repeat;
     background-position: right;
@@ -394,10 +394,10 @@ nav img{
 }
 
 .sodavandmenu {
-    border: 3px solid #C25851; /* Tykkelse, stil og farve på border */
-    padding: 50px 0px; /* Ekstra afstand mellem indhold og border */
-    margin: 80px; /* Ekstra afstand udenfor border */
-    box-sizing: border-box; /* Inkluderer padding og border i elementets samlede bredde og højde */
+    border: 3px solid #C25851;
+    padding: 50px 0px;
+    margin: 80px;
+    box-sizing: border-box;
     background-image: url('/four-amigos/img/daaser.png'); 
     background-repeat: no-repeat;
     background-position: right;
@@ -431,10 +431,10 @@ nav img{
 }
 
 .oelmenu {
-    border: 3px solid #C25851; /* Tykkelse, stil og farve på border */
-    padding: 50px 0px; /* Ekstra afstand mellem indhold og border */
-    margin: 80px; /* Ekstra afstand udenfor border */
-    box-sizing: border-box; /* Inkluderer padding og border i elementets samlede bredde og højde */
+    border: 3px solid #C25851;
+    padding: 50px 0px;
+    margin: 80px;
+    box-sizing: border-box;
     background-image: url('/four-amigos/img/oel.png'); 
     background-repeat: no-repeat;
     background-position: right;
@@ -462,6 +462,8 @@ nav img{
     text-align: center;
 }
 
+
+/* Footer */
 .footer{
     background-color: #C25851;
     grid-row: 15;
