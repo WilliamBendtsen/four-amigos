@@ -200,6 +200,13 @@ nav img{
     box-sizing: border-box; /* Inkluderer padding og border i elementets samlede bredde og højde */
     animation: fade-up 1s;
 }
+
+.tacosbillede{
+    width: 500px;
+    position: absolute;
+    left: 61.5%;
+    top: 70%;
+}
   
 
 .tacos{
@@ -261,6 +268,19 @@ nav img{
     animation: fade-up 1s;
 }
   
+.nachosbillede{
+    width: 1000px;
+    position: absolute;
+    left: 30%;
+    top: 105%;
+}
+
+.garnishbillede{
+    width: 600px;
+    position: absolute;
+    left: 60%;
+    top: 175%;
+}
 
 .nachos{
     font-family: Just Another Hand;
