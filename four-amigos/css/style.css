@@ -239,13 +239,10 @@ transform: rotate(50deg);
     animation: fade-up 10s;
 }
 
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 909450db8ba5f01190b6854b7365e02f39af2dab
 /* Restauranten */
 #restauranten-titel-spansk{
     grid-row: 8 / span 2;
