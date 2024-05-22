@@ -12,6 +12,13 @@ body{
     font-family: Josefin Sans;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
 /* Generel styling for alle <a> elementerne på siden */
 a{
     text-decoration: none;
@@ -113,6 +120,7 @@ main{
     font-size: 11rem;
     color: #C25851;
     transform: rotate(-8deg);
+    animation: fade-up 3s;
 }
 
 main h1{
@@ -123,6 +131,7 @@ main h1{
     text-align: center;
     font-size: 3rem;
     font-weight: 350;
+    animation: fade-up 1s;
 }
 
 /* Menu & Bestil knapper */
@@ -132,6 +141,7 @@ main h1{
     grid-row: 3;
     width: 15rem;
     cursor: pointer;
+    animation: fade-up 1s;
 }
 
 #bestil-knap{
@@ -140,6 +150,7 @@ main h1{
     grid-row: 3;
     width: 15rem;
     cursor: pointer;
+    animation: fade-up 1s;
 }
 
 /* Billeder af de 3 drenge */

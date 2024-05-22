@@ -12,6 +12,13 @@ body{
     font-family: Josefin Sans;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
 /* Generel styling for alle <a> elementerne på siden */
 a{
     text-decoration: none;
@@ -104,6 +111,7 @@ nav img{
     font-family: Just Another Hand;
     color: #C25851;
     font-weight: 350;
+    animation: fade-up 1s;
 }
 
 #service{
@@ -115,6 +123,7 @@ nav img{
     position: absolute;
     left: 17rem;
     bottom: 1rem;
+    animation: fade-up 1s;
 }
 
 #restauranten{
@@ -126,6 +135,7 @@ nav img{
     position: absolute;
     right: 10rem;
     bottom: 1rem;
+    animation: fade-up 1s;
 }
 
 h2{

@@ -12,6 +12,13 @@ body{
     font-family: Josefin Sans;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
 /* Generel styling for alle <a> elementerne på siden */
 a{
     text-decoration: none;
@@ -104,6 +111,7 @@ nav img{
     left: 42.5%;
     top: 25%;
     text-align: center;
+    animation: fade-up 1s;
 
 }
 
@@ -111,11 +119,13 @@ nav img{
     text-align: center;
     padding-top: 200px;
     font-size: 1.5rem;
+    animation: fade-up 1s;
 }
 
 .imgadresse{
     width: 700px;
     margin-left: 28%;
+    animation: fade-up 1s;
 }
 
 .adresse2{
@@ -123,6 +133,7 @@ nav img{
     margin-top: 10rem;
     font-size: 2rem;
     font-weight: 350;
+    animation: fade-up 1s;
 }
 
 

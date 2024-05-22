@@ -8,10 +8,15 @@
 /* Generel styling for body */
 body{
     background-color: #57843B;
-    cursor: pointer;
     font-family: Josefin Sans;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
 
 
 /* Generel styling for alle <a> elementerne på siden */
@@ -40,6 +45,7 @@ a{
     position: absolute;
     top: 25%;
     left: 37%;
+    animation: fade-up 1s;
 }
 
 .studierabat-2{
@@ -50,6 +56,7 @@ a{
     color: #F5EDDA;
     top: 40%;
     left: 41%;
+    animation: fade-up 1s;
 }
 
 .studierabat-2-underskrift{
@@ -61,6 +68,7 @@ a{
     text-align: center;
     top: 50%;
     left: 37%;
+    animation: fade-up 1s;
 
 }
 
@@ -69,6 +77,7 @@ a{
     position: absolute;
     left: 53%;
     top: 23%;
+    animation: fade-up 1s;
 }
 
 .tacotuesday-2{
@@ -79,6 +88,7 @@ a{
     color: #F5EDDA;
     left: 41%;
     top: 65%;
+    animation: fade-up 1s;
 }
 
 .tacotuesday-2-underskrift{
@@ -90,6 +100,7 @@ a{
     text-align: center;
     left: 38.5%;
     top: 75%;
+    animation: fade-up 1s;
 }
 
 .halvtreds-procent{
@@ -97,6 +108,7 @@ a{
     position: absolute;
     top: 65%;
     left: 23%;
+    animation: fade-up 1s;
 }
 
 .tilbage-knap{
@@ -104,5 +116,6 @@ a{
     position: absolute;
     top: 90%;
     left: 43%;
+    animation: fade-up 1s;
 }
 

@@ -6,6 +6,13 @@
     list-style-type: none;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
 /* Navbar */
 nav{
     display: grid;
@@ -161,6 +168,7 @@ main{
     left: 35%;
     top: 30%;
     text-align: center;
+    animation: fade-up 1s;
 }
 
 main h1{
@@ -171,6 +179,7 @@ main h1{
     text-align: center;
     font-size: 3rem;
     font-weight: 350;
+    animation: fade-up 1s;
 }
 
 /* Styling af img */
@@ -179,6 +188,7 @@ main h1{
     position: absolute;
     left: 37%;
     top: 47%;
+    animation: fade-up 1s;
     
 }
 
@@ -187,6 +197,7 @@ main h1{
     position: absolute;
     left: 27%;
     top: 49.5%;
+    animation: fade-up 1s;
 }
 
 .gæstfrihed{
@@ -194,6 +205,7 @@ main h1{
     position: absolute;
     left: 59%;
     top: 48%;
+    animation: fade-up 1s;
 }
 
 
@@ -203,16 +215,19 @@ main h1{
     left: 15%;
     top: 90%;
     width: 550px;
+    animation: fade-up 1s;
 }
 
 .kvalitet_tekst h1{
     font-weight: 100;
     font-size: 100px;
     text-align: left;
+    animation: fade-up 1s;
 }
 
 .kvalitet_tekst p{
     font-size: 22px;
+    animation: fade-up 1s;
 }
 
 .kvalitet_tekst img{
@@ -220,6 +235,7 @@ main h1{
     position: absolute;
     left: 670px;
     top: -70px;
+    animation: fade-up 1s;
 }
 
 /* Teamwork sektion */
