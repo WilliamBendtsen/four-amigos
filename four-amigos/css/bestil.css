@@ -152,9 +152,9 @@ body{
 }
 
 #afhentning-billede{
-    width: 250px;
+    width: 400px;
     position: absolute;
-    left: 80%;
+    left: 75%;
     top: 20%;
     animation: fade-up 1s;
 }
