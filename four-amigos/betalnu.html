@@ -50,12 +50,14 @@
             </div>
     </nav>
     
+    <!-- Main indhold -->
     <main>
         <!-- Overskrift -->
         <p class="betaling">Betaling</p>
         <p class="eller">Betal med Mobilepay eller Visa</p>
 
 
+        <!-- Knapper for henholdsvis Visa og Mobilepay -->
         <img class="visaLogo" src="/four-amigos/img/visa.png" alt="">
         <img class="mobilepayLogo" src="/four-amigos/img/mobilepay.png" alt="">
 
@@ -73,7 +75,7 @@
         </div>
         
 
-        <div class="button-content">
+        <article class="button-content">
             <button class="visaButton" onclick="showContent('visaContent')">
                 <img class="rotated" src="/four-amigos/img/triangle.png" alt="">
                 Visa
@@ -104,6 +106,7 @@
             </div>
             </div>
 
+            <!-- Oversigt boks -->
             <div class="oversigt">
                 <p class="tekst1">Oversigt</p>
                 <hr>
@@ -114,31 +117,16 @@
                     <button class="done">Betal nu</button>
                 </a>
             </div>
-        </div>
+        </article>
 
         </div>
     
-        
-
-        <script>
-            function showContent(contentId) {
-                // Skjul alle indholdselementer
-                var contents = document.querySelectorAll('.content');
-                contents.forEach(function(content) {
-                    content.style.display = 'none';
-
-                });
-        
-                // Vis det valgte indhold
-                var selectedContent = document.getElementById(contentId);
-                selectedContent.style.display = 'block';
-            }         
-
-        </script>
+    <script src="/four-amigos/js/betalnu.js"></script>
 
 
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <ul>
             <li><a href="#">Vilkår og betingelser</a></li>
@@ -156,5 +144,6 @@
           <p class="copyright">Four Amigos @ 2023</p>
     </footer>
 
+    <script src="/four-amigos/js/script.js"></script>
 </body>
 </html>

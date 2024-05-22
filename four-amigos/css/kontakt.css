@@ -12,6 +12,7 @@ body{
     font-family: Josefin Sans;
 }
 
+/* Keyframes så teksten fader ind når man indlæser siden */
 @keyframes fade-up{
     0% {
         opacity: 0;
@@ -152,6 +153,7 @@ h2{
     font-weight: 350;
 }
 
+/* Footer */
 .footer{
     position: absolute;
     bottom: -50%;

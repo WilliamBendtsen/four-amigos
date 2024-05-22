@@ -12,6 +12,7 @@ body{
     font-family: Josefin Sans;
 }
 
+/* Keyframes så teksten fader ind når man loader siden */
 @keyframes fade-up{
     0% {
         opacity: 0;
@@ -102,6 +103,7 @@ nav img{
     font-size: 1.5rem;
 }
 
+/* Main styling */
 main{
    display: flex;
    justify-content: space-around;
@@ -117,6 +119,7 @@ h1{
     animation: fade-up 1s;
 }
 
+/* FAQ  */
 li{
     font-size: 1.5rem;
     text-align: center;
@@ -161,6 +164,7 @@ ul img{
     animation: fade-up 1s;
 }
 
+<<<<<<< HEAD
 .infographic{
     position: absolute;
     top: 100%;
@@ -168,6 +172,9 @@ ul img{
     height: auto
 }
 
+=======
+/* Footer */
+>>>>>>> 597ef24c0cb5b8924060b5e17ed11c6d910022e2
 .footer{
     position: absolute;
     top: 170%;
