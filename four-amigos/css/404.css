@@ -264,6 +264,71 @@ main{
   background-color: inherit;
 }
 
-@media (max-width: 390px) {
-    
+@media only screen and (max-width: 390px) {
+    main{
+        margin-left: 2rem;
+    }
+    #fire-forrest{
+        font-size: 10rem;
+        grid-row: 1;
+        align-self: center;
+    }
+    #skelet{
+        width: 6.5rem;
+        grid-row: 1;
+        align-self: center;
+        padding-bottom: 3rem;
+    }
+    #fire-bagerst{
+        font-size: 10rem;
+        grid-row: 1;
+        align-self: center;
+    }
+    #tekst-spansk{
+        font-size: 3.5rem;
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+    #tekst-dansk{
+        grid-column: 1 / span 10;
+        grid-row: 2 / span 2;
+        align-self: center;
+    }
+    #tilbage-knap{
+        grid-row: 3;
+        align-self: end;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main{
+        display: grid;
+    }
+    #fire-forrest,
+    #skelet,
+    #fire-bagerst{
+        grid-row: 1;
+    }
+    #fire-forrest{
+        grid-column: 4;
+        padding-left: 1rem;
+    }
+    #fire-bagerst{
+        justify-self: end;
+        padding-right: 1rem;
+    }
+    #tekst-spansk{
+        align-self: start;
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+    #tekst-dansk{
+        grid-row: 2;
+        align-self: center;
+    }
+    #tilbage-knap{
+        grid-row: 2 / span 2;
+        align-self: center;
+    }
+    .footer{}
 }
