@@ -133,10 +133,10 @@ body{
 }
 
 #wolt-billede{
-    width: 400px;
+    width: 300px;
     position: absolute;
-    top: 20%;
-    right: 75%;
+    top: 30%;
+    right: 80%;
 }
 
 #afhentning-billede{
@@ -154,36 +154,40 @@ body{
 /* Footer */
 .footer{
     position: absolute;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    bottom: -10rem;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;
+    grid-row: 1;
 }
 
 .footer,
 .social{
     text-align: center;
-    color: #f5edda;
+    color: #F5EDDA;
 }
 
 .social {
-<<<<<<< HEAD
-    position: relative;
+    display: flex;
     background-color: inherit;
-=======
-position: absolute;
-left: 42%;
-top: 140%;
->>>>>>> c09e27e8d39f07bb1980c39c4d4ca950747e6048
+    justify-content: center;
+    justify-self: center;
+    align-self: end;
+    width: fit-content;
+    grid-row: 2;
 }
 
 .social a{
+    font-size: 33px;
+    color: #F5EDDA;
+    background-color: #C25851;
     border: 3px solid #F5EDDA;
     width: 50px;
     height: 50px;
+    line-height: 45px;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
@@ -213,16 +217,13 @@ top: 140%;
 
 
 .footer ul{
-    margin-top: 0;
-    padding: 0;
+    padding-top: 4rem;
     list-style: none;
     font-size: 38px;
-<<<<<<< HEAD
-=======
-    line-height: 20;
->>>>>>> c09e27e8d39f07bb1980c39c4d4ca950747e6048
     margin-bottom: 0;
     background-color: inherit;
+    align-self: center;
+    z-index: 999;
 }
 
 .footer ul li{
@@ -250,6 +251,7 @@ top: 140%;
     margin-top: 20px;
     text-align: center;
     font-size: 15px;
+    padding: 0;
 }
 
 .copyright{
