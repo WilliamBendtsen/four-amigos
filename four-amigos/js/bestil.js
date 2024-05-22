@@ -59,6 +59,7 @@ function showWoltImg () {
 
 function hideWoltImg () {
     woltImg.style.display = "none";
+    resetGif(woltImg);
 }
 
 function showAfhentningImg() {
@@ -67,6 +68,7 @@ function showAfhentningImg() {
 
 function hideAfhentningImg() {
     afhentningImg.style.display = "none";
+    resetGif(afhentningImg);
 }
 
 woltBtn.addEventListener("mouseover", () => showWoltImg());
@@ -74,3 +76,10 @@ woltBtn.addEventListener("mouseout", () => hideWoltImg ());
 
 afhentningBtn.addEventListener("mouseover", () => showAfhentningImg());
 afhentningBtn.addEventListener("mouseout", () => hideAfhentningImg());
+
+/* Så GIF'en genstarter hver gang man flytter musen væk fra knapperne */
+function resetGif(imgElement) {
+    const src = imgElement.src;
+    imgElement.src = "";
+    imgElement.src = src;
+}
