@@ -1,5 +1,4 @@
 *{
-    background-color: #f5edda;
     text-decoration: none;
     color: black;
 }
@@ -11,6 +10,21 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+}
+
+body{
+    background-color: #F5EDDA;
+}
+
+.baggrund{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    width: 1000px;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
 }
 
 @keyframes fade-up{
@@ -99,7 +113,6 @@ nav img{
 
 /* Generel styling for body */
 body{
-    background-color: #F5EDDA;
     font-family: Josefin Sans;
 }
 
@@ -136,7 +149,7 @@ body{
 /* Footer */
 .footer{
     position: absolute;
-    bottom: -15rem;
+    bottom: -20rem;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 5rem);
