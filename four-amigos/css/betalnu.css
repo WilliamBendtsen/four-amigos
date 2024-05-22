@@ -103,7 +103,6 @@ main{
     grid-template-rows: repeat(20, 1fr);
 }
 
-/* Velkomstbesked */
 .betaling{
     font-family: Just Another Hand;
     color: #C25851;

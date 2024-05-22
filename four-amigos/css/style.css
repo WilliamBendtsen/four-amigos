@@ -345,9 +345,9 @@ transform: rotate(50deg);
 }
 
 .social {
-left: 42%;
-top: 105%;
-}
+    left: 42%;
+    top: 105%;  
+}   
 
 .social a{
     font-size: 33px;
