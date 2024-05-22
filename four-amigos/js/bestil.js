@@ -46,7 +46,6 @@ function redirectToAfhentning() {
 
 /* Så illustrationerne til henholdsvis Wolt of Afhentning bliver vist, 
 når man hover hen over knapperne */
-
 const woltBtn = document.getElementById("wolt");
 const woltImg = document.getElementById("wolt-billede");
 
@@ -77,7 +76,7 @@ woltBtn.addEventListener("mouseout", () => hideWoltImg ());
 afhentningBtn.addEventListener("mouseover", () => showAfhentningImg());
 afhentningBtn.addEventListener("mouseout", () => hideAfhentningImg());
 
-/* Så GIF'en genstarter hver gang man flytter musen væk fra knapperne */
+/* Funktion for at få GIF'en til at genstarte */
 function resetGif(imgElement) {
     const src = imgElement.src;
     imgElement.src = "";
