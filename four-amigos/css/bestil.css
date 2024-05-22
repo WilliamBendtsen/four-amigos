@@ -106,7 +106,7 @@ body{
     font-weight: 200;
    font-size: 200px;
    position: absolute;
-   top: 50%;
+   top: 25%;
    text-align: center;
    left: 41%;
    animation: fade-up 1s;
@@ -269,7 +269,7 @@ body{
   background-color: inherit;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 390px) and (max-width: 844px){
 
     /* Keyframes animation for at teksten til at fade ind når siden indlæses */
 @keyframes fade-up{
@@ -490,12 +490,11 @@ nav img{
     background-color: inherit;
     align-self: center;
     z-index: 999;
-    line-height: 1;
 }
 
 .footer ul li{
     display: inline-block;
-    padding: 0 1px; 
+    padding: 0 15px;
     background-color: inherit;
 }
 
@@ -531,7 +530,7 @@ nav img{
   
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
 
 
 /* Keyframes animation for at teksten til at fade ind når siden indlæses */
