@@ -1,3 +1,10 @@
+*{
+    background-color: #f5edda;
+    text-decoration: none;
+    color: black;
+}
+
+
 /* Generel styling for alt indhold på siden */
 *{
     margin: 0;
@@ -6,23 +13,11 @@
     list-style-type: none;
 }
 
-/* Generel styling for body */
-body{
-    background-color: #F5EDDA;
-    font-family: Josefin Sans;
-}
-
 @keyframes fade-up{
     0% {
         opacity: 0;
         transform: translateY(30px) scale(0.9);
     }
-}
-
-/* Generel styling for alle <a> elementerne på siden */
-a{
-    text-decoration: none;
-    color: inherit;
 }
 
 /* Navbar */
@@ -102,108 +97,75 @@ nav img{
     font-size: 1.5rem;
 }
 
-.find-os{
-    font-family: Just Another Hand;
-    color: #C25851;
-    font-weight: 200;
-    font-size: 150px;
-    position: absolute;
-    left: 42.5%;
-    top: 25%;
-    text-align: center;
-    animation: fade-up 1s;
-
-}
-
-.adresse{
-    text-align: center;
-    padding-top: 200px;
-    font-size: 1.5rem;
-    animation: fade-up 1s;
-}
-
-.imgadresse{
-    width: 700px;
-    margin-left: 28%;
-    animation: fade-up 1s;
-}
-
-.adresse2{
-    text-align: center;
-    margin-top: 10rem;
-    font-size: 2rem;
-    font-weight: 350;
-    animation: fade-up 1s;
-}
-
-
-/* Billede-link til Tik-Tok */
-#tiktok-tekst{
-    position: absolute;
-    left: 23%;
-    margin-top: 8rem;
-    font-size: 2rem;
-    font-weight: 200;
-}
-
-#tiktok-logo{
-    position: absolute;
-    left: 37%;
-    margin-top: 7rem;
-}
-
-#tiktok-billede{
-    position: absolute;
-    left: 15%;
-    margin-top: 11rem;
-    cursor: pointer;
-}
-
-/* Billede-link til Instagram */
-#instagram-tekst{
-    position: absolute;
-    margin-top: 8rem;
-    right: 22%;
-    font-size: 2rem;
-    font-weight: 200;
-}
-
-#instagram-logo{
-    position: absolute;
-    right: 17%;
-    margin-top: 7.5rem;
-}
-
-#instagram-billede{
-    position: absolute;
-    right: 15%;
-    margin-top: 11rem;
-    cursor: pointer;
-}
-
-.footer{
-    position: absolute;
-    top: 300%;
-    background-color: #C25851;
-    width: 100%;
+/* Generel styling for body */
+body{
+    background-color: #F5EDDA;
     font-family: Josefin Sans;
 }
 
-.footer, .social{
+.bekraeftelse{
+    font-family: Just Another Hand;
+    font-size: 200px;
+    font-weight: 200;
     text-align: center;
-    padding-bottom: 28px;
+    color: #C25851;
+    animation: fade-up 1s;
+}
+
+.bekraeftelse-underskrift-1{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 30px;
+    animation: fade-up 1s;
+}
+
+.bekraeftelse-underskrift-2{
+    font-weight: 200;
+    text-align: center;
+    animation: fade-up 1s;
+}
+
+.bekraeftelse-knap{
+    width: 150px;
+    position: absolute;
+    left: 45%;
+    top: 75%;
+    animation: fade-up 1s;
+}
+
+/* Footer */
+.footer{
+    position: absolute;
+    bottom: -15rem;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3, 5rem);
+    background-color: #C25851;
+    width: 100%;
+    font-family: Josefin Sans;
+    grid-row: 1;
+}
+
+.footer,
+.social{
+    text-align: center;
     color: #F5EDDA;
 }
 
 .social {
-position: absolute;
-left: 43%;
-top: 53%;
+    display: flex;
+    background-color: inherit;
+    justify-content: center;
+    justify-self: center;
+    align-self: end;
+    width: fit-content;
+    grid-row: 2;
 }
 
 .social a{
     font-size: 33px;
-    color: inherit;
+    color: #F5EDDA;
+    background-color: #C25851;
     border: 3px solid #F5EDDA;
     width: 50px;
     height: 50px;
@@ -229,7 +191,6 @@ top: 53%;
     font-family: Josefin Sans;
     font-weight: 400;
     font-style: normal;
-    
 }
 
 .footer h1:hover{
@@ -238,24 +199,27 @@ top: 53%;
 
 
 .footer ul{
-    margin-top: 0;
-    padding: 0;
+    padding-top: 4rem;
     list-style: none;
     font-size: 38px;
-    line-height: 5;
     margin-bottom: 0;
+    background-color: inherit;
+    align-self: center;
+    z-index: 999;
 }
 
 .footer ul li{
     display: inline-block;
     padding: 0 15px;
+    background-color: inherit;
 }
 
 .footer ul li a{
-    color: inherit;
+    color: #F5EDDA;
     text-decoration: none;
     opacity: 1;
     transition: 0.5s;
+    background-color: inherit;
 }
 
 .footer ul li a:hover{
@@ -269,26 +233,10 @@ top: 53%;
     margin-top: 20px;
     text-align: center;
     font-size: 15px;
+    padding: 0;
 }
 
 .copyright{
   color: #F5EDDA;
-}
-
-.fa-tiktok{
-    position: absolute;
-    left: 100%;
-    font-size: 33px;
-    color: inherit;
-    border: 3px solid #F5EDDA;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    line-height: 44px;
-}
-
-.fa-tiktok :hover{
-    opacity: 1;
-    color: black;
-    transition: 0.5s;
+  background-color: inherit;
 }

@@ -46,7 +46,6 @@ function redirectToAfhentning() {
 
 /* Så illustrationerne til henholdsvis Wolt of Afhentning bliver vist, 
 når man hover hen over knapperne */
-
 const woltBtn = document.getElementById("wolt");
 const woltImg = document.getElementById("wolt-billede");
 
@@ -59,6 +58,7 @@ function showWoltImg () {
 
 function hideWoltImg () {
     woltImg.style.display = "none";
+    resetGif(woltImg);
 }
 
 function showAfhentningImg() {
@@ -67,6 +67,7 @@ function showAfhentningImg() {
 
 function hideAfhentningImg() {
     afhentningImg.style.display = "none";
+    resetGif(afhentningImg);
 }
 
 woltBtn.addEventListener("mouseover", () => showWoltImg());
@@ -74,3 +75,10 @@ woltBtn.addEventListener("mouseout", () => hideWoltImg ());
 
 afhentningBtn.addEventListener("mouseover", () => showAfhentningImg());
 afhentningBtn.addEventListener("mouseout", () => hideAfhentningImg());
+
+/* Funktion for at få GIF'en til at genstarte */
+function resetGif(imgElement) {
+    const src = imgElement.src;
+    imgElement.src = "";
+    imgElement.src = src;
+}

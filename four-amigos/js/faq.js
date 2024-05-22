@@ -1,3 +1,8 @@
+/* Så logoet redirecter til landing page */
+function redirectToIndex() {
+    window.location.href = "index.html";
+}
+
 /* Dropdown */
 const dropdown1 = document.getElementById("meet-dropdown");
 const dropdown2 = document.getElementById("kontakt-dropdown");

@@ -11,6 +11,13 @@ body{
     font-family: Josefin Sans;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
 /* Generel styling for alle <a> elementerne på siden */
 a{
     text-decoration: none;
@@ -26,6 +33,7 @@ a{
    text-align: center;
    top: 5%;
    left: 40%;
+   animation: fade-up 1s;
 }
 
 .kah{
@@ -33,6 +41,7 @@ a{
     position: absolute;
     top: 30%;
     left: 5%;
+    animation: fade-up 1s;
 }
 
 .kah-billede{
@@ -40,6 +49,7 @@ a{
     position: absolute;
     top: 35%;
     left: 8%;
+    animation: fade-up 1s;
 }
 
 .kah-undertekst{
@@ -50,6 +60,7 @@ a{
     top: 70%;
     text-align: center;
     left: 4%;
+    animation: fade-up 1s;
 }
 
 .cenote{
@@ -57,6 +68,7 @@ a{
     position: absolute;
     top: 30%;
     left: 40%;
+    animation: fade-up 1s;
 }
 
 .cenote-billede{
@@ -64,6 +76,7 @@ a{
     position: absolute;
     top: 35%;
     left: 41%;
+    animation: fade-up 1s;
 }
 
 .cenote-undertekst{
@@ -74,6 +87,7 @@ a{
     top: 70%;
     text-align: center;
     left: 39%;
+    animation: fade-up 1s;
 }
 
 .donjulio{
@@ -81,6 +95,7 @@ a{
     position: absolute;
     top: 30%;
     left: 75%;
+    animation: fade-up 1s;
 }
 
 .donjulio-billede{
@@ -88,6 +103,7 @@ a{
     position: absolute;
     top: 38%;
     left: 79%;
+    animation: fade-up 1s;
 }
 
 .donjulio-undertekst{
@@ -98,6 +114,7 @@ a{
     top: 70%;
     text-align: center;
     left: 70%;
+    animation: fade-up 1s;
 }
 
 #tilbage-knap{
@@ -105,4 +122,5 @@ a{
     position: absolute;
     top: 90%;
     left: 42%;
+    animation: fade-up 1s;
 }

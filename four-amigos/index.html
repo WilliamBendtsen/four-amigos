@@ -15,8 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Just+Another+Hand&display=swap" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <!-- CSS stylesheet -->
+    <!-- Fontawesome link -->
     <script src="https://kit.fontawesome.com/410264dd86.js" crossorigin="anonymous"></script>
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -48,64 +49,60 @@
     
     <main>
         <!-- Velkomstbesked -->
-        <p id="velkommen">Bienvenido</p>
+        <p id="velkommen">Bienvenido!</p>
         <h1>Velkommen til Four Amigos <br> Tacos & Tequila</h1>
 
         <!-- Menu & Bestil knapper -->
-        <img id="menu-knap" src="img/menu.png" alt="menu" onclick="redirectToMenu()">
-        <img id="bestil-knap" src="img/bestil.png" alt="bestil" onclick="redirectToBestil()">
+        <img id="menu-knap" src="img/menu.png" alt="menu knap" onclick="redirectToMenu()">
+        <img id="bestil-knap" src="img/bestil.png" alt="bestil knap" onclick="redirectToBestil()">
 
         <!-- Billede af de 3 drenge -->
         <div class="nikolai">
-            <img src="/four-amigos/GIF/nikolai.gif">
+            <img src="/four-amigos/GIF/nikolai.gif" alt="nikolai gif">
         </div>
 
         <div class="benjamin">
-            <img src="/four-amigos/GIF/benjamin.gif">
+            <img src="/four-amigos/GIF/benjamin.gif" alt="benjamin gif">
         </div>
         
         <div class="william">
-            <img src="/four-amigos/GIF/william.gif">
+            <img src="/four-amigos/GIF/william.gif" alt="william gif">
         </div>
 
 
         <!-- Nyheder -->
         <p id="nyheder-titel-spansk">Noticias</p>
         <h2 id="nyheder-titel-dansk">Nyheder</h2>
-        <p id="nyheder-broedtekst">Ny tequila blandt vores samling! AMWY tepeztate Mezcal, en agave type, der tager op til 25 år at modne, - vokser kun i det vilde. Tør, men stadig frisk med en diskret sødme. Kom ind og prøv den hos os!</p>
-        <img id="nyheder-billede" src="img/nyheder-billede.png" alt="billede til nyheds-sektionen">
+        <p id="nyheder-broedtekst">Ny tequila i samlingen! Sig hej til AMWY Tepeztate Mezcal lavet af en agave, der tager op til 25 år at modne og kun vokser i det vilde. Den er tør, men stadig frisk med en diskret sødme.  <br> <br>Tag din ven med under armen og smag den hos os hos Four Amigos!</p>
+        <img id="nyheder-billede" src="img/nytequila.png" alt="billede til nyheds-sektionen">
         
         <!-- Restauranten -->
         <p id="restauranten-titel-spansk">El restaurante</p>
         <h2 id="restauranten-titel-dansk">Restauranten</h2>
-        <p id="restauranten-broedtekst">I en hyggelig baggård på Mejlgade 46B finder du Four Amigos. Du vil blive mødt af duften af friskbagte tortillas og en stemning, som man simpelthen bare ikke må gå glip af. Vi er tre kammerater, der gerne vil byde jer indenfor til en oplevelse fuldt med autentiske smage og hjertevarm gæstfrihed. Velkommen!</p>
+        <p id="restauranten-broedtekst">Find os i den hyggelige baggård på Mejlgade 46B, <br>
+            hvor du bliver mødt af duften af friskbagte tortillas og en stemning, <br>
+            der er svær at modstå. Vi er tre gode venner, der elsker tacos og tequila <br>
+            (og hinanden!). Kom forbi og oplev autentiske smage, masser af personlighed <br>
+            og en god portion hygge. Vi lover, at du ikke går sulten hjem!</p>
         <img id="restauranten-billede" src="img/restauranten-billede.png" alt="billede til restaurant-sektionen">
 
         <!-- Billede slider -->
-        <section class="carousel">
-            <button class="prev">❮</button>
-            <div class="carousel-container">
-                <div class="carousel-slide">
-                    <img src="img/tacobillede1.jpeg" alt="Image 1">
-                    <img src="img/tacobillede2.jpeg" alt="Image 1">
-                    <img src="img/tacobillede3.jpeg" alt="Image 1">
-                    <img src="img/tacobillede4.jpeg" alt="Image 1">
-                    <img src="img/tacobillede5.jpeg" alt="Image 1">
-                    <img src="img/tacobillede6.jpeg" alt="Image 1">
-                    <img src="img/tacobillede7.jpg" alt="Image 1">
-                </div>
-            </div>
-            <button class="next">❯</button>
-        </section>
+        <h2 class="stemning">Stemningsbilleder fra resturanten</h2>
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="img/tacobillede1.jpeg" alt="karousel billede 1">
+            <img src="img/tacobillede2.jpeg" alt="karousel billede 2">
+            <img src="img/tacobillede3.jpeg" alt="karousel billede 3">
+            <img src="img/tacobillede4.jpeg" alt="karousel billede 4">
+            <img src="img/tacobillede5.jpeg" alt="karousel billede 5">
+            <img src="img/tacobillede6.jpeg" alt="karousel billede 6">
+            <img src="img/tacobillede7.jpg" alt="karousel billede 7">
+        </div>
+    </div>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
-        <div class="social">
-          <a href="https://www.facebook.com/profile.php?id=61551904498625&paipv=0&eav=AfY-U6cYUksf6qFbGhzEtIoK-uJ5FSDj4uQaGEyy1nVpahLeHx1xct7cipGEJbA28AI&_rdr" class="fa fa-facebook"></a>
-          <a href="https://www.tiktok.com/@four.amigos03" class="fa-brands fa-tiktok"></a>
-          <a href="https://www.instagram.com/fouramigos_aarhus/" class="fa fa-instagram"></a>
-        </div>
-
         <ul>
             <li><a href="#">Vilkår og betingelser</a></li>
             <li><a href="#">Kontakt</a></li>
@@ -113,10 +110,16 @@
             <li><a href="#">Cookiepolitik</a></li>
         </ul>
 
+        <div class="social">
+          <a href="https://www.facebook.com/profile.php?id=61551904498625&paipv=0&eav=AfY-U6cYUksf6qFbGhzEtIoK-uJ5FSDj4uQaGEyy1nVpahLeHx1xct7cipGEJbA28AI&_rdr" class="fa fa-facebook"></a>
+          <a href="https://www.tiktok.com/@four.amigos03" class="fa-brands fa-tiktok"></a>
+          <a href="https://www.instagram.com/fouramigos_aarhus/" class="fa fa-instagram"></a>
+        </div>
+
+
 
         <p class="copyright">Four Amigos @ 2023</p>
     </footer>
-
 
     <script src="js/script.js"></script>
 </body>
