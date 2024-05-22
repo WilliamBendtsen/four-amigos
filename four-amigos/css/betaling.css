@@ -12,6 +12,13 @@ body{
     font-family: Josefin Sans;
 }
 
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
 /* Generel styling for alle <a> elementerne på siden */
 a{
     text-decoration: none;
@@ -113,6 +120,7 @@ main{
     left: 41%;
     top: 30%;
     text-align: center;
+    animation: fade-up 1s;
 }
 
 main h1{
@@ -123,6 +131,7 @@ main h1{
     text-align: center;
     font-size: 3rem;
     font-weight: 350;
+    animation: fade-up 1s;
 }
 
 .svar{
@@ -132,6 +141,7 @@ main h1{
     padding: 24px 15px;
     margin: 20px;
     width: 800px;
+    animation: fade-up 1s;
 }
 
 /* Den kommende css styler vores på bokse på siden*/
@@ -147,12 +157,14 @@ main h1{
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+    animation: fade-up 1s;
 }
 
 .box1 p{
     position: absolute;
     top: -50%;
     font-weight: 300;
+    animation: fade-up 1s;
 }
 
 .box2{
@@ -167,12 +179,14 @@ main h1{
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+    animation: fade-up 1s;
 }
 
 .box2 p{
     position: absolute;
     top: -50%;
     font-weight: 300;
+    animation: fade-up 1s;
 }
 
 .box3{
@@ -187,12 +201,14 @@ main h1{
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+    animation: fade-up 1s;
 }
 
 .box3 p{
     position: absolute;
     top: -50%;
     font-weight: 300;
+    animation: fade-up 1s;
 }
 
 .box4{
@@ -207,12 +223,14 @@ main h1{
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+    animation: fade-up 1s;
 }
 
 .box4 p{
     position: absolute;
     top: -50%;
     font-weight: 300;
+    animation: fade-up 1s;
 }
 
 .box5{
@@ -227,12 +245,14 @@ main h1{
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+    animation: fade-up 1s;
 }
 
 .box5 p{
     position: absolute;
     top: -50%;
     font-weight: 300;
+    animation: fade-up 1s;
 }
 
 .box6{
@@ -248,12 +268,14 @@ main h1{
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+    animation: fade-up 1s;
 }
 
 .box6 p{
     position: absolute;
     top: -50%;
     font-weight: 300;
+    animation: fade-up 1s;
 }
 
 .box7{
@@ -268,12 +290,14 @@ main h1{
     -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
+    animation: fade-up 1s;
 }
 
 .box7 p{
     position: absolute;
     top: -50%;
     font-weight: 300;
+    animation: fade-up 1s;
 }
 
 input{
@@ -288,6 +312,7 @@ input{
     outline: none;
     font-family: Josefin Sans;
     font-size: 18px;
+    animation: fade-up 1s;
 
 }
 
@@ -295,6 +320,7 @@ input{
     font-weight: 200;
     font-family: Josefin Sans;
     font-size: 18px;
+    animation: fade-up 1s;
 }
 
 
@@ -302,6 +328,7 @@ input{
     position: absolute;
     top: 150%;
     left: 25%;
+    animation: fade-up 1s;
 
 }
 
@@ -312,6 +339,7 @@ input{
     font-family: Josefin Sans;
     width: 400px;
     height: 400px;
+    animation: fade-up 1s;
 }
 
 .betalnu{
@@ -327,6 +355,7 @@ input{
     top: 140px;
     left: -80px;
     width: 280px;
+    animation: fade-up 1s;
 }
 
 .restaurant{
@@ -342,6 +371,7 @@ input{
     top: 140px;
     left: 220px;
     width: 280px;
+    animation: fade-up 1s;
 }
 
 .oversigt{
@@ -359,11 +389,13 @@ input{
     box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.5);
     transition: 1s ease;
     z-index: -1;
+    animation: fade-up 1s;
 }
 
 .oversigt-stopped{
     position: absolute;
     top: 600px;
+    animation: fade-up 1s;
 }
 
 .tekst1{

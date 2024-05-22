@@ -244,7 +244,11 @@ transform: rotate(50deg);
     align-self: center;
     width: 35rem;
     transform: rotate(-15deg);
+    animation: fade-up 10s;
 }
+
+
+
 
 
 /* Restauranten */
@@ -282,6 +286,7 @@ transform: rotate(50deg);
     grid-column: 2 / span 5;
     width: 45rem;
     margin-top: 150px;
+    animation: fade-up 5s;
     
 }
 
