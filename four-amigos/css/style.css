@@ -423,6 +423,7 @@ transform: rotate(50deg);
     display: none;
 }
 
+/* Media query for mobiler, med udgangspunkt i iPhone 12 Pro */
 @media (max-width: 800px) {
    /* Navbar */
     nav{
@@ -533,6 +534,7 @@ transform: rotate(50deg);
     }
 }
 
+/* Media query for tablets, med udgangspunkt i Ipad Pro */
 @media (min-width: 801px) and (max-width: 1024px) {
      /* Navbar */
      nav{
@@ -566,7 +568,7 @@ transform: rotate(50deg);
         font-weight: 700;
     }
 
-    
+
     .nikolai{
         display: none;
     }

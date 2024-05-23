@@ -274,6 +274,7 @@ body{
     display: none;
 }
 
+/* Media query for mobiler, med udgangspunkt i iPhone 12 Pro */
 @media only screen and (min-width: 390px) and (max-width: 844px){
 /* Navbar */
 nav{
@@ -528,6 +529,7 @@ nav img{
 }
 }
 
+/* Media query for tablets, med udgangspunkt i Ipad Pro */
 @media only screen and (min-width: 1024px) and (max-width: 1366px){
 /* Navbar */
 nav{

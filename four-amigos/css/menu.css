@@ -550,8 +550,7 @@ top: 453%;
 }
 
 
-
-
+/* Media query for mobiler, med udgangspunkt i iPhone 12 Pro */
 @media (max-width:800px){
      /* Navbar */
      nav{
@@ -1008,7 +1007,7 @@ top: 453%;
     }
 }
 
-
+/* Media query for tablets, med udgangspunkt i Ipad Pro */
 @media (min-width:800px) and (max-width:1024px){
       /* Navbar */
       nav{
