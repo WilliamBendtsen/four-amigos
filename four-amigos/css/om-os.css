@@ -234,7 +234,7 @@ main{
 
 .læsmere{
     border: 3px solid #57843B;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: #F5EDDA;
     color: #57843B;
     padding: 14px 28px;
@@ -244,12 +244,13 @@ main{
     position: absolute;
     top: 70%;
     left: 28%;
+    text-align: center;
 }
 
 
 .tilbage{
     border: 3px solid #57843B;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: #F5EDDA;
     color: #57843B;
     padding: 14px 40px;
@@ -259,6 +260,7 @@ main{
     position: absolute;
     top: 70%;
     left: 50%;
+    text-align: center;
 }
 
 .læs-mere_tekst img{
@@ -337,7 +339,7 @@ main{
     position: absolute;
     top: 400%;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     background-color: #C25851;
     width: 100%;

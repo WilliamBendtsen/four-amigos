@@ -184,7 +184,7 @@ ul img{
     position: absolute;
     top: 190%;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     background-color: #C25851;
     width: 100%;
@@ -314,7 +314,7 @@ ul img{
     }
 }
 
-@media (min-width: 801) and (max-width: 1024px) {
+@media (min-width: 801px) and (max-width: 1024px) {
     h1{
         margin-top: 4rem;
     }

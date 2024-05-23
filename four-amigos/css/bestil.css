@@ -166,7 +166,7 @@ body{
     position: absolute;
     bottom: -20rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
@@ -422,7 +422,7 @@ nav img{
 .footer{
     bottom: -2rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
@@ -684,7 +684,7 @@ nav img{
 .footer{
     bottom: -1rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;

@@ -165,7 +165,7 @@ main{
     position: absolute;
     top: 120%;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     background-color: #C25851;
     width: 100%;
