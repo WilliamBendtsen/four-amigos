@@ -40,8 +40,7 @@ dropdown2.addEventListener("mouseout", () => hideDropDown2());
 
 /* Så svaret på spørgsmålene kommer frem når man klikker på spørgsmålene */
 function toggleParagraph(element) {
-    var nextElement = element.nextElementSibling;
-    if (nextElement && nextElement.tagName === 'P') {
+    var nextElement = element.nextElementSibling;{
         if (nextElement.classList.contains('hidden')) {
             nextElement.classList.remove('hidden');
         } else {
