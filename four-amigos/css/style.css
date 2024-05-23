@@ -419,14 +419,10 @@ transform: rotate(50deg);
   color: #F5EDDA;
 }
 
-.checkbtn{
+#burger-menu{
     font-size: 30px;
     float: right;
     cursor: pointer;
-    display: none;
-}
-
-#check{
     display: none;
 }
 
