@@ -1,3 +1,4 @@
+'use strict'
 /* Så logoet redirecter til landing page */
 function redirectToIndex() {
     window.location.href = "index.html";
