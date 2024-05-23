@@ -45,3 +45,32 @@ function redirectToTikTok() {
 function redirectToInstagram() {
     window.location.href = "https://www.instagram.com/fouramigos_aarhus/"
 }
+
+/* Så navbaren er responsive */
+const burgerMenu = document.getElementById("burger-menu");
+const navbar = document.getElementById("navbar");
+
+burgerMenu.addEventListener("click", () => {
+    const meetDropdown = document.getElementById("meet-dropdown");
+    const kontaktDropdown = document.getElementById("kontakt-dropdown");
+    const navLinks = document.querySelectorAll("#navbar a");
+
+    // Move items from dropdowns to navbar
+    while (meetDropdown.firstChild) {
+        navbar.appendChild(meetDropdown.firstChild);
+    }
+    while (kontaktDropdown.firstChild) {
+        navbar.appendChild(kontaktDropdown.firstChild);
+    }
+
+
+    navbar.classList.toggle("active");
+        // Toggle visibility of all <a> elements inside the navbar
+    navLinks.forEach(link => {
+        link.classList.toggle("active");
+    });
+
+    // Optionally, hide the dropdown divs
+    meetDropdown.style.display = 'none';
+    kontaktDropdown.style.display = 'none';
+});
