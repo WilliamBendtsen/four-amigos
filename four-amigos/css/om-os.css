@@ -448,12 +448,18 @@ main{
     /* Navbar */
     nav{
         display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
         margin: 0;
     }
     nav img{
         width: 7rem;
+        position: absolute;
+        transform: rotate(180deg);
+        left: 35%;
+        top: -9%;
         margin-top: 1.5rem;
     }
     #navbar a{
@@ -461,6 +467,7 @@ main{
     }
     #navbar a.active{
         display: block;
+        font-size: 15px;
     }
     #burger-menu{
         display: block;
@@ -471,11 +478,53 @@ main{
         margin-right: 1rem;
     }
     .dropdown-links{
-        font-size: 1.5rem;
+        font-size: 30px;
         text-align: center;
         font-weight: 700;
     }
-
+    
+    #vaerdier-nav{
+        position: absolute;
+        top: 12%;
+        left: 19%;
+    }
+    
+    #find-os-nav{
+        position: absolute;
+        top: 12%;
+        left: 50%;
+    }
+    
+    #faq-nav{
+        position: absolute;
+        top: 12%;
+        left: 70%;
+    }
+    
+    #menu-nav{
+        position: absolute;
+        left: 5%;
+        top: 7%;
+    }
+    
+    #bestil-nav{
+        position: absolute;
+        left: 20%;
+        top: 7%;
+    }
+    
+    #meet-nav{
+        position: absolute;
+        left: 34%;
+        top: 7%;
+    }
+    
+    #kontakt-nav{
+        position: absolute;
+        left: 70%;
+        top: 7%;
+    }
+    
 .om-os{
     font-family: Just Another Hand;
     color: #C25851;
