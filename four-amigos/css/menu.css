@@ -436,7 +436,7 @@ nav img{
 /* Footer */
 .footer{
     position: absolute;
-    top: 290%;
+    top: 550%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
