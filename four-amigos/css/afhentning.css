@@ -291,6 +291,7 @@ nav img{
     top: 1070px;
     left: 41.5%;
     width: 230px;
+    text-align: center;
 }
 
 .sebestilling{
@@ -307,6 +308,7 @@ nav img{
     width: 230px;
     border: 3px solid #57843B;
     z-index: 1;
+    text-align: center;
 }
 
 /* Footer */
@@ -314,7 +316,7 @@ nav img{
     position: absolute;
     bottom: -45rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
@@ -725,7 +727,7 @@ nav img{
     position: absolute;
     bottom: -40rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
@@ -1126,7 +1128,7 @@ nav img{
     position: absolute;
     bottom: -70rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;

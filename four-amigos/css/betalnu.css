@@ -349,6 +349,7 @@ main h1{
     top: 80%;
     left: 15%;
     width: 280px;
+    text-align: center;
 }
 
 .done p{
@@ -366,7 +367,7 @@ main h1{
     position: absolute;
     top: 205%;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     background-color: #C25851;
     width: 100%;

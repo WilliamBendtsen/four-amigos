@@ -171,7 +171,7 @@ main h1{
 
 .betalnu{
     border: 3px solid #C25851;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: #C25851;
     color: #F5EDDA;
     padding: 7px 1px;
@@ -182,6 +182,7 @@ main h1{
     top: 95%;
     left: 39%;
     width: 280px;
+    text-align: center;
 }
 
 .fjernet{
@@ -223,7 +224,7 @@ main h1{
     position: absolute;
     top: 120%;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     background-color: #C25851;
     width: 100%;
@@ -426,7 +427,7 @@ main h1{
     
     .betalnu{
         border: 3px solid #C25851;
-        border-radius: 15px;
+        border-radius: 25px;
         background-color: #C25851;
         color: #F5EDDA;
         padding: 7px 1px;
