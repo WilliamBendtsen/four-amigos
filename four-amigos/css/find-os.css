@@ -414,10 +414,10 @@ nav img{
     font-family: Just Another Hand;
     color: #C25851;
     font-weight: 200;
-    font-size: 100px;
+    font-size: 140px;
     position: absolute;
-    left: 33%;
-    top: 55%;
+    left: 25%;
+    top: 22%;
     text-align: center;
     animation: fade-up 1s;
 
@@ -426,30 +426,30 @@ nav img{
 .adresse{
     text-align: center;
     padding-top: 200px;
-    font-size: 15px;
+    font-size: 25px;
     animation: fade-up 1s;
     position: absolute;
-    top: 30%;
+    top: 14%;
     left: 5%;
 }
 
 .imgadresse{
-    width: 190px;
+    width: 300px;
     margin-left: 28%;
     animation: fade-up 1s;
     position: absolute;
-    top: 106%;
-    left: 1%;
+    top:55%;
+    left: -10%;
 }
 
 .adresse2{
     text-align: center;
     margin-top: 7rem;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 350;
     animation: fade-up 1s;
     position: absolute;
-    top: 120%;
+    top: 70%;
     left: 5%;
 }
 
@@ -459,19 +459,19 @@ nav img{
     position: absolute;
     left: 23%;
     margin-top: 6rem;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
-    top: 148%;
-    left: 11%;
+    top: 92%;
+    left: 15%;
 }
 
 #tiktok-logo{
     position: absolute;
     left: 37%;
     margin-top: 5rem;
-    width: 30px;
-    top: 150%;
-    left: 34%;
+    width: 50px;
+    top: 91%;
+    left: 47%;
 }
 
 #tiktok-billede{
@@ -479,9 +479,9 @@ nav img{
     left: 15%;
     margin-top: 9rem;
     cursor: pointer;
-    width: 150px;
-    left: 3%;
-    top: 140%;
+    width: 300px;
+    left: 12%;
+    top: 90%;
 }
 
 
@@ -504,19 +504,19 @@ nav img{
     position: absolute;
     margin-top: 6rem;
     right: 22%;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
-    top: 148%;
-    left: 54%;
+    top: 161%;
+    left: 15%;
 }
 
 #instagram-logo{
     position: absolute;
     right: 17%;
     margin-top: 5rem;
-    width: 30px;
-    top: 150%;
-    left: 85%;
+    width: 50px;
+    top: 161%;
+    left: 60%;
 }
 
 #instagram-billede{
@@ -524,9 +524,9 @@ nav img{
     right: 15%;
     margin-top: 9rem;
     cursor: pointer;
-    width: 150px;
-    left: 54%;
-    top: 140%;
+    width: 300px;
+    left: 12%;
+    top: 160%;
 }
 
 /* Footer */
@@ -546,8 +546,9 @@ nav img{
 
 .social {
 position: absolute;
-left: 43%;
+left: 26%;
 top: 53%;
+
 }
 
 .social a{
