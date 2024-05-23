@@ -291,6 +291,7 @@ nav img{
     top: 1070px;
     left: 41.5%;
     width: 230px;
+    text-align: center;
 }
 
 .sebestilling{
@@ -307,6 +308,7 @@ nav img{
     width: 230px;
     border: 3px solid #57843B;
     z-index: 1;
+    text-align: center;
 }
 
 /* Footer */
@@ -314,7 +316,7 @@ nav img{
     position: absolute;
     bottom: -45rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
@@ -423,14 +425,20 @@ nav img{
 
 @media only screen and (min-width: 390px) and (max-width: 844px){
 /* Navbar */
- nav{
+nav{
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
     margin: 0;
 }
 nav img{
     width: 7rem;
+    position: absolute;
+    transform: rotate(180deg);
+    left: 35%;
+    top: -9%;
     margin-top: 1.5rem;
 }
 #navbar a{
@@ -438,6 +446,7 @@ nav img{
 }
 #navbar a.active{
     display: block;
+    font-size: 15px;
 }
 #burger-menu{
     display: block;
@@ -448,9 +457,51 @@ nav img{
     margin-right: 1rem;
 }
 .dropdown-links{
-    font-size: 1.5rem;
+    font-size: 30px;
     text-align: center;
     font-weight: 700;
+}
+
+#vaerdier-nav{
+    position: absolute;
+    top: 12%;
+    left: 19%;
+}
+
+#find-os-nav{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+}
+
+#faq-nav{
+    position: absolute;
+    top: 12%;
+    left: 70%;
+}
+
+#menu-nav{
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+
+#bestil-nav{
+    position: absolute;
+    left: 20%;
+    top: 7%;
+}
+
+#meet-nav{
+    position: absolute;
+    left: 34%;
+    top: 7%;
+}
+
+#kontakt-nav{
+    position: absolute;
+    left: 70%;
+    top: 7%;
 }
 
 
@@ -676,7 +727,7 @@ nav img{
     position: absolute;
     bottom: -40rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
@@ -785,7 +836,7 @@ nav img{
   /* Navbar */
   nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.5rem;
     margin: 0;
 }
@@ -814,6 +865,47 @@ nav img{
     font-weight: 700;
 }
 
+#vaerdier-nav{
+    position: absolute;
+    top: 8%;
+    left: 24%;
+}
+
+#find-os-nav{
+    position: absolute;
+    top: 8%;
+    left: 51%;
+}
+
+#faq-nav{
+    position: absolute;
+    top: 8%;
+    left: 70%;
+}
+
+#menu-nav{
+    position: absolute;
+    left: 17%;
+    top: 4%;
+}
+
+#bestil-nav{
+    position: absolute;
+    left: 30%;
+    top: 4%;
+}
+
+#meet-nav{
+    position: absolute;
+    left: 47%;
+    top: 4%;
+}
+
+#kontakt-nav{
+    position: absolute;
+    left: 80%;
+    top: 4%;
+}
 /* Main indhold */
 .afhentning{
     font-family: Just Another Hand;
@@ -1036,7 +1128,7 @@ nav img{
     position: absolute;
     bottom: -70rem;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 5rem);
     background-color: #C25851;
     width: 100%;
