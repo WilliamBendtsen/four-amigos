@@ -45,3 +45,20 @@ dropdown1.addEventListener("mouseout", () => hideDropDown1());
 kontakt.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseout", () => hideDropDown2());
+
+/* Så navbaren er responsive */
+const burgerMenu = document.getElementById("burger-menu");
+const navbar = document.getElementById("navbar");
+
+burgerMenu.addEventListener("click", () => {
+    // Move the dropdown <a> elements to the navbar
+    while (dropdown1.firstChild) {
+        navbar.appendChild(dropdown1.firstChild);
+    }
+    while (dropdown2.firstChild) {
+        navbar.appendChild(dropdown2.firstChild);
+    }
+    // Remove the empty dropdown divs
+    dropdown1.remove();
+    dropdown2.remove();
+});

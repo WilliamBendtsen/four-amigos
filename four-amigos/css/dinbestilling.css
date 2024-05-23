@@ -220,7 +220,7 @@ main h1{
 /* Footer */
 .footer{
     position: absolute;
-    top: 190%;
+    top: 120%;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 1fr);
