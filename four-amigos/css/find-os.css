@@ -36,6 +36,7 @@ nav{
 
 nav img{
     grid-column: 3;
+    grid-row: 1;
     justify-self: center;
     align-self: center;
     width: 8rem;
@@ -74,7 +75,7 @@ nav img{
     font-weight: bold;
 }
 
-/* Dropdown */
+/* Dropdown til navbaren */
 .dropdown{
     align-self: center;
     justify-self: center;
@@ -311,6 +312,10 @@ top: 53%;
     transition: 0.5s;
 }
 
+#burger-menu{
+    display: none;
+}
+
 @media only screen and (min-width: 390px) and (max-width: 844px){
     /* Generel styling for body */
 body{
@@ -332,81 +337,35 @@ a{
     color: inherit;
 }
 
-/* Navbar */
-nav{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    margin-top: 3rem;
+  /* Navbar */
+  nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0;
 }
-
 nav img{
-    grid-column: 3;
-    justify-self: center;
-    align-self: center;
-    width: 8rem;
-    cursor: pointer;
+    width: 7rem;
+    margin-top: 1.5rem;
 }
-
-#menu-nav{
-    grid-column: 1;
-    justify-self: center;
-    align-self: center;
-    font-size: medium;
-    font-weight: bold;
+#navbar a{
+    display: none;
 }
-
-#bestil-nav{
-    grid-column: 2;
-    justify-self: center;
-    align-self: center;
-    font-size: medium;
-    font-weight: bold;
+#navbar a.active{
+    display: block;
 }
-
-#meet-nav{
-    grid-column: 4;
-    justify-self: center;
-    align-self: center;
-    font-size: medium;
-    font-weight: bold;
-}
-
-#kontakt-nav{
-    grid-column: 5;
-    justify-self: center;
-    align-self: center;
-    font-size: medium;
-    font-weight: bold;
-}
-
-/* Dropdown */
-.dropdown{
-    align-self: center;
-    justify-self: center;
-}
-
-#meet-dropdown{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
+#burger-menu{
+    display: block;
     position: absolute;
-    text-align: center;
-    width: 13rem;
-    height: 8rem;
-    font-size: 1.5rem;
+    right: 0;
+    top: 3rem;
+    font-size: 2rem;
+    margin-right: 1rem;
 }
-
-#kontakt-dropdown{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    text-align: center;
-    width: 5.5rem;
-    height: 4rem;
-    justify-content: center;
+.dropdown-links{
     font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
 }
 
 /* Find os */
@@ -668,79 +627,34 @@ a{
 
 /* Navbar */
 nav{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0;
 }
-
 nav img{
-    grid-column: 3;
-    justify-self: center;
-    align-self: center;
-    width: 8rem;
-    cursor: pointer;
+    width: 10rem;
+    margin-top: 1rem;
 }
-
-#menu-nav{
-    grid-column: 1;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
+#navbar a{
+    display: none;
+    font-size: 2rem;
 }
-
-#bestil-nav{
-    grid-column: 2;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
+#navbar a.active{
+    display: block;
 }
-
-#meet-nav{
-    grid-column: 4;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#kontakt-nav{
-    grid-column: 5;
-    justify-self: center;
-    align-self: center;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-/* Dropdown */
-.dropdown{
-    align-self: center;
-    justify-self: center;
-}
-
-#meet-dropdown{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
+#burger-menu{
+    display: block;
     position: absolute;
-    text-align: center;
-    width: 13rem;
-    height: 8rem;
-    font-size: 1.5rem;
+    right: 0;
+    top: 3rem;
+    font-size: 3rem;
+    margin-right: 1rem;
 }
-
-#kontakt-dropdown{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+.dropdown-links{
+    font-size: 2rem;
     text-align: center;
-    width: 5.5rem;
-    height: 4rem;
-    justify-content: center;
-    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 /* Find os */
