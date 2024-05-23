@@ -545,6 +545,7 @@ input{
 }
 
 
+/* Media query for mobiler, med udgangspunkt i iPhone 12 Pro */
 @media (max-width: 390px){
     /* Navbar */
     nav{
@@ -965,7 +966,7 @@ input{
 }
 }
 
-
+/* Media query for tablets, med udgangspunkt i Ipad Pro */
 @media (min-width: 391px) and (max-width: 1024px){
 /* Navbar */
 nav{

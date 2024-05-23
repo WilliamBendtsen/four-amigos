@@ -1,3 +1,4 @@
+'use strict'
 /* Så logoet redirecter til landing page */
 function redirectToIndex() {
     window.location.href = "index.html";
@@ -46,12 +47,12 @@ function goBack() {
 const burgerMenu = document.getElementById("burger-menu");
 const navbar = document.getElementById("navbar");
 
+/* Eventlistener, der sørger for at navbaren vises/gemmes væk ved tryk på burgermenuen */
 burgerMenu.addEventListener("click", () => {
     const meetDropdown = document.getElementById("meet-dropdown");
     const kontaktDropdown = document.getElementById("kontakt-dropdown");
     const navLinks = document.querySelectorAll("#navbar a");
 
-    // Move items from dropdowns to navbar
     while (meetDropdown.firstChild) {
         navbar.appendChild(meetDropdown.firstChild);
     }
@@ -61,12 +62,10 @@ burgerMenu.addEventListener("click", () => {
 
 
     navbar.classList.toggle("active");
-        // Toggle visibility of all <a> elements inside the navbar
     navLinks.forEach(link => {
         link.classList.toggle("active");
     });
 
-    // Optionally, hide the dropdown divs
     meetDropdown.style.display = 'none';
     kontaktDropdown.style.display = 'none';
 });
