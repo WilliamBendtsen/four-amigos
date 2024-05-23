@@ -1,12 +1,14 @@
-# Markdown syntax guide
+# Markdown dokumentation
 
 ## Four Amigos
+#### I denne Markdown dokumentation kan der læses om et et kodeeksempel, hvor der kort beskrives 
+#### hvordan brugeren kan fjerne en ordre fra sin bestilling. Det er også muligt at se vores
+#### infographic uden for kontext således den analyseres yderligere.
 
 
 
 
-
-### Et kodeeksempel med Html
+### Hvordan man fjerner en ordre fra hjemmesiden
 ```html
 
     <img src="/four-amigos/img/removeknap.webp" alt="fjern knap" class="remove-button">
