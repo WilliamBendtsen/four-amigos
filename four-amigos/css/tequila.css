@@ -127,3 +127,262 @@ a{
     left: 42%;
     animation: fade-up 1s;
 }
+
+@media only screen and (min-width: 390px) and (max-width: 844px){
+    /* Generel styling for body */
+body{
+    background-color: #c25851;
+    font-family: Josefin Sans;
+}
+
+/* Keyframes animation så siden fader ind */
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
+/* Generel styling for alle <a> elementerne på siden */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main */
+.tequila{
+    font-family: Just Another Hand;
+    color: #F5EDDA;
+    font-weight: 200;
+   font-size: 100px;
+   position: absolute;
+   text-align: center;
+   top: 5%;
+   left: 33%;
+   animation: fade-up 1s;
+}
+
+.kah{
+    color: #F5EDDA;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    animation: fade-up 1s;
+    font-size: 20px;
+}
+
+.kah-billede{
+    width: 200px;
+    position: absolute;
+    top: 29%;
+    left: 33%;
+    animation: fade-up 1s;
+}
+
+.kah-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    top: 56%;
+    text-align: center;
+    left: 16%;
+    animation: fade-up 1s;
+}
+
+.cenote{
+    color: #F5EDDA;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    animation: fade-up 1s;
+    font-size: 20px;
+}
+
+.cenote-billede{
+    width: 200px;
+    position: absolute;
+    top: 85%;
+    left: 28%;
+    animation: fade-up 1s;
+}
+
+.cenote-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    top: 117%;
+    text-align: center;
+    left: 17%;
+    animation: fade-up 1s;
+}
+
+.donjulio{
+    color: #F5EDDA;
+    position: absolute;
+    top: 140%;
+    left: 26%;
+    animation: fade-up 1s;
+    font-size: 20px;
+    text-align: center;
+}
+
+.donjulio-billede{
+    width: 200px;
+    position: absolute;
+    top: 145%;
+    left: 29%;
+    animation: fade-up 1s;
+}
+
+.donjulio-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 20px;
+    position: absolute;
+    top: 180%;
+    text-align: center;
+    left: 11%;
+    animation: fade-up 1s;
+}
+
+#tilbage-knap{
+    width: 200px;
+    position: absolute;
+    top: 210%;
+    left: 30%;
+    animation: fade-up 1s;
+    padding-bottom: 10px;
+}
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+    /* Generel styling for body */
+body{
+    background-color: #c25851;
+    font-family: Josefin Sans;
+}
+
+/* Keyframes animation så siden fader ind */
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
+/* Generel styling for alle <a> elementerne på siden */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main */
+.tequila{
+    font-family: Just Another Hand;
+    color: #F5EDDA;
+    font-weight: 200;
+   font-size: 250px;
+   position: absolute;
+   text-align: center;
+   top: 5%;
+   left: 34%;
+   animation: fade-up 1s;
+}
+
+.kah{
+    color: #F5EDDA;
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    animation: fade-up 1s;
+    font-size: 40px;
+}
+
+.kah-billede{
+    width: 300px;
+    position: absolute;
+    top: 33%;
+    left: 42%;
+    animation: fade-up 1s;
+}
+
+.kah-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 40px;
+    position: absolute;
+    top: 58%;
+    text-align: center;
+    left: 25%;
+    animation: fade-up 1s;
+}
+
+.cenote{
+    color: #F5EDDA;
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    animation: fade-up 1s;
+    font-size: 40px;
+}
+
+.cenote-billede{
+    width: 300px;
+    position: absolute;
+    top: 85%;
+    left: 37%;
+    animation: fade-up 1s;
+}
+
+.cenote-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 40px;
+    position: absolute;
+    top: 113%;
+    text-align: center;
+    left: 26%;
+    animation: fade-up 1s;
+}
+
+.donjulio{
+    color: #F5EDDA;
+    position: absolute;
+    top: 140%;
+    left: 31%;
+    animation: fade-up 1s;
+    font-size: 40px;
+}
+
+.donjulio-billede{
+    width: 260px;
+    position: absolute;
+    top: 145%;
+    left: 39%;
+    animation: fade-up 1s;
+}
+
+.donjulio-undertekst{
+    color: #F5EDDA;
+    font-weight: 200;
+    font-size: 40px;
+    position: absolute;
+    top: 175%;
+    text-align: center;
+    left: 14%;
+    animation: fade-up 1s;
+
+}
+
+#tilbage-knap{
+    width: 400px;
+    position: absolute;
+    top: 200%;
+    left: 34%;
+    animation: fade-up 1s;
+}
+
+}

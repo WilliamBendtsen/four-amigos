@@ -274,16 +274,16 @@ nav img{
 .nachosbillede{
     width: 1000px;
     position: absolute;
-    left: 20%;
-    top: 130%;
+    left: 32%;
+    top: 112%;
     animation: fade-up 1s;
 }
 
 .garnishbillede{
     width: 600px;
     position: absolute;
-    left: 50%;
-    top: 215%;
+    left: 60%;
+    top: 180%;
     animation: fade-up 1s;
 }
 
@@ -371,9 +371,9 @@ nav img{
 .pil-2{
     position: absolute;
     width: 50px;
-    top: 331%;
-    left: 37%;
-    transform: rotate(190deg);
+    top: 275%;
+    left: 34.5%;
+    transform: rotate(270deg);
 }
 
 .pssst-2{
@@ -382,8 +382,8 @@ nav img{
     color: #C25851;
     position: absolute;
     line-height: 130%;
-    left: 40%;
-    top: 320%;
+    left: 37%;
+    top: 270%;
     text-align: center;
 }
 
@@ -391,8 +391,8 @@ nav img{
     width: 50px;
     text-align: center;
     position: absolute;
-    left: 40.5%;
-    top: 327%;
+    left: 37.5%;
+    top: 277%;
 }
 
 .sodavandmenu {
@@ -475,7 +475,7 @@ nav img{
 
 
 
-@media (max-width:390px){
+@media (max-width:800px){
     .menu{
         font-family: Just Another Hand;
         color: #C25851;
@@ -850,6 +850,396 @@ nav img{
         text-align: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width:800px) and (max-width:1024px){
+    .menu{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+       font-size: 200px;
+       position: absolute;
+       left: 40%;
+       top: 15%;
+        text-align: center;
+        animation: fade-up 1s;
+    }
+    
+    .inklusiv{
+        position: absolute;
+        left: 60%;
+        width: 300px;
+        top: 44%;
+        text-align: center;
+        animation: fade-up 1s;
+    }
+    
+    .rabatter-overskrift{
+        font-family: Josefin Sans;
+        font-weight: 200;
+        font-size: 35px;
+        position: absolute;
+        left: 45%;
+        top: 27%;
+        animation: fade-up 1s;
+    }
+    
+    .studierabat{
+        font-family: Josefin Sans;
+        font-weight: 200;
+        font-size: 20px;
+        position: absolute;
+        color: #57843B;
+        top: 30%;
+        left: 44%;
+        width: 100%;
+        animation: fade-up 1s;
+    }
+    
+    .tacotuesday{
+        font-family: Josefin Sans;
+        font-weight: 200;
+        font-size: 20px;
+        position: absolute;
+        color: #57843B;
+        top: 32%;
+        left: 43%;
+        width: 100%;
+        animation: fade-up 1s;
+    }
+    
+    .tacotuesday-underskrift{
+        font-family: Josefin Sans;
+        font-weight: 200;
+        font-size: 12px;
+        position: absolute;
+        color: #57843B;
+        left: 43.5%;
+        width: 100%;
+        top: 34%;
+        animation: fade-up 1s;
+    }
+    
+    .pil{
+        position: absolute;
+        width: 15px;
+        top: 31%;
+        left: 72%;
+        transform: rotate(190deg);
+        animation: fade-up 1s;
+    }
+    
+    .pssst{
+        font-family: Just Another Hand;
+        font-size: 20px;
+        color: #C25851;
+        position: absolute;
+        top: 30%;
+        left: 65%;
+        width: 100%;
+        animation: fade-up 1s;
+    }
+    
+    .pil-knap{
+        width: 50px;
+        position: absolute;
+        left: 66%;
+        top: 34%;
+        animation: fade-up 1s;
+    }
+    
+    .tacomenu {
+        border: 3px solid #C25851;
+        padding: 50px 0px;
+        margin: 400px 80px 80px 80px;
+        box-sizing: border-box;
+        animation: fade-up 1s;
+        width: 85%;
+    }
+    
+    .tacosbillede{
+        width: 300px;
+        position: absolute;
+        left: 63%;
+        top: 67%;
+        animation: fade-up 1.5s;
+    }
+    
+    .tacos{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+        font-size: 100px;
+        position: relative;
+        left: 1%;
+        animation: fade-up 1s;
+    }
+    
+    .tacos-underskrift{
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: left;
+        position: relative;
+        line-height: 30px;
+        padding-left: 100px;
+        right: 15%;
+        text-align: center;
+        animation: fade-up 1s;
+    
+    }
+    
+    .tacos-underskrift1{
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 13px;
+        text-align: left;
+        position: relative;
+        line-height: 130%;
+        margin-top: 20px;
+        right: 8%;
+        text-align: center;
+        animation: fade-up 1s;
+    
+    }
+    
+    .nachosmenu {
+        border: 3px solid #C25851;
+        padding: 50px 0px;
+        margin: 80px;
+        box-sizing: border-box; 
+        animation: fade-up 1s;
+        width: 85%;
+    }
+    
+    .nachosmenu p{
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 15%;
+        line-height: 30px;
+        padding-left: 100px;
+        text-align: center;
+        animation: fade-up 1s;
+    }
+      
+    .nachosbillede{
+        width: 700px;
+        position: absolute;
+        left: 30%;
+        top: 92%;
+        animation: fade-up 1s;
+    }
+    
+    .garnishbillede{
+        width: 450px;
+        position: absolute;
+        left: 55%;
+        top: 135%;
+        animation: fade-up 1s;
+    }
+    
+    .nachos{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+        font-size: 100px;
+        position: relative;
+        padding-left: 280px;
+        animation: fade-up 1s;
+    }
+    
+    .garnishmenu {
+        border: 3px solid #C25851;
+        padding: 50px 0px;
+        margin: 80px; 
+        box-sizing: border-box;
+        animation: fade-up 1s;
+        width: 85%;
+    }
+    
+    .garnish{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+        font-size: 100px;
+        position: relative;
+        padding-left: 160px;
+        animation: fade-up 1s;
+    }
+    
+    .garnish-liste{
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        right: 27%;
+        line-height: 20px;
+        padding-left: 100px;
+        text-align: center;
+    }
+    
+    .drinkkort{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+       font-size: 150px;
+       position: relative;
+        text-align: center;
+        left: 0%;
+    }
+    
+    .tequilamenu {
+        border: 3px solid #C25851;
+        padding: 30px 0px;
+        margin: 0px 80px 80px 80px;
+        box-sizing: border-box;
+        background-image: url('/four-amigos/img/tequila.png'); 
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 450px;
+        width: 85%;
+    }
+    
+    .tequila{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+        font-size: 100px;
+        position: relative;
+        padding-left: 160px;
+    }
+    
+    .tequila-underskrift{
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        position: relative;
+        line-height: 130%;
+        margin-top: 20px;
+        margin-left: 80px;
+        right: 24%;
+        text-align: center;
+    }
+    
+    .pil-2{
+        position: absolute;
+        width: 50px;
+        top: 192%;
+        left: 45%;
+        transform: rotate(190deg);
+    }
+    
+    .pssst-2{
+        font-family: Just Another Hand;
+        font-size: 20px;
+        color: #C25851;
+        position: absolute;
+        line-height: 130%;
+        left: -5%;
+        width: 100%;
+        top: 188%;
+        text-align: center;
+    }
+    
+    .pil-knap-2{
+        width: 50px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 190%;
+    }
+    
+    .sodavandmenu {
+        border: 3px solid #C25851;
+        padding: 50px 0px;
+        margin: 80px;
+        box-sizing: border-box;
+        background-image: url('/four-amigos/img/daaser.png'); 
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 350px;
+        width: 85%;
+    }
+    
+    .sodavand{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+        font-size: 100px;
+        position: relative;
+        padding-left: 130px;
+    }
+    
+    .sodavand-underskrift{
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        position: relative;
+        line-height: 130%;
+        margin-top: 20px;
+        margin-left: 80px;
+        right: 24%;
+        text-align: center;
+    }
+    
+    .daaser{
+        width: 500px;
+        position: relative
+    }
+    
+    .oelmenu {
+        border: 3px solid #C25851;
+        padding: 50px 0px;
+        margin: 80px;
+        box-sizing: border-box;
+        background-image: url('/four-amigos/img/oel.png'); 
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:contain;
+        width: 85%;
+    }
+    
+    .oel{
+        font-family: Just Another Hand;
+        color: #C25851;
+        font-weight: 200;
+        font-size: 100px;
+        position: relative;
+        padding-left: 240px;
+    }
+    
+    .oel-underskrift{
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        position: relative;
+        line-height: 130%;
+        margin-top: 20px;
+        margin-left: 80px;
+        right: 24%;
+        text-align: center;
+    }
+}
+
+
+
+
+
 
 
 /* Footer */
