@@ -21,7 +21,7 @@
 #### HTML-koden, der ses ovenfor, er med til at give brugeren muligheden for at fjerne sin ordre. Vi opstiller nogle elementer, som har specifikke "class"', der spiller sammen med Javascript. 
 
 
-### Sammenhængede Javascript til forrige HTMLE:
+### Sammenhængede Javascript til forrige HTML:
 ```javascript
 
     removeButton2.addEventListener('click', function() {
@@ -42,6 +42,6 @@
 #### Vi har fremstillet denne infographic for at give brugeren en ide om, hvordan Four
 #### Amigos laver deres mad.
 
-> Link til hjemmeside: \-
-> Link til GitHub: \-
+> Link til hjemmeside: \-https://four-amigos.williamskodeeventyr.dk/index.html
+> Link til GitHub: \-https://github.com/WilliamBendtsen/four-amigos
 
