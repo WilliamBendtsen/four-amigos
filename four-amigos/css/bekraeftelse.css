@@ -275,8 +275,8 @@ body{
 
 .baggrund{
     position: absolute;
-    top: 50%;
-    left: -5%;
+    top: 20%;
+    left: -1%;
     width: 400px;
     background-size: 1000px;
     background-repeat: no-repeat;
@@ -377,6 +377,9 @@ body{
 /* Main indhold styling */
 .bekraeftelse{
     font-family: Just Another Hand;
+    position: absolute;
+    top: 27%;
+    left: 17%;
     font-size: 100px;
     font-weight: 200;
     text-align: center;
@@ -389,28 +392,32 @@ body{
     font-weight: 400;
     padding-bottom: 30px;
     animation: fade-up 1s;
-    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    font-size: 18px;
 }
 
 .bekraeftelse-underskrift-2{
     font-weight: 200;
     text-align: center;
     animation: fade-up 1s;
+    position: absolute;
+    top: 50%;
     font-size: 20px;
 }
 
 .bekraeftelse-knap{
     width: 150px;
     position: absolute;
-    left: 33%;
-    top: 124%;
+    left: 28%;
+    top: 65%;
     animation: fade-up 1s;
 }
 
 /* Footer */
 .footer{
     position: absolute;
-    bottom: -30rem;
+    bottom: -2rem;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 5rem);
