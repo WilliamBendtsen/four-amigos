@@ -158,101 +158,102 @@ a{
    position: absolute;
    text-align: center;
    top: 5%;
-   left: 35%;
+   left: 33%;
    animation: fade-up 1s;
 }
 
 .kah{
     color: #F5EDDA;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    top: 25%;
+    left: 25%;
     animation: fade-up 1s;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .kah-billede{
-    width: 100px;
+    width: 200px;
     position: absolute;
-    top: 47%;
-    left: 8%;
+    top: 29%;
+    left: 33%;
     animation: fade-up 1s;
 }
 
 .kah-undertekst{
     color: #F5EDDA;
     font-weight: 200;
-    font-size: 7px;
+    font-size: 20px;
     position: absolute;
-    top: 82%;
+    top: 56%;
     text-align: center;
-    left: 5%;
+    left: 16%;
     animation: fade-up 1s;
 }
 
 .cenote{
     color: #F5EDDA;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 80%;
+    left: 28%;
     animation: fade-up 1s;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .cenote-billede{
-    width: 100px;
+    width: 200px;
     position: absolute;
-    top: 45%;
-    left: 41%;
+    top: 85%;
+    left: 28%;
     animation: fade-up 1s;
 }
 
 .cenote-undertekst{
     color: #F5EDDA;
     font-weight: 200;
-    font-size: 7px;
+    font-size: 20px;
     position: absolute;
-    top: 82%;
+    top: 117%;
     text-align: center;
-    left: 41%;
+    left: 17%;
     animation: fade-up 1s;
 }
 
 .donjulio{
     color: #F5EDDA;
     position: absolute;
-    top: 40%;
-    left: 71%;
+    top: 140%;
+    left: 26%;
     animation: fade-up 1s;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
 }
 
 .donjulio-billede{
-    width: 80px;
+    width: 200px;
     position: absolute;
-    top: 47%;
-    left: 73%;
+    top: 145%;
+    left: 29%;
     animation: fade-up 1s;
 }
 
 .donjulio-undertekst{
     color: #F5EDDA;
     font-weight: 200;
-    font-size: 7px;
+    font-size: 20px;
     position: absolute;
-    top: 82%;
+    top: 180%;
     text-align: center;
-    left: 66%;
+    left: 11%;
     animation: fade-up 1s;
 }
 
 #tilbage-knap{
-    width: 100px;
+    width: 200px;
     position: absolute;
-    top: 100%;
-    left: 42%;
+    top: 210%;
+    left: 30%;
     animation: fade-up 1s;
+    padding-bottom: 10px;
 }
 
 }
@@ -283,104 +284,104 @@ a{
     font-family: Just Another Hand;
     color: #F5EDDA;
     font-weight: 200;
-   font-size: 100px;
+   font-size: 250px;
    position: absolute;
    text-align: center;
    top: 5%;
-   left: 44%;
+   left: 34%;
    animation: fade-up 1s;
 }
 
 .kah{
     color: #F5EDDA;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    top: 28%;
+    left: 32%;
     animation: fade-up 1s;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .kah-billede{
-    width: 150px;
+    width: 300px;
     position: absolute;
-    top: 48%;
-    left: 10%;
+    top: 33%;
+    left: 42%;
     animation: fade-up 1s;
 }
 
 .kah-undertekst{
     color: #F5EDDA;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 40px;
     position: absolute;
-    top: 100%;
+    top: 58%;
     text-align: center;
-    left: 4%;
+    left: 25%;
     animation: fade-up 1s;
 }
 
 .cenote{
     color: #F5EDDA;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 80%;
+    left: 32%;
     animation: fade-up 1s;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .cenote-billede{
-    width: 150px;
+    width: 300px;
     position: absolute;
-    top: 48%;
-    left: 43%;
+    top: 85%;
+    left: 37%;
     animation: fade-up 1s;
 }
 
 .cenote-undertekst{
     color: #F5EDDA;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 40px;
     position: absolute;
-    top: 105%;
+    top: 113%;
     text-align: center;
-    left: 40%;
+    left: 26%;
     animation: fade-up 1s;
 }
 
 .donjulio{
     color: #F5EDDA;
     position: absolute;
-    top: 40%;
-    left: 71%;
+    top: 140%;
+    left: 31%;
     animation: fade-up 1s;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .donjulio-billede{
-    width: 115px;
+    width: 260px;
     position: absolute;
-    top: 50%;
-    left: 76%;
+    top: 145%;
+    left: 39%;
     animation: fade-up 1s;
 }
 
 .donjulio-undertekst{
     color: #F5EDDA;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 40px;
     position: absolute;
-    top: 103%;
+    top: 175%;
     text-align: center;
-    left: 68%;
+    left: 14%;
     animation: fade-up 1s;
 
 }
 
 #tilbage-knap{
-    width: 150px;
+    width: 400px;
     position: absolute;
-    top: 150%;
-    left: 44%;
+    top: 200%;
+    left: 34%;
     animation: fade-up 1s;
 }
 
