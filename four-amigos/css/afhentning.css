@@ -514,183 +514,183 @@ nav img{
     font-weight: 200;
    font-size: 100px;
    position: absolute;
-   top: 34%;
-   left: 20%;
+   top: 20%;
+   left: 18%;
    animation: fade-up 1s;
 }
 
 .menuer{
     position: absolute;
-    top: 60%;
-    left: 5%;
-    font-size: 20px;
+    top: 35%;
+    left: 25%;
+    font-size: 50px;
     font-weight: 400;
     animation: fade-up 1s;
 }
 
 .afhentning-plads{
-    width: 150px;
+    width: 320px;
     position: absolute;
-    top: 70%;
-    left: 5%;
+    top: 44%;
+    left: 10%;
     animation: fade-up 1s;
 }
 
 .taco4stk-overskrift{
     font-weight: 800;
-    font-size: 10px;
+    font-size: 20px;
     position: absolute;
-    top: 71%;
-    left: 6%;
+    top: 46%;
+    left: 12%;
     animation: fade-up 1s;
 }
 
 .taco4stk-underskrift{
     position: absolute;
-    top: 75%;
-    left: 7%;
+    top: 49%;
+    left: 13%;
     animation: fade-up 1s;
-    font-size: 5px;
+    font-size: 10px;
 }
 
 .afhentning-taco{
-    width: 50px;
+    width: 100px;
     position: absolute;
-    top: 75%;
-    left: 27%;
+    top: 48.5%;
+    left: 53%;
     animation: fade-up 1s;
 }
 
 .taco4stk-pris{
     position: absolute;
-    top: 84.5%;
-    left: 31%;
+    top: 56.2%;
+    left: 57%;
     animation: fade-up 1s;
-    font-size: 3px;
+    font-size: 10px;
 }
 
 .afhentning-plads-2{
-    width: 150px;
+    width: 320px;
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 60%;
+    left: 10%;
     animation: fade-up 1s;
 }
 
 .taco5stk-overskrift{
     font-weight: 800;
-    font-size: 10px;
+    font-size: 20px;
     position: absolute;
-    top: 71%;
-    left: 52%;
+    top: 62%;
+    left: 12%;
     animation: fade-up 1s;
 }
 
 .taco5stk-underskrift{
     position: absolute;
-    top: 75%;
-    left: 52%;
+    top: 65%;
+    left: 13%;
     animation: fade-up 1s;
-    font-size: 5px;
+    font-size: 10px;
 }
 
 .afhentning-taco-2{
-    width: 50px;
+    width: 100px;
     position: absolute;
-    top: 75%;
-    left: 72%;
+    top: 64.5%;
+    left: 53%;
     animation: fade-up 1s;
 }
 
 .taco5stk-pris{
     position: absolute;
-    top: 84.5%;
-    left: 76%;
+    top: 72.2%;
+    left: 58%;
     animation: fade-up 1s;
-    font-size: 3px;
+    font-size: 10px;
 }
 
 .afhentning-plads-3{
-    width: 150px;
+    width: 320px;
     position: absolute;
-    top: 90%;
-    left: 5%;
+    top: 75%;
+    left: 10%;
     animation: fade-up 1s;
 }
 
 .taco8stk-overskrift{
     font-weight: 800;
-    font-size: 10px;
+    font-size: 20px;
     position: absolute;
-    top: 91%;
-    left: 6%;
+    top: 77%;
+    left: 12%;
     animation: fade-up 1s;
 }
 
 .taco8stk-underskrift{
     position: absolute;
-    top: 95%;
-    left: 7%;
+    top: 80%;
+    left: 13%;
     animation: fade-up 1s;
-    font-size: 5px;
+    font-size: 10px;
 }
 
 .afhentning-taco-3{
-    width: 50px;
+    width: 100px;
     position: absolute;
-    top: 95%;
-    left: 27%;
+    top: 79.5%;
+    left: 53%;
     animation: fade-up 1s;
 }
 
 .taco8stk-pris{
     position: absolute;
-    top: 104.8%;
-    left: 31%;
+    top: 87.2%;
+    left: 58%;
     animation: fade-up 1s;
-    font-size: 3px;
+    font-size: 10px;
 }
 
 .afhentning-plads-4{
-    width: 150px;
+    width: 320px;
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 10%;
     padding-bottom: 30px;
     animation: fade-up 1s;
 }
 
 .taco12stk-overskrift{
     font-weight: 800;
-    font-size: 10px;
+    font-size: 20px;
     position: absolute;
     top: 91.5%;
-    left: 52%;
+    left: 12%;
     animation: fade-up 1s;
 }
 
 .taco12stk-underskrift{
     position: absolute;
     top: 95%;
-    left: 52%;
+    left: 13%;
     animation: fade-up 1s;
-    font-size: 5px;
+    font-size: 10px;
 }
 
 .afhentning-taco-4{
-    width: 50px;
+    width: 100px;
     position: absolute;
-    top: 95%;
-    left: 72%;
+    top: 94.2%;
+    left: 53%;
     animation: fade-up 1s;
 }
 
 .taco12stk-pris{
     position: absolute;
-    top: 104.8%;
-    left: 76%;
+    top: 102%;
+    left: 57.4%;
     animation: fade-up 1s;
-    font-size: 3px;
+    font-size: 10px;
 }
 
 .betalnu{
@@ -699,12 +699,12 @@ nav img{
     background-color: #57843B;
     color: #F5EDDA;
     padding: 7px 1px;
-    font-size: 10px;
+    font-size: 30px;
     cursor: pointer;
     font-family: Josefin Sans;
     position: absolute;
-    top: 120%;
-    left: 21%;
+    top: 110%;
+    left: 20%;
     width: 230px;
 }
 
@@ -713,12 +713,12 @@ nav img{
     background-color: #F5EDDA;
     color: #57843B;
     padding: 7px 1px;
-    font-size: 10px;
+    font-size: 30px;
     cursor: pointer;
     font-family: Josefin Sans;
     position: absolute;
-    top: 132%;
-    left: 21%;
+    top: 120%;
+    left: 20%;
     width: 230px;
     border: 3px solid #57843B;
     z-index: 1;
@@ -727,7 +727,7 @@ nav img{
 /* Footer */
 .footer{
     position: absolute;
-    bottom: -90rem;
+    bottom: -40rem;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 5rem);
