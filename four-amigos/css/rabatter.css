@@ -120,3 +120,234 @@ a{
     animation: fade-up 1s;
 }
 
+@media only screen and (min-width: 390px) and (max-width: 844px){
+    /* Generel styling for body */
+body{
+    background-color: #57843B;
+    font-family: Josefin Sans;
+}
+
+/* Keyframes animation så siden fader ind */
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
+/* Generel styling for alle <a> elementerne på siden */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main */
+.rabatter{
+    font-family: Just Another Hand;
+    color: #F5EDDA;
+    font-weight: 200;
+   font-size: 100px;
+   position: absolute;
+   text-align: center;
+   top: 5%;
+   left: 27%;
+   animation: fade-up 1s;
+}
+
+.rabatter-underskrift{
+    font-size: 15px;
+    color: #F5EDDA;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    animation: fade-up 1s;
+}
+
+.studierabat-2{
+    font-family: Josefin Sans;
+    font-weight: 200;
+    font-size: 30px;
+    position: absolute;
+    color: #F5EDDA;
+    top: 50%;
+    left: 32%;
+    animation: fade-up 1s;
+}
+
+.studierabat-2-underskrift{
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 13px;
+    position: absolute;
+    color: #F5EDDA;
+    text-align: center;
+    top: 60%;
+    left: 24%;
+    animation: fade-up 1s;
+
+}
+
+.tyve-procent{
+    width: 100px;
+    position: absolute;
+    left: 65%;
+    top: 40%;
+    animation: fade-up 1s;
+}
+
+.tacotuesday-2{
+    font-family: Josefin Sans;
+    font-weight: 200;
+    font-size: 30px;
+    position: absolute;
+    color: #F5EDDA;
+    left: 30%;
+    top: 90%;
+    animation: fade-up 1s;
+}
+
+.tacotuesday-2-underskrift{
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 13px;
+    position: absolute;
+    color: #F5EDDA;
+    text-align: center;
+    left: 26%;
+    top: 100%;
+    animation: fade-up 1s;
+}
+
+.halvtreds-procent{
+    width: 100px;
+    position: absolute;
+    top: 82%;
+    left: 8%;
+    animation: fade-up 1s;
+}
+
+.tilbage-knap{
+    width: 100px;
+    position: absolute;
+    top: 120%;
+    left: 38%;
+    animation: fade-up 1s;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+    /* Generel styling for body */
+body{
+    background-color: #57843B;
+    font-family: Josefin Sans;
+}
+
+/* Keyframes animation så siden fader ind */
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
+
+/* Generel styling for alle <a> elementerne på siden */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main */
+.rabatter{
+    font-family: Just Another Hand;
+    color: #F5EDDA;
+    font-weight: 200;
+   font-size: 100px;
+   position: absolute;
+   text-align: center;
+   top: 5%;
+   left: 42%;
+   animation: fade-up 1s;
+}
+
+.rabatter-underskrift{
+    font-size: 20px;
+    color: #F5EDDA;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    animation: fade-up 1s;
+}
+
+.studierabat-2{
+    font-family: Josefin Sans;
+    font-weight: 200;
+    font-size: 40px;
+    position: absolute;
+    color: #F5EDDA;
+    top: 46%;
+    left: 42%;
+    animation: fade-up 1s;
+}
+
+.studierabat-2-underskrift{
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    color: #F5EDDA;
+    text-align: center;
+    top: 60%;
+    left: 37%;
+    animation: fade-up 1s;
+
+}
+
+.tyve-procent{
+    width: 200px;
+    position: absolute;
+    left: 58%;
+    top: 26%;
+    animation: fade-up 1s;
+}
+
+.tacotuesday-2{
+    font-family: Josefin Sans;
+    font-weight: 200;
+    font-size: 40px;
+    position: absolute;
+    color: #F5EDDA;
+    left: 41%;
+    top: 87%;
+    animation: fade-up 1s;
+}
+
+.tacotuesday-2-underskrift{
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    color: #F5EDDA;
+    text-align: center;
+    left: 38.5%;
+    top: 100%;
+    animation: fade-up 1s;
+}
+
+.halvtreds-procent{
+    width: 200px;
+    position: absolute;
+    top: 75%;
+    left: 24%;
+    animation: fade-up 1s;
+}
+
+.tilbage-knap{
+    width: 150px;
+    position: absolute;
+    top: 130%;
+    left: 44.8%;
+    animation: fade-up 1s;
+}
+}

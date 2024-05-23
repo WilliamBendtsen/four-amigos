@@ -179,31 +179,39 @@ ul img{
 }
 
 
-
 /* Footer */
 .footer{
     position: absolute;
-    top: 200%;
+    top: 190%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3, 1fr);
     background-color: #C25851;
     width: 100%;
     font-family: Josefin Sans;
+    height: 17rem;
 }
 
-.footer, .social{
+.footer,
+.social{
     text-align: center;
-    padding-bottom: 28px;
     color: #F5EDDA;
 }
 
 .social {
-position: absolute;
-left: 43%;
-top: 53%;
+    display: flex;
+    background-color: inherit;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    width: fit-content;
+    grid-row: 2;
 }
 
 .social a{
     font-size: 33px;
-    color: inherit;
+    color: #F5EDDA;
+    background-color: #C25851;
     border: 3px solid #F5EDDA;
     width: 50px;
     height: 50px;
@@ -229,34 +237,33 @@ top: 53%;
     font-family: Josefin Sans;
     font-weight: 400;
     font-style: normal;
-    
 }
 
 .footer h1:hover{
     opacity: 1;
 }
 
-
 .footer ul{
-    margin-top: 0;
-    padding: 0;
     list-style: none;
     font-size: 38px;
-    line-height: 5;
     margin-bottom: 0;
+    background-color: inherit;
+    align-self: center;
+    z-index: 999;
 }
 
 .footer ul li{
     display: inline-block;
     padding: 0 15px;
+    background-color: inherit;
 }
 
 .footer ul li a{
-    color: inherit;
+    color: #F5EDDA;
     text-decoration: none;
     opacity: 1;
     transition: 0.5s;
-    font-size: 33px;
+    background-color: inherit;
 }
 
 .footer ul li a:hover{
@@ -265,31 +272,82 @@ top: 53%;
     transition: 0.5s;
 }
 
-
 .footer, .copyright{
     margin-top: 20px;
     text-align: center;
     font-size: 15px;
+    padding: 0;
 }
 
 .copyright{
   color: #F5EDDA;
+  background-color: inherit;
 }
 
-.fa-tiktok{
-    position: absolute;
-    left: 100%;
-    font-size: 33px;
-    color: inherit;
-    border: 3px solid #F5EDDA;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    line-height: 44px;
+@media only screen and (max-width: 800px) {
+    nav{
+        display: none;
+    }
+    .spoergsmaal{
+        flex-direction: column;
+        gap: 0;
+    }
+    #infographic{
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer{
+        top: 170%;
+        height: 30rem;
+    }
+
+    .footer ul{
+        display: flex;
+        flex-direction: column;
+        grid-row: 1;
+        padding: 0;
+        }
+    
+    .footer ul li{
+        font-size: 1.5rem;
+    }
 }
 
-.fa-tiktok :hover{
-    opacity: 1;
-    color: black;
-    transition: 0.5s;
+@media (min-width: 801) and (max-width: 1024px) {
+    h1{
+        margin-top: 4rem;
+    }
+
+    .spoergsmaal{
+        gap: 0;
+    }
+
+    .footer{
+        top: 105%;
+        height: 15rem;
+    }
+
+    .footer ul{
+        display: flex;
+        grid-row: 1;
+        padding: 0;
+        justify-self: center;
+        }
+    
+    .footer ul li{
+        font-size: 1.5rem;
+    }
+
+    .social{
+        align-self: center;
+    }
+
+    .copyright{
+        align-self: center;
+    }
+
+    .end{
+        gap: 1rem;
+    }
 }
