@@ -625,7 +625,7 @@ nav img{
         font-weight: 200;
        font-size: 200px;
        position: absolute;
-       top: 50%;
+       top: 20%;
        text-align: center;
        left: 38%;
        animation: fade-up 1s;
@@ -634,27 +634,27 @@ nav img{
     .bestil-underskrift{
         font-family: Josefin Sans;
         font-weight: 200;
-        font-size: 20px;
+        font-size: 30px;
         position: absolute;
         text-align: center;
-        top: 105%;
-        left: 28%;
+        top: 35%;
+        left: 17%;
         animation: fade-up 1s;
     }
     
     #wolt{
-        width: 200px;
+        width: 300px;
         position: absolute;
-        top: 120%;
-        left: 20%;
+        top: 45%;
+        left: 10%;
         cursor: pointer;
         animation: fade-up 1s;
     }
     
     #afhentning{
-        width: 240px;
+        width: 380px;
         position: absolute;
-        top: 120%;
+        top: 45%;
         left: 55%;
         cursor: pointer;
         animation: fade-up 1s;
@@ -682,7 +682,7 @@ nav img{
     
     /* Footer */
 .footer{
-    bottom: -40rem;
+    bottom: -1rem;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 5rem);
