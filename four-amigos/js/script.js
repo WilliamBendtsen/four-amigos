@@ -51,14 +51,26 @@ const burgerMenu = document.getElementById("burger-menu");
 const navbar = document.getElementById("navbar");
 
 burgerMenu.addEventListener("click", () => {
-    // Move the dropdown <a> elements to the navbar
-    while (dropdown1.firstChild) {
-        navbar.appendChild(dropdown1.firstChild);
+    const meetDropdown = document.getElementById("meet-dropdown");
+    const kontaktDropdown = document.getElementById("kontakt-dropdown");
+    const navLinks = document.querySelectorAll("#navbar a");
+
+    // Move items from dropdowns to navbar
+    while (meetDropdown.firstChild) {
+        navbar.appendChild(meetDropdown.firstChild);
     }
-    while (dropdown2.firstChild) {
-        navbar.appendChild(dropdown2.firstChild);
+    while (kontaktDropdown.firstChild) {
+        navbar.appendChild(kontaktDropdown.firstChild);
     }
-    // Remove the empty dropdown divs
-    dropdown1.remove();
-    dropdown2.remove();
+
+
+    navbar.classList.toggle("active");
+        // Toggle visibility of all <a> elements inside the navbar
+    navLinks.forEach(link => {
+        link.classList.toggle("active");
+    });
+
+    // Optionally, hide the dropdown divs
+    meetDropdown.style.display = 'none';
+    kontaktDropdown.style.display = 'none';
 });

@@ -24,27 +24,30 @@
     </head>
 <body>
     <!-- Navbar -->
-    <nav>
+    <nav id="navbar">
+        <!-- Burgermenu -->
+        <i class="fas fa-bars" id="burger-menu"></i>
+
+        <!-- Logo -->
+        <img src="img/four-amigos-logo.webp" alt="four amigos logo" onclick="redirectToIndex()">
+
         <!-- Første 2 menupunkter -->
             <a href="menu.html" id="menu-nav">Menu</a>
             <a href="bestil.html" id="bestil-nav">Bestil</a>
-
-            <!-- Logo -->
-        <img src="img/four-amigos-logo.webp" alt="four amigos logo" onclick="redirectToIndex()">
 
         <!-- Sidste 2 menupunkter -->
             <div class="dropdown">
                 <a href="om_os.html" id="meet-nav">Mød Four Amigos</a>
                 <div id="meet-dropdown">
-                    <a href="vaerdier.html">Vores Værdier</a>
-                    <a href="find-os.html">Find Os</a>
+                    <a class="dropdown-links" id="vaerdier-nav" href="vaerdier.html">Vores Værdier</a>
+                    <a class="dropdown-links" id="find-os-nav" href="find-os.html">Find Os</a>
                 </div>
             </div>
 
             <div class="dropdown">
                 <a href="kontakt.html" id="kontakt-nav">Kontakt</a>
                 <div id="kontakt-dropdown">
-                    <a href="faq.html">FAQ</a>
+                    <a class="dropdown-links" id="faq-nav" href="faq.html">FAQ</a>
                 </div>
             </div>
     </nav>
