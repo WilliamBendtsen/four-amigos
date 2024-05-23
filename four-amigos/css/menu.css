@@ -274,16 +274,16 @@ nav img{
 .nachosbillede{
     width: 1000px;
     position: absolute;
-    left: 20%;
-    top: 130%;
+    left: 32%;
+    top: 112%;
     animation: fade-up 1s;
 }
 
 .garnishbillede{
     width: 600px;
     position: absolute;
-    left: 50%;
-    top: 215%;
+    left: 60%;
+    top: 180%;
     animation: fade-up 1s;
 }
 
@@ -371,9 +371,9 @@ nav img{
 .pil-2{
     position: absolute;
     width: 50px;
-    top: 331%;
-    left: 37%;
-    transform: rotate(190deg);
+    top: 275%;
+    left: 34.5%;
+    transform: rotate(270deg);
 }
 
 .pssst-2{
@@ -382,8 +382,8 @@ nav img{
     color: #C25851;
     position: absolute;
     line-height: 130%;
-    left: 40%;
-    top: 320%;
+    left: 37%;
+    top: 270%;
     text-align: center;
 }
 
@@ -391,8 +391,8 @@ nav img{
     width: 50px;
     text-align: center;
     position: absolute;
-    left: 40.5%;
-    top: 327%;
+    left: 37.5%;
+    top: 277%;
 }
 
 .sodavandmenu {
