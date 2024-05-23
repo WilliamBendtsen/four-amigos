@@ -45,3 +45,11 @@ dropdown1.addEventListener("mouseout", () => hideDropDown1());
 kontakt.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseover", () => showDropDown2());
 dropdown2.addEventListener("mouseout", () => hideDropDown2());
+
+/* Så navbaren er responsive */
+const burgerMenu = document.getElementById("burger-menu");
+
+
+burgerMenu.addEventListener("click", () => {
+
+})
