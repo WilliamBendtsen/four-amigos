@@ -134,45 +134,12 @@ nav img{
     animation: fade-up 1s;
 }
 
-.studierabat{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 20px;
-    position: absolute;
-    color: #57843B;
-    right: 5.5%;
-    top: 30%;
-    animation: fade-up 1s;
-}
-
-.tacotuesday{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 20px;
-    position: absolute;
-    color: #57843B;
-    right: 5%;
-    top: 33%;
-    animation: fade-up 1s;
-}
-
-.tacotuesday-underskrift{
-    font-family: Josefin Sans;
-    font-weight: 200;
-    font-size: 12px;
-    position: absolute;
-    color: #57843B;
-    right: 5.5%;
-    top: 35%;
-    animation: fade-up 1s;
-}
-
 .pil{
     position: absolute;
     width: 15px;
-    top: 39%;
+    top: 33%;
     right: 7%;
-    transform: rotate(180deg);
+    transform: rotate(2000deg);
     animation: fade-up 1s;
 }
 
@@ -181,7 +148,7 @@ nav img{
     font-size: 20px;
     color: #C25851;
     position: absolute;
-    top: 38%;
+    top: 30%;
     right: 8%;
     animation: fade-up 1s;
 }
@@ -190,7 +157,7 @@ nav img{
     width: 50px;
     position: absolute;
     right: 9%;
-    top: 44%;
+    top: 37%;
     animation: fade-up 1s;
 }
 
