@@ -11,3 +11,11 @@ document.addEventListener('scroll', function() {
         div.classList.remove('oversigt-stopped');
     }
 });
+
+function redirectToBetalNu() {
+    window.location.href = "betalnu.html";
+}
+
+function redirectToBekraeftelse() {
+    window.location.href = "bekraeftelse.html"
+}
